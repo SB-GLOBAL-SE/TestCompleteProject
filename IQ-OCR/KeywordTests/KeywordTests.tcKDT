@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="12.0">
+	<children>
+		<child name="Login" key="{328EBE17-A62B-41C3-A724-F426288DD89A}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="Login.tcKDTest" />
+		</child>
+		<child name="Test2" key="{DDDCAECD-1D85-4193-9F6C-270B4C56302E}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="Test2.tcKDTest" />
+		</child>
+		<child name="PurchaseXbox" key="{432578EE-B495-4531-BF8E-1D6D1060750F}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="PurchaseXbox.tcKDTest" />
+		</child>
+		<child name="Checkout" key="{D9D62167-B31B-46C9-8066-D79467ABE9B9}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="Checkout.tcKDTest" />
+		</child>
+		<child name="Captcha" key="{975366FE-41FB-4942-8725-2FCB40B26233}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="Captcha.tcKDTest" />
+		</child>
+		<child name="Logout" key="{68F4E53A-39C6-4666-A1C6-E9F62541300B}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="Logout.tcKDTest" />
+		</child>
+		<child name="SimplePurchase" key="{5422D23E-36F9-47FE-8440-1F5BA503525D}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="SimplePurchase.tcKDTest" />
+		</child>
+		<child name="CheckPDFDoc" key="{8DF1B7CF-44CA-4615-A63D-0EBB1F8DD212}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="CheckPDFDoc.tcKDTest" />
+		</child>
+		<child name="OpenBrowser" key="{E80D4275-7C4C-4356-B20F-BA0CD5AD9F72}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="OpenBrowser.tcKDTest" />
+		</child>
+	</children>
+	<folders>
+		<folder caption="PDF" description="A logical folder that is used to organize project items and elements." moniker="">
+			<references>
+				<ref key="{8DF1B7CF-44CA-4615-A63D-0EBB1F8DD212}" />
+			</references>
+		</folder>
+		<folder caption="Captcha" description="A logical folder that is used to organize project items and elements." moniker="">
+			<references>
+				<ref key="{975366FE-41FB-4942-8725-2FCB40B26233}" />
+				<ref key="{D9D62167-B31B-46C9-8066-D79467ABE9B9}" />
+				<ref key="{328EBE17-A62B-41C3-A724-F426288DD89A}" />
+				<ref key="{68F4E53A-39C6-4666-A1C6-E9F62541300B}" />
+				<ref key="{432578EE-B495-4531-BF8E-1D6D1060750F}" />
+				<ref key="{5422D23E-36F9-47FE-8440-1F5BA503525D}" />
+				<ref key="{DDDCAECD-1D85-4193-9F6C-270B4C56302E}" />
+				<ref key="{E80D4275-7C4C-4356-B20F-BA0CD5AD9F72}" />
+			</references>
+		</folder>
+	</folders>
+</Root>

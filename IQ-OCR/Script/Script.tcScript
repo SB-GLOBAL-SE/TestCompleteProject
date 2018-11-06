@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="OCRFunctions" key="{42FBACDD-FA76-4EC6-B0AD-667ED441BDF0}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="OCRFunctions.js" />
+		</child>
+		<child name="Unit1" key="{F0CD98B5-AC56-4666-AC59-5209D86FA5E4}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="Unit1.js" />
+		</child>
+	</children>
+	<folders />
+</Root>

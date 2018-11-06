@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root Version="1">
+	<Providers>
+		<A609CA20xCE0Bx4080x93FCx121361DAEEF9 version="1">
+			<groups>
+				<Group0 Caption="&lt;root&gt;Captcha" Key="383FACDCx3D8Bx45DFxB0BCx9450210DC9AC" Enabled="True">
+					<Hosts />
+					<Tests>
+						<Test0 Name="Captcha" Project="IQ-OCR" TestName="KeywordTests|Captcha" Key="38BD419BxD49Dx4D36xADB9x1ADD544EE3A2" />
+					</Tests>
+					<TestItems />
+				</Group0>
+			</groups>
+			<tunnels />
+		</A609CA20xCE0Bx4080x93FCx121361DAEEF9>
+	</Providers>
+</Root>

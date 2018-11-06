@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{90D101C8-80C7-48D4-9055-2E451B9BCD75}" version="1140" key="{94F4FE3F-0539-414F-9E2D-2B3D64E98E28}" type="Tested Applications" typeId="{90D101C8-80C7-48D4-9055-2E451B9BCD75}">
+	<config nodeName="TestedApps" />
+	<testData />
+	<data />
+	<children>
+		<child key="{16B8D685-2803-4F0A-9DAB-576780B722AB}" type="Tested Application" typeId="{FD30A383-63C2-4C25-948C-2595C0F81320}">
+			<config nodeName="AcroRd32" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
+				<runModeParams activeRunMode="Simple">
+					<param name="RunAs" parameters="&quot;C:\Users\dermot.canniffe\OneDrive - SmartBear Software, Inc\TestComplete 12 Projects\INV0001.pdf&quot;" workFolder="C:\Users\dermot.canniffe\OneDrive - SmartBear Software, Inc\TestComplete 12 Projects" userName="" password="" domain="" />
+					<param name="Profile" parameters="&quot;C:\Users\dermot.canniffe\OneDrive - SmartBear Software, Inc\TestComplete 12 Projects\INV0001.pdf&quot;" workFolder="C:\Users\dermot.canniffe\OneDrive - SmartBear Software, Inc\TestComplete 12 Projects" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
+					<param name="Debug" parameters="&quot;C:\Users\dermot.canniffe\OneDrive - SmartBear Software, Inc\TestComplete 12 Projects\INV0001.pdf&quot;" workFolder="C:\Users\dermot.canniffe\OneDrive - SmartBear Software, Inc\TestComplete 12 Projects" />
+					<param name="Simple" fileName="AcroRd32.exe" filePath="C:\Program Files (x86)\Adobe\Acrobat Reader DC\Reader\" parameters="&quot;C:\Users\dermot.canniffe\OneDrive - SmartBear Software, Inc\TestComplete 12 Projects\INV0001.pdf&quot;" workFolder="C:\Users\dermot.canniffe\OneDrive - SmartBear Software, Inc\TestComplete 12 Projects" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
+	</children>
+	<folders />
+</Root>
