@@ -28,6 +28,12 @@
 		<child name="OpenBrowser" key="{E80D4275-7C4C-4356-B20F-BA0CD5AD9F72}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
 			<data path="OpenBrowser.tcKDTest" />
 		</child>
+		<child name="Test1" key="{AD8E37D0-2E1D-484D-A724-A7A684627AB4}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="Test1.tcKDTest" />
+		</child>
+		<child name="Test4" key="{679919C5-F192-4393-84E9-1626693AA621}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="Test4.tcKDTest" />
+		</child>
 	</children>
 	<folders>
 		<folder caption="PDF" description="A logical folder that is used to organize project items and elements." moniker="">
