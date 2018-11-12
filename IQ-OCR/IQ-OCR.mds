@@ -16,11 +16,15 @@
 		<child name="TestedApps" key="{94F4FE3F-0539-414F-9E2D-2B3D64E98E28}" type="Tested Applications" typeId="{90D101C8-80C7-48D4-9055-2E451B9BCD75}" pluginName="">
 			<data path="TestedApps\TestedApps.tcTAs" />
 		</child>
+		<child name="UnitTesting1" key="{4F44633E-595B-49F9-ABCD-9C02A2F00147}" type="Selenium or Unit Testing" typeId="{CCBF15D3-5453-4E8D-891C-1C74B57C6979}" pluginName="Unit Testing">
+			<data path="UnitTesting1\UnitTesting1.tcUT" />
+		</child>
 	</children>
 	<folders>
 		<folder caption="Advanced" description="A logical folder that is used to organize project items and elements." moniker="{69583268-92F3-49FA-B573-C831F5ABC27B}">
 			<references>
 				<ref key="{488DCC1F-7E0A-4788-A7A5-1FB81A95EBCF}" />
+				<ref key="{4F44633E-595B-49F9-ABCD-9C02A2F00147}" />
 			</references>
 		</folder>
 	</folders>
@@ -51,6 +55,23 @@
 						<children />
 					</testItem>
 					<testItem name="ProjectTestItem6" key="{A4A18F4A-335E-4612-A9B0-696CC0FD4EAD}" group="False" enabled="True" testMoniker="KDT\{68F4E53A-39C6-4666-A1C6-E9F62541300B}" count="1" timeout="0" stopOnError="2" stopOnException="2" description="">
+						<testParameters />
+						<children />
+					</testItem>
+				</children>
+			</testItem>
+			<testItem name="SimpleTest" key="{8B73E02A-A39D-471C-B8FF-265E46FD7949}" group="True" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="2" stopOnException="2" description="">
+				<testParameters />
+				<children>
+					<testItem name="ProjectTestItem7" key="{57D8B1AD-00F1-4964-BAE8-A100E2E32795}" group="False" enabled="True" testMoniker="KDT\{E80D4275-7C4C-4356-B20F-BA0CD5AD9F72}" count="1" timeout="0" stopOnError="2" stopOnException="2" description="">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="ProjectTestItem8" key="{CBC18443-A230-499B-8056-3092FD1876A9}" group="False" enabled="True" testMoniker="KDT\{328EBE17-A62B-41C3-A724-F426288DD89A}" count="1" timeout="0" stopOnError="2" stopOnException="2" description="">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="ProjectTestItem9" key="{6EC1765C-F8B6-46C6-A465-7610214F6C1E}" group="False" enabled="True" testMoniker="KDT\{EAFC6028-B003-4088-8761-DF28C303C68E}" count="1" timeout="0" stopOnError="2" stopOnException="2" description="">
 						<testParameters />
 						<children />
 					</testItem>
@@ -94,7 +115,7 @@
 			</data>
 		</setting>
 		<setting name="{42651A7C-4287-4C91-AE26-98CBD2EA9355}" type="1" value="False" />
-		<setting name="{A2568CC8-7E8E-42C5-A87D-B69684A1E616}" type="1" value="True" />
+		<setting name="{A2568CC8-7E8E-42C5-A87D-B69684A1E616}" type="1" value="False" />
 		<setting name="{3EADAFE2-0CD4-4B1E-A2A9-B184E94FDCC7}" type="6" rowIndex="1" colIndex="0">
 			<columns>
 				<column type="5" enabled="True" />
@@ -185,7 +206,7 @@
 		<setting name="Recording_TestedAppsOnly" type="1" value="False" />
 		<setting name="{FB1CAF99-7FA6-447C-B963-D862CA8BFF89}" type="2" value="3000" />
 		<setting name="{3B76535B-58AD-456C-837E-091A5C480F6C}" type="1" value="True" />
-		<setting name="{3AE91BBD-F37D-40E6-B49D-D2F1EF68E285}" type="1" value="True" />
+		<setting name="{3AE91BBD-F37D-40E6-B49D-D2F1EF68E285}" type="1" value="False" />
 		<setting name="{D852BFD9-D446-4748-906F-1FA580D41304}" type="6" rowIndex="0" colIndex="1">
 			<columns>
 				<column type="1" enabled="True" />

@@ -3,15 +3,22 @@
 	<Providers>
 		<A609CA20xCE0Bx4080x93FCx121361DAEEF9 version="1">
 			<groups>
-				<Group0 Caption="&lt;root&gt;Captcha" Key="383FACDCx3D8Bx45DFxB0BCx9450210DC9AC" Enabled="True">
-					<Hosts />
+				<Group0 Caption="&lt;root&gt;SimplePurchase" Key="C26F9E5DxEB23x4A75xA6B8xC93122F62CF0" Enabled="True">
+					<Hosts>
+						<Host0 Device="Windows 10" Browser="Google Chrome 69" Resolution="1280x720" DeviceApi="Win10" BrowserApi="Chrome69" ResolutionApi="1280x720" />
+						<Host1 Device="Windows 10" Browser="Internet Explorer 11" Resolution="1280x800" DeviceApi="Win10" BrowserApi="IE11" ResolutionApi="1280x800" />
+						<Host2 Device="Windows 10" Browser="Microsoft Edge 16" Resolution="1920x1080" DeviceApi="Win10" BrowserApi="Edge16" ResolutionApi="1920x1080" />
+						<Host3 Device="Windows 8.1" Browser="Firefox 62 (64-bit)" Resolution="1920x1080" DeviceApi="Win8.1" BrowserApi="FF62x64" ResolutionApi="1920x1080" />
+					</Hosts>
 					<Tests>
-						<Test0 Name="Captcha" Project="IQ-OCR" TestName="KeywordTests|Captcha" Key="38BD419BxD49Dx4D36xADB9x1ADD544EE3A2" />
+						<Test0 Name="SimplePurchase" Project="IQ-OCR" TestName="KeywordTests|SimplePurchase" Key="C5A3E99Cx3C6Ex403FxB58Fx175329B466E8" />
 					</Tests>
 					<TestItems />
 				</Group0>
 			</groups>
-			<tunnels />
+			<tunnels>
+				<tunnel typeId="0" enabled="True" />
+			</tunnels>
 		</A609CA20xCE0Bx4080x93FCx121361DAEEF9>
 	</Providers>
 </Root>

@@ -41,12 +41,30 @@
 			</Node>
 			<Node name="log idx=0002">
 				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="43411.5617401042"/>
+				<Prp name="datetime" type="D" value="43411.7266128819"/>
 				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{4BFD6E1E-73CE-4A07-B6E1-73DA5BADDD85}"/>
-				<Prp name="nameofroot" type="S" value="Sprint1"/>
-				<Prp name="relpath" type="S" value="07_11_2018_13_28_54_345\Description.tcLog"/>
+				<Prp name="key" type="S" value="{A4969088-0001-4501-B953-790646FC493E}"/>
+				<Prp name="nameofroot" type="S" value="Keyword Test Log [CheckPDFDoc]"/>
+				<Prp name="relpath" type="S" value="07_11_2018_17_26_19_353\Description.tcLog"/>
 				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0003">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43416.5307702431"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{D2B92D52-4AFA-453C-B892-B81AAF953230}"/>
+				<Prp name="nameofroot" type="S" value="SimpleTest"/>
+				<Prp name="relpath" type="S" value="12_11_2018_12_44_18_549\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0004">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43416.5654814005"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{30966C4C-A70D-4354-A31A-C05CE9E61E82}"/>
+				<Prp name="nameofroot" type="S" value="TestNG Tests"/>
+				<Prp name="relpath" type="S" value="12_11_2018_13_34_17_593\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
 			</Node>
 		</Node>
 		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>

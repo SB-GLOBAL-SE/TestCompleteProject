@@ -40,7 +40,7 @@
 					</Node>
 					<Node name="var2">
 						<Node name="value">
-							<Prp name="strvalue" type="H" value="6B003E006E003800320023000A00"/>
+							<Prp name="strvalue" type="H" value="3E003F0038007A00260077000A00"/>
 						</Node>
 						<Prp name="name" type="S" value="CaptchaText"/>
 					</Node>

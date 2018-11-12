@@ -16,8 +16,8 @@
 		<child name="Captcha" key="{975366FE-41FB-4942-8725-2FCB40B26233}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
 			<data path="Captcha.tcKDTest" />
 		</child>
-		<child name="Logout" key="{68F4E53A-39C6-4666-A1C6-E9F62541300B}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
-			<data path="Logout.tcKDTest" />
+		<child name="PurchaseLogout" key="{68F4E53A-39C6-4666-A1C6-E9F62541300B}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="PurchaseLogout.tcKDTest" />
 		</child>
 		<child name="SimplePurchase" key="{5422D23E-36F9-47FE-8440-1F5BA503525D}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
 			<data path="SimplePurchase.tcKDTest" />
@@ -33,6 +33,9 @@
 		</child>
 		<child name="Test4" key="{679919C5-F192-4393-84E9-1626693AA621}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
 			<data path="Test4.tcKDTest" />
+		</child>
+		<child name="ProductPageLogout" key="{EAFC6028-B003-4088-8761-DF28C303C68E}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="ProductPageLogout.tcKDTest" />
 		</child>
 	</children>
 	<folders>

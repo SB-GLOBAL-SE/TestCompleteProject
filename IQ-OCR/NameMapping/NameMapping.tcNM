@@ -229,6 +229,14 @@
 											</Property>
 										</Properties>
 									</Child>
+									<Child Name="navbarAwesomeShoppingStore" Key="{B2B16FF6-77A0-4E60-97D6-452D732731D8}" ParallelWalk="True">
+										<Image FileName="464838252" Left="0" Top="96" Right="1903" Bottom="148" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value PropertyType="0" Value="Nav" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageMozillaFirefox" Key="{D7A65AA5-8564-4CFF-84DD-0CC12C124421}" ParallelWalk="True">
@@ -779,7 +787,7 @@
 							</Child>
 						</Children>
 					</Child>
-					<Child Name="AcroRd323" Key="{4208E045-9D38-4EF3-AE3C-1E96211DCAA6}" ParallelWalk="True">
+					<Child Name="AcroRd323" Key="{4208E045-9D38-4EF3-AE3C-1E96211DCAA6}" ParallelWalk="True" MultiVersion="True">
 						<Properties>
 							<Property Name="ProcessName">
 								<Value PropertyType="0" Value="AcroRd32" Type="5" />
@@ -828,6 +836,7 @@
 			</Child>
 			<Child Name="pageAwesomeShoppingStoreProducts" Owner="{9175797D-CB6E-46E2-9B9E-4B30A8575880}">
 				<Child Name="buttonAddToCart" Owner="{8E9A2859-CAFA-4E63-A76D-8DB09ED55D43}" />
+				<Child Name="navbarAwesomeShoppingStore" Owner="{B2B16FF6-77A0-4E60-97D6-452D732731D8}" />
 			</Child>
 			<Child Name="pageMozillaFirefox" Owner="{D7A65AA5-8564-4CFF-84DD-0CC12C124421}">
 				<Child Name="toolbarPersonaltoolbar" Owner="{1C4E396D-E7E0-487F-BEC0-9345D7D9E8DB}">
