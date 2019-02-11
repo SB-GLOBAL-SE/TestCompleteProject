@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="data">
+			<Node name="{bb447dcf-4316-438b-9be6-b609e7534eac}">
+				<Node name="variables"/>
+			</Node>
+			<Node name="logs">
+				<Prp name="key" type="S" value="{61980D30-E47C-4476-B2AF-CF3A5DE61D45}"/>
+				<Prp name="relpath" type="S" value="Log"/>
+			</Node>
+			<Node name="variables">
+				<Node name="datav3">
+					<Node name="var0">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="460072006F006D000D000A00540065007300740069006E0067000D000A007400650073007400400074006500730074002E0063006F006D000D000A0041006400640072006500730073000D000A00530074006100740065000D000A005A006900700043006F00640065000D000A00500068006F006E0065003A00200033003400330032003400330032003400330032000D000A00320033003400330032003400330032003400"/>
+						</Node>
+						<Prp name="name" type="S" value="CheckText"/>
+					</Node>
+					<Node name="var1">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="460072006F006D002A00500068006F006E006500"/>
+						</Node>
+						<Prp name="name" type="S" value="Match"/>
+					</Node>
+					<Node name="var2">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="7300240026003C00720023000A00"/>
+						</Node>
+						<Prp name="name" type="S" value="CaptchaText"/>
+					</Node>
+					<Node name="var3">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="6400650072006D006F00740040006C006F00630061006C0068006F0073007400"/>
+						</Node>
+						<Prp name="name" type="S" value="tc_username"/>
+					</Node>
+					<Node name="var4">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="3800390036003100390033004400310046003400440038004100420046003500450043003900390043003700460031004400300045004100340044003600350033003800350042003500340030004300380032003600320033004300300041003600440033004600"/>
+						</Node>
+						<Prp name="name" type="S" value="tc_password"/>
+					</Node>
+					<Node name="var5">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="34003400"/>
+						</Node>
+						<Prp name="name" type="S" value="tc_order_id"/>
+					</Node>
+					<Node name="var6">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="580062006F007800"/>
+						</Node>
+						<Prp name="name" type="S" value="tc_order_item"/>
+					</Node>
+				</Node>
+				<Prp name="version" type="I" value="3"/>
+			</Node>
+		</Node>
+		<Prp name="signature" type="S" value="{49FC0C30-9EF7-4DBD-97A8-B7A00E79A2AF}"/>
+	</Node>
+</Nodes>

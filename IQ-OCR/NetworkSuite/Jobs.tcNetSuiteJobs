@@ -1,28 +1,14 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE Nodes [
-
-<!ENTITY % NameValue "CDATA">
-<!ENTITY % PropType "(I|S|D|L|H|B)">
-<!ENTITY % VersionValue "CDATA">
-
-<!ELEMENT Prp (#PCDATA)>
-<!ELEMENT Node (Node|Prp)*>
-<!ELEMENT Nodes (Node)+>
-
-<!ATTLIST Nodes version CDATA "1">
-
-<!ATTLIST Node name CDATA #REQUIRED>
-
-<!ATTLIST Prp name CDATA #REQUIRED>
-<!ATTLIST Prp type CDATA #REQUIRED>
-<!ATTLIST Prp value CDATA #REQUIRED>
-]>
-<Nodes version="1">
-	<Node name="root">
-		<Node name="child list"/>
-		<Node name="folders"/>
-		<Node name="settings"/>
-		<Prp name="signature" type="S" value="{54BD767E-85A4-491D-A3B2-EC88685BF3C8}"/>
-		<Prp name="version" type="S" value="12.0"/>
-	</Node>
-</Nodes>
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{54BD767E-85A4-491D-A3B2-EC88685BF3C8}" version="14.0">
+	<children>
+		<child name="Job1" key="{7A339225-CD32-43BE-A467-588E4C15C10F}">
+			<data signature="{E2AF080E-4F10-4DAC-8897-101FF5509E65}" version="14.0" caption="Job1" active="True">
+				<children>
+					<child name="Task1" key="{8549BF92-04D4-47FA-9824-360AA4EBFFB9}">
+						<data signature="{23C4D44E-8AC2-4667-BAFD-DAD89D94804E}" version="14.0" caption="Task1" active="True" actionAfterRun="0" remoteApplication="1" copyRemoteLogMode="1" projectPath="Distributed test.mds" tag="" host="{22C4610F-6AEE-47AC-83EB-FAA7A85843D8}" test="Distributed test\KeywordTests\Notepad_test" previousInstanceMode="0" instances="1" hostTimeout="3" />
+					</child>
+				</children>
+			</data>
+		</child>
+	</children>
+</Root>

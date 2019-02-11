@@ -1,9 +1,6 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Root signature="{CCBF15D3-5453-4E8D-891C-1C74B57C6979}" version="12.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{CCBF15D3-5453-4E8D-891C-1C74B57C6979}" version="14.0">
 	<children>
-		<child name="TestNG1" key="{74B89E70-9310-4C22-B693-BB6098898432}" type="TestNG" typeId="{98B9825D-FAE6-48D5-83C2-A52AAEC31276}" pluginName="TestNG Runner">
-			<data path="TestNG1\TestNG1.tcTestNG" />
-		</child>
+		<child name="TestNG1" key="{74B89E70-9310-4C22-B693-BB6098898432}" type="TestNG" typeId="{98B9825D-FAE6-48D5-83C2-A52AAEC31276}" pluginName="TestNG Runner" path="TestNG1\TestNG1.tcTestNG" />
 	</children>
-	<folders />
 </Root>

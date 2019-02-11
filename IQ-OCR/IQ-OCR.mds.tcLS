@@ -43,9 +43,33 @@
 					</Node>
 					<Node name="var2">
 						<Node name="value">
-							<Prp name="strvalue" type="H" value="3E003F0038007A00260077000A00"/>
+							<Prp name="strvalue" type="H" value="72007400680063006B0023000A00"/>
 						</Node>
 						<Prp name="name" type="S" value="CaptchaText"/>
+					</Node>
+					<Node name="var3">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="6400650072006D006F00740040006C006F00630061006C0068006F0073007400"/>
+						</Node>
+						<Prp name="name" type="S" value="tc_username"/>
+					</Node>
+					<Node name="var4">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="3800390036003100390033004400310046003400440038004100420046003500450043003900390043003700460031004400300045004100340044003600350033003800350042003500340030004300380032003600320033004300300041003600440033004600"/>
+						</Node>
+						<Prp name="name" type="S" value="tc_password"/>
+					</Node>
+					<Node name="var5">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="34003400"/>
+						</Node>
+						<Prp name="name" type="S" value="tc_order_id"/>
+					</Node>
+					<Node name="var6">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="580062006F007800"/>
+						</Node>
+						<Prp name="name" type="S" value="tc_order_item"/>
 					</Node>
 				</Node>
 				<Prp name="version" type="I" value="3"/>

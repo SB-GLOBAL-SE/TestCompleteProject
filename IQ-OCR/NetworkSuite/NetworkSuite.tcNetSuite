@@ -1,90 +1,27 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE Nodes [
-
-<!ENTITY % NameValue "CDATA">
-<!ENTITY % PropType "(I|S|D|L|H|B)">
-<!ENTITY % VersionValue "CDATA">
-
-<!ELEMENT Prp (#PCDATA)>
-<!ELEMENT Node (Node|Prp)*>
-<!ELEMENT Nodes (Node)+>
-
-<!ATTLIST Nodes version CDATA "1">
-
-<!ATTLIST Node name CDATA #REQUIRED>
-
-<!ATTLIST Prp name CDATA #REQUIRED>
-<!ATTLIST Prp type CDATA #REQUIRED>
-<!ATTLIST Prp value CDATA #REQUIRED>
-]>
-<Nodes version="1">
-	<Node name="root">
-		<Node name="child list">
-			<Node name="hosts">
-				<Node name="item data">
-					<Prp name="relpath" type="S" value="Hosts.tcNetSuiteHosts"/>
-				</Node>
-				<Prp name="key" type="S" value="{AE1D80BC-69B4-43F8-83FB-CEFE5EEFAAF2}"/>
-				<Prp name="pluginname" type="S" value="Network Suite"/>
-				<Prp name="type" type="S" value="{1478418C-D916-49E9-8E78-BF4561C164F9}"/>
-				<Prp name="typename" type="S" value="Hosts"/>
-			</Node>
-			<Node name="jobs">
-				<Node name="item data">
-					<Prp name="relpath" type="S" value="Jobs.tcNetSuiteJobs"/>
-				</Node>
-				<Prp name="key" type="S" value="{C1E0B9A3-2500-4566-B7A3-BCDEB64BA631}"/>
-				<Prp name="pluginname" type="S" value="Network Suite"/>
-				<Prp name="type" type="S" value="{54BD767E-85A4-491D-A3B2-EC88685BF3C8}"/>
-				<Prp name="typename" type="S" value="Jobs"/>
-			</Node>
-			<Node name="synchpoints">
-				<Node name="item data">
-					<Prp name="relpath" type="S" value="SynchPoints.tcNetSuiteSynchPoints"/>
-				</Node>
-				<Prp name="key" type="S" value="{1A71B18D-DF7D-445D-A84C-604EF0B829EF}"/>
-				<Prp name="pluginname" type="S" value="Network Suite"/>
-				<Prp name="type" type="S" value="{0A9D19D7-1488-4023-B51C-2B5D64692E77}"/>
-				<Prp name="typename" type="S" value="SynchPoints"/>
-			</Node>
-		</Node>
-		<Node name="folders"/>
-		<Node name="settings">
-			<Node name="{67026d48-d2aa-4462-8044-55337e5296bd}">
-				<Prp name="type" type="I" value="5"/>
-				<Prp name="value" type="S" value="C:\vmshare"/>
-			</Node>
-			<Node name="{7c15473a-e54c-4a68-9377-eab7ac620192}">
-				<Prp name="type" type="I" value="5"/>
-				<Prp name="value" type="S" value="3A02BEE941C5EABBDCA3828982C7856C3F80BB0153A9AA52D4FB"/>
-			</Node>
-			<Node name="{c49e544f-259a-417b-bf43-123e23af1e44}">
-				<Prp name="col0enabled" type="B" value="-1"/>
-				<Prp name="col0type" type="I" value="5"/>
-				<Prp name="colcount" type="I" value="1"/>
-				<Prp name="colindex" type="I" value="0"/>
-				<Prp name="rowcount" type="I" value="2"/>
-				<Prp name="rowindex" type="I" value="1"/>
-				<Prp name="type" type="I" value="6"/>
-				<Prp name="val0x0" type="S" value="Manual"/>
-				<Prp name="val0x1" type="S" value="Automatic"/>
-			</Node>
-			<Node name="{ea795373-819c-4749-a66d-324911cede15}">
-				<Prp name="type" type="I" value="5"/>
-				<Prp name="value" type="S" value="se"/>
-			</Node>
-			<Node name="{f9b4b72d-ea72-42fd-8765-0cc6d298231e}">
-				<Prp name="type" type="I" value="5"/>
-				<Prp name="value" type="S" value="sevm"/>
-			</Node>
-			<Prp name="settingsversion" type="S" value="12.60"/>
-		</Node>
-		<Node name="variables">
-			<Node name="datav3"/>
-			<Prp name="key" type="S" value="{86EF77C8-0703-4D9E-9A61-4141D482AEB9}"/>
-			<Prp name="version" type="I" value="3"/>
-		</Node>
-		<Prp name="signature" type="S" value="{342AA317-C8C7-4232-8A60-069723AAFC67}"/>
-		<Prp name="version" type="S" value="12.0"/>
-	</Node>
-</Nodes>
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{342AA317-C8C7-4232-8A60-069723AAFC67}" version="14.0">
+	<children>
+		<child name="Hosts" key="{AE1D80BC-69B4-43F8-83FB-CEFE5EEFAAF2}" type="Hosts" typeId="{1478418C-D916-49E9-8E78-BF4561C164F9}" pluginName="Network Suite Core" path="Hosts.tcNetSuiteHosts" />
+		<child name="Jobs" key="{C1E0B9A3-2500-4566-B7A3-BCDEB64BA631}" type="Jobs" typeId="{54BD767E-85A4-491D-A3B2-EC88685BF3C8}" pluginName="Network Suite Core" path="Jobs.tcNetSuiteJobs" />
+		<child name="SynchPoints" key="{1A71B18D-DF7D-445D-A84C-604EF0B829EF}" type="SynchPoints" typeId="{0A9D19D7-1488-4023-B51C-2B5D64692E77}" pluginName="Network Suite Core" path="SynchPoints.tcNetSuiteSynchPoints" />
+	</children>
+	<variables key="{86EF77C8-0703-4D9E-9A61-4141D482AEB9}">
+		<data Version="3" />
+	</variables>
+	<settings key="{BB447DCF-4316-438B-9BE6-B609E7534EAC}">
+		<settingsVersion value="14.0" />
+		<setting name="NetworkSuite_DeployMode" type="6" rowIndex="1" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Manual" />
+				<row val0="Automatic" />
+			</data>
+		</setting>
+		<setting name="NetworkSuite_Domain" type="5" value="sevm" />
+		<setting name="NetworkSuite_Password" type="5" value="3A02BEE941C5EABBDCA3828982C7856C3F80BB0153A9AA52D4FB" />
+		<setting name="NetworkSuite_SharedPath" type="5" value="C:\vmshare" />
+		<setting name="NetworkSuite_UserName" type="5" value="se" />
+	</settings>
+</Root>

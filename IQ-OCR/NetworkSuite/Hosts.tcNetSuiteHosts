@@ -1,49 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE Nodes [
-
-<!ENTITY % NameValue "CDATA">
-<!ENTITY % PropType "(I|S|D|L|H|B)">
-<!ENTITY % VersionValue "CDATA">
-
-<!ELEMENT Prp (#PCDATA)>
-<!ELEMENT Node (Node|Prp)*>
-<!ELEMENT Nodes (Node)+>
-
-<!ATTLIST Nodes version CDATA "1">
-
-<!ATTLIST Node name CDATA #REQUIRED>
-
-<!ATTLIST Prp name CDATA #REQUIRED>
-<!ATTLIST Prp type CDATA #REQUIRED>
-<!ATTLIST Prp value CDATA #REQUIRED>
-]>
-<Nodes version="1">
-	<Node name="root">
-		<Node name="child list">
-			<Node name="sevm1">
-				<Node name="item data">
-					<Node name="settings"/>
-					<Prp name="address" type="S" value="10.0.20.247"/>
-					<Prp name="base path" type="S" value="C:\TC_dist\"/>
-					<Prp name="caption" type="S" value="SEVM1"/>
-					<Prp name="domain" type="S" value="sevm"/>
-					<Prp name="logonmode" type="I" value="1"/>
-					<Prp name="password" type="S" value="2E1D878DD74F3514FDF097DDFCAD951974CF74DC57A56A13F7C9"/>
-					<Prp name="signature" type="S" value="{4C283132-D38F-4C25-B72C-75AD0D8A3093}"/>
-					<Prp name="source" type="S" value=""/>
-					<Prp name="user name" type="S" value="se"/>
-					<Prp name="version" type="S" value="12.0"/>
-				</Node>
-				<Prp name="index" type="I" value="0"/>
-				<Prp name="key" type="S" value="{184FC7B7-0A36-43AB-A52C-C7648C22447B}"/>
-				<Prp name="pluginname" type="S" value="Network Suite"/>
-				<Prp name="type" type="S" value="{4C283132-D38F-4C25-B72C-75AD0D8A3093}"/>
-				<Prp name="typename" type="S" value="Host"/>
-			</Node>
-		</Node>
-		<Node name="folders"/>
-		<Node name="settings"/>
-		<Prp name="signature" type="S" value="{1478418C-D916-49E9-8E78-BF4561C164F9}"/>
-		<Prp name="version" type="S" value="12.0"/>
-	</Node>
-</Nodes>
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{1478418C-D916-49E9-8E78-BF4561C164F9}" version="14.0">
+	<children>
+		<child name="SEVM1" key="{184FC7B7-0A36-43AB-A52C-C7648C22447B}">
+			<data signature="{4C283132-D38F-4C25-B72C-75AD0D8A3093}" version="14.0" caption="SEVM1" address="10.0.20.221" basePath="C:\TC_dist\" userName="se" source="C:\Users\dermot.canniffe\OneDrive - SmartBear Software, Inc\TestComplete 12 Projects" domain="sevm" logonMode="1" password="2E1D878DD74F3514FDF097DDFCAD951974CF74DC57A56A13F7C9" />
+		</child>
+		<child name="SEVM2" key="{22C4610F-6AEE-47AC-83EB-FAA7A85843D8}">
+			<data signature="{4C283132-D38F-4C25-B72C-75AD0D8A3093}" version="14.0" caption="SEVM2" address="10.0.20.90" basePath="C:\TC_dist\" userName="se" source="C:\Users\dermot.canniffe\OneDrive - SmartBear Software, Inc\TestComplete 12 Projects" domain="sevm2" logonMode="1" password="2E1D878DD74F3514FDF097DDFCAD951974CF74DC57A56A13F7C9" />
+		</child>
+	</children>
+</Root>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{302E54A8-7D5B-4593-9563-357C2734256B}" version="1400" key="{7EE96654-C3E1-4169-8B75-FD46DABCC2FD}" typeId="{302E54A8-7D5B-4593-9563-357C2734256B}">
+	<config nodeName="ImageSet1" />
+	<testData />
+	<data>
+		<item caption="grabImage" moniker="{12034CEC-CEFE-4421-BF9C-58FE37EFC8EC}" isComposite="False" simpleMode="True" currentImageIndex="0">
+			<image imageFileName="Data\grabImage.png" initialHash="37635B32" selectionLeft="964" selectionTop="318" selectionWidth="190" selectionHeight="150" initialLeft="964" initialTop="318" initialWidth="190" initialHeight="150" pixelTolerance="0" colorTolerance="0" deviceName="" />
+		</item>
+	</data>
+</Root>

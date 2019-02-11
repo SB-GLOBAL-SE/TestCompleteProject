@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{302E54A8-7D5B-4593-9563-357C2734256B}" version="1400" key="{4E156B96-AD24-49D8-97B9-2EB9EAD615F7}" typeId="{302E54A8-7D5B-4593-9563-357C2734256B}">
+	<config nodeName="android_calculator" />
+	<testData />
+	<data>
+		<item caption="Button_247" moniker="{3A634DE1-F6DD-4013-89C0-A18278BBEECC}" isComposite="False" simpleMode="True" currentImageIndex="0">
+			<image imageFileName="Data\Button_247.png" initialHash="17662472" selectionLeft="768" selectionTop="908" selectionWidth="228" selectionHeight="199" initialLeft="768" initialTop="908" initialWidth="228" initialHeight="199" pixelTolerance="0" colorTolerance="0" deviceName="Swift 2 X" />
+		</item>
+		<item caption="ViewGroup_UnnamedCtrl" moniker="{18913B8A-739D-45D9-BF6D-C8C22A6FC59E}" isComposite="True" simpleMode="True" currentImageIndex="0">
+			<image imageFileName="Data\ViewGroup_UnnamedCtrl.png" initialHash="889E8896" selectionLeft="1008" selectionTop="685" selectionWidth="72" selectionHeight="1091" initialLeft="1008" initialTop="685" initialWidth="72" initialHeight="1091" pixelTolerance="0" colorTolerance="0" deviceName="Swift 2 X" />
+		</item>
+		<item caption="Button_5" moniker="{1ECD71F1-E078-4779-B768-72BDFAEC6484}" isComposite="False" simpleMode="True" currentImageIndex="0">
+			<image imageFileName="Data\Button_5.png" initialHash="66F212A2" selectionLeft="259" selectionTop="970" selectionWidth="235" selectionHeight="249" initialLeft="259" initialTop="970" initialWidth="235" initialHeight="249" pixelTolerance="0" colorTolerance="0" deviceName="Swift 2 X" />
+		</item>
+		<item caption="Button_2" moniker="{C834F770-6687-4874-B0B3-550F7573BA28}" isComposite="False" simpleMode="True" currentImageIndex="0">
+			<image imageFileName="Data\Button_2.png" initialHash="FE82BFEF" selectionLeft="259" selectionTop="1219" selectionWidth="235" selectionHeight="248" initialLeft="259" initialTop="1219" initialWidth="235" initialHeight="248" pixelTolerance="0" colorTolerance="0" deviceName="Swift 2 X" />
+		</item>
+		<item caption="Button_4" moniker="{F6F8B837-742F-47EF-810B-714A08B46F8A}" isComposite="False" simpleMode="True" currentImageIndex="0">
+			<image imageFileName="Data\Button_4.png" initialHash="9BBAA9A7" selectionLeft="24" selectionTop="970" selectionWidth="235" selectionHeight="249" initialLeft="24" initialTop="970" initialWidth="235" initialHeight="249" pixelTolerance="0" colorTolerance="0" deviceName="Swift 2 X" />
+		</item>
+	</data>
+</Root>

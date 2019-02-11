@@ -1,60 +1,25 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="12.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="14.0">
 	<children>
-		<child name="Login" key="{328EBE17-A62B-41C3-A724-F426288DD89A}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
-			<data path="Login.tcKDTest" />
-		</child>
-		<child name="Test2" key="{DDDCAECD-1D85-4193-9F6C-270B4C56302E}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
-			<data path="Test2.tcKDTest" />
-		</child>
-		<child name="PurchaseXbox" key="{432578EE-B495-4531-BF8E-1D6D1060750F}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
-			<data path="PurchaseXbox.tcKDTest" />
-		</child>
-		<child name="Checkout" key="{D9D62167-B31B-46C9-8066-D79467ABE9B9}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
-			<data path="Checkout.tcKDTest" />
-		</child>
-		<child name="Captcha" key="{975366FE-41FB-4942-8725-2FCB40B26233}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
-			<data path="Captcha.tcKDTest" />
-		</child>
-		<child name="PurchaseLogout" key="{68F4E53A-39C6-4666-A1C6-E9F62541300B}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
-			<data path="PurchaseLogout.tcKDTest" />
-		</child>
-		<child name="SimplePurchase" key="{5422D23E-36F9-47FE-8440-1F5BA503525D}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
-			<data path="SimplePurchase.tcKDTest" />
-		</child>
-		<child name="CheckPDFDoc" key="{8DF1B7CF-44CA-4615-A63D-0EBB1F8DD212}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
-			<data path="CheckPDFDoc.tcKDTest" />
-		</child>
-		<child name="OpenBrowser" key="{E80D4275-7C4C-4356-B20F-BA0CD5AD9F72}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
-			<data path="OpenBrowser.tcKDTest" />
-		</child>
-		<child name="Test1" key="{AD8E37D0-2E1D-484D-A724-A7A684627AB4}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
-			<data path="Test1.tcKDTest" />
-		</child>
-		<child name="Test4" key="{679919C5-F192-4393-84E9-1626693AA621}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
-			<data path="Test4.tcKDTest" />
-		</child>
-		<child name="ProductPageLogout" key="{EAFC6028-B003-4088-8761-DF28C303C68E}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
-			<data path="ProductPageLogout.tcKDTest" />
-		</child>
+		<folder name="PDF">
+			<child name="CheckPDFDoc" key="{8DF1B7CF-44CA-4615-A63D-0EBB1F8DD212}" path="CheckPDFDoc.tcKDTest" />
+		</folder>
+		<folder name="Captcha">
+			<child name="Captcha" key="{975366FE-41FB-4942-8725-2FCB40B26233}" path="Captcha.tcKDTest" />
+			<child name="Checkout" key="{D9D62167-B31B-46C9-8066-D79467ABE9B9}" path="Checkout.tcKDTest" />
+			<child name="Login" key="{328EBE17-A62B-41C3-A724-F426288DD89A}" path="Login.tcKDTest" />
+			<child name="PurchaseLogout" key="{68F4E53A-39C6-4666-A1C6-E9F62541300B}" path="PurchaseLogout.tcKDTest" />
+			<child name="PurchaseXbox" key="{432578EE-B495-4531-BF8E-1D6D1060750F}" path="PurchaseXbox.tcKDTest" />
+			<child name="SimplePurchase" key="{5422D23E-36F9-47FE-8440-1F5BA503525D}" path="SimplePurchase.tcKDTest" />
+			<child name="Test2" key="{DDDCAECD-1D85-4193-9F6C-270B4C56302E}" path="Test2.tcKDTest" />
+			<child name="OpenBrowser" key="{E80D4275-7C4C-4356-B20F-BA0CD5AD9F72}" path="OpenBrowser.tcKDTest" />
+			<child name="QueryBackend" key="{9F9DEEE7-E458-4E5B-B0C6-C2148BF701A9}" path="QueryBackend.tcKDTest" />
+		</folder>
+		<folder name="MobileTesting">
+			<child name="Test8" key="{317ECDB8-72C5-4057-BF49-5A5B23648B28}" path="Test8.tcKDTest" />
+			<child name="MobileDeviceLoop" key="{5FBB6054-488E-4884-9304-50D938402A05}" path="MobileDeviceLoop.tcKDTest" />
+		</folder>
+		<folder name="ReadyAPIIntegraton" />
+		<child name="Test1" key="{AD8E37D0-2E1D-484D-A724-A7A684627AB4}" path="Test1.tcKDTest" />
 	</children>
-	<folders>
-		<folder caption="PDF" description="A logical folder that is used to organize project items and elements." moniker="">
-			<references>
-				<ref key="{8DF1B7CF-44CA-4615-A63D-0EBB1F8DD212}" />
-			</references>
-		</folder>
-		<folder caption="Captcha" description="A logical folder that is used to organize project items and elements." moniker="">
-			<references>
-				<ref key="{975366FE-41FB-4942-8725-2FCB40B26233}" />
-				<ref key="{D9D62167-B31B-46C9-8066-D79467ABE9B9}" />
-				<ref key="{328EBE17-A62B-41C3-A724-F426288DD89A}" />
-				<ref key="{68F4E53A-39C6-4666-A1C6-E9F62541300B}" />
-				<ref key="{432578EE-B495-4531-BF8E-1D6D1060750F}" />
-				<ref key="{5422D23E-36F9-47FE-8440-1F5BA503525D}" />
-				<ref key="{DDDCAECD-1D85-4193-9F6C-270B4C56302E}" />
-				<ref key="{E80D4275-7C4C-4356-B20F-BA0CD5AD9F72}" />
-			</references>
-		</folder>
-	</folders>
 </Root>

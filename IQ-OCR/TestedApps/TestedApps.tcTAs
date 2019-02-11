@@ -1,10 +1,22 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Root signature="{90D101C8-80C7-48D4-9055-2E451B9BCD75}" version="1140" key="{94F4FE3F-0539-414F-9E2D-2B3D64E98E28}" type="Tested Applications" typeId="{90D101C8-80C7-48D4-9055-2E451B9BCD75}">
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{90D101C8-80C7-48D4-9055-2E451B9BCD75}" version="1400" key="{94F4FE3F-0539-414F-9E2D-2B3D64E98E28}" typeId="{90D101C8-80C7-48D4-9055-2E451B9BCD75}">
 	<config nodeName="TestedApps" />
 	<testData />
 	<data />
 	<children>
-		<child key="{16B8D685-2803-4F0A-9DAB-576780B722AB}" type="Tested Application" typeId="{FD30A383-63C2-4C25-948C-2595C0F81320}">
+		<child key="{45AF85C4-314D-464E-AF80-9AA833232CC6}">
+			<config nodeName="emulator_tablet" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="True">
+				<runModeParams activeRunMode="Simple">
+					<param name="RunAs" parameters=" -avd tablet" workFolder="" userName="" password="" domain="" />
+					<param name="Profile" parameters=" -avd tablet" workFolder="" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
+					<param name="Debug" parameters=" -avd tablet" workFolder="" />
+					<param name="Simple" fileName="emulator.exe" filePath="C:\Android\emulator\" parameters=" -avd tablet" workFolder="" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
+		<child key="{16B8D685-2803-4F0A-9DAB-576780B722AB}">
 			<config nodeName="AcroRd32" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
 				<runModeParams activeRunMode="Simple">
 					<param name="RunAs" parameters="&quot;C:\Users\dermot.canniffe\OneDrive - SmartBear Software, Inc\TestComplete 12 Projects\INV0001.pdf&quot;" workFolder="C:\Users\dermot.canniffe\OneDrive - SmartBear Software, Inc\TestComplete 12 Projects" userName="" password="" domain="" />
@@ -16,6 +28,35 @@
 			<testData />
 			<data />
 		</child>
+		<child key="{1BDBEA34-810E-47F0-B721-8637456B8038}">
+			<config nodeName="com_retailsolutions" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
+				<runModeParams activeRunMode="Android">
+					<param name="Android" parameters="" workFolder="" apkFileName="C:\Users\dermot.canniffe\Downloads\drive-download-20190124T115043Z-001\com.retailsolutions.apk" deploy="True" keepDataAndCache="False" storeBackup="True" backupFileName="C:\Users\dermot.canniffe\Downloads\drive-download-20190124T115043Z-001\com.retailsolutions_ORIGINAL_BACKUP.apk" signAPKWithCustom="False" keystorePath="" alias="" keystorePassword="" keyPassword="" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
+		<child key="{B558007C-1474-4BA2-B50B-3DA7DC12EA8C}">
+			<config nodeName="Orders" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
+				<runModeParams activeRunMode="Android">
+					<param name="Android" parameters="" workFolder="" apkFileName="C:\Users\Public\Documents\TestComplete 14 Samples\Mobile\Android\Orders\Orders Application\bin\Orders.apk" deploy="True" keepDataAndCache="False" storeBackup="True" backupFileName="C:\Users\Public\Documents\TestComplete 14 Samples\Mobile\Android\Orders\Orders Application\bin\Orders_ORIGINAL_BACKUP.apk" signAPKWithCustom="False" keystorePath="" alias="" keystorePassword="" keyPassword="" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
+		<child key="{7E2757B2-7EDB-48CF-A1C2-DB228161F0B3}">
+			<config nodeName="emulator_Android_Pixel_XL" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="True">
+				<runModeParams activeRunMode="Simple">
+					<param name="RunAs" parameters=" -avd Pixel_XL_API_27" workFolder="" userName="" password="" domain="" />
+					<param name="Profile" parameters=" -avd Pixel_XL_API_27" workFolder="" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
+					<param name="Debug" parameters=" -avd Pixel_XL_API_27" workFolder="" />
+					<param name="Simple" fileName="emulator.exe" filePath="C:\Android\emulator\" parameters=" -avd Pixel_XL_API_27" workFolder="" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
 	</children>
-	<folders />
 </Root>

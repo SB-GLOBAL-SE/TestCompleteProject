@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="14.0">
+	<TestData Description="" Key="{F5080916-60E5-4013-8DC9-557E20EFDB7A}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps>
+					<Bitmap Name="Aliases.Device" Data="61717A697000000001000000360400007801AD8E3D0AC240108547F0001EC1CE888D5550D4C2580B82DE44C5C61BC41FD03A2685BDF807A9849C4CF336199864D7C4C20D5FE6CD9B37D93863BB4AEAD8F1DB8AA9A554A81EABF8A4F3A449DE6F323F0D6F4E0053A9CD69DD953B52EB49B3639D16043095DA9CCEBA4D7F49DFC826F5AE7375A98CFC562B581180DFBD6D4A414EEEF4EE5B02F05917559983EE3F760AA9D9335599831E3CF70AA9D9335599839EBC3C85D4EC99AACC41FFF3699FD70486175755535F74DF34F2C9090FEA9F5019EC40635EB48FD92C0A68141E35E097EDF21CFBC833E879F64BCDDF95EFF91B1F37E4BF06" />
+					<Bitmap Name="Aliases.Device.Process_example_orders" Data="61717A6970000000010000003604000078019592DF4A1B4114877F421FA08FE045A885786BBCF7DE47F0C2100A452542902215496C352D9BD404A3561DA8D518B3899BA4545BAAB1EBAA259A1835E8DAD0A2A069454BA55D146FE3EE8C5989116407BE3973387C67983F0D8D9607A0C3A2CE8F551E5E53856A75A58EEB3A4BD85C441184731862E6BD0F8410D52C62F1730CF3A4CD10F9954938BB3A1118F0537F4DE881110E3202DC2F5CE8EAECA0FE7771044638DEFD029FE735FA5E3AA95FD8126084BFFB2B18191C80BF9FA3FED9CF248CA014D2987847404687543F8EEC528421AAB10C5ECD2B399425F0E120A682E3E0380E56AB15C33E3762B1C8BD90402FA25363F0706E442321FA865A8FB5F9102E2FFF516AC24FA0F12864A3515B7B32AC9E1327A1FCDEC6E8DB00EC763BF5B57FB0BE70E39B67DB5137D781D6B937304D3443CBBDD930ED9D1383508E77B0BD99D65DEA27A7F5FDCD490764A580DDFF47789A7805136F8337C7335F9A86722257F8E9AFACAE9DA176F5195AF6C661497543BEF885A6980B5E39CAFC651ECA69BED21767F4FD6B33CF51A23EEB42739EC09B1798FF4D80F2E747A52FC575DF7FF409B7914E36999F4AE0FC6CFF0EFF83EE97DEE1AE984B7DC4C26CB8ECEEB4FBDB482D222D25EE218EADAC54E65E017F4C1E2F" />
+					<Bitmap Name="Aliases.Device.Process_example_orders.RootLayout" Data="61717A6970000000010000003604000078019592DF4A1B4114877F421FA08FE045A885786BBCF7DE47F0C2100A452542902215496C352D9BD404A3561DA8D518B3899BA4545BAAB1EBAA259A1835E8DAD0A2A069454BA55D146FE3EE8C5989116407BE3973387C67983F0D8D9607A0C3A2CE8F551E5E53856A75A58EEB3A4BD85C441184731862E6BD0F8410D52C62F1730CF3A4CD10F9954938BB3A1118F0537F4DE881110E3202DC2F5CE8EAECA0FE7771044638DEFD029FE735FA5E3AA95FD8126084BFFB2B18191C80BF9FA3FED9CF248CA014D2987847404687543F8EEC528421AAB10C5ECD2B399425F0E120A682E3E0380E56AB15C33E3762B1C8BD90402FA25363F0706E442321FA865A8FB5F9102E2FFF516AC24FA0F12864A3515B7B32AC9E1327A1FCDEC6E8DB00EC763BF5B57FB0BE70E39B67DB5137D781D6B937304D3443CBBDD930ED9D1383508E77B0BD99D65DEA27A7F5FDCD490764A580DDFF47789A7805136F8337C7335F9A86722257F8E9AFACAE9DA176F5195AF6C661497543BEF885A6980B5E39CAFC651ECA69BED21767F4FD6B33CF51A23EEB42739EC09B1798FF4D80F2E747A52FC575DF7FF409B7914E36999F4AE0FC6CFF0EFF83EE97DEE1AE984B7DC4C26CB8ECEEB4FBDB482D222D25EE218EADAC54E65E017F4C1E2F" />
+				</NodeBitmaps>
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{3A87F7E9-3F78-4DAA-BEC3-C75512698F75}">
+				<Data Description="Iterates through the specified mobile devices.">
+					<Items>
+						<Item>
+							<DeviceParameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="Name" DefVarType="8" VarType="8" ValueType="6" ValueValue="Swift 2 X" />
+								<Parameter Name="Index" DefVarType="3" DefValueType="1" DefValueValue="1" VarType="3" ValueType="1" ValueValue="1" />
+							</DeviceParameters>
+						</Item>
+						<Item>
+							<DeviceParameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="Name" DefVarType="8" VarType="8" ValueType="6" ValueValue="emulator-5554" />
+								<Parameter Name="Index" DefVarType="3" DefValueType="1" DefValueValue="1" VarType="3" ValueType="1" ValueValue="1" />
+							</DeviceParameters>
+						</Item>
+						<Item>
+							<DeviceParameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="Name" DefVarType="8" VarType="8" ValueType="6" ValueValue="emulator-5556" />
+								<Parameter Name="Index" DefVarType="3" DefValueType="1" DefValueValue="1" VarType="3" ValueType="1" ValueValue="1" />
+							</DeviceParameters>
+						</Item>
+					</Items>
+				</Data>
+				<Children>
+					<Operation Type="{66F32D5F-A5DB-420E-9CB4-3DB7CADE2692}">
+						<Data Description="Runs the &quot;Orders&quot; tested application." TestedApp="Orders">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="Count" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+								<Parameter Name="IgnoreRunning" DefVarType="11" DefValueType="7" DefValueValue="False" VarType="11" ValueType="7" ValueValue="False" />
+								<Parameter Name="Timeout" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Simulates a single touch on the specified item. The item can be specified as an index, from 0, or as a name." Action="TouchItem">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="Item" DefVarType="12" VarType="3" ValueType="1" ValueValue="1" />
+							</Parameters>
+							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.Device.Process_example_orders.RootLayout.ListView_listView1;" />
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Simulates a single touch on the specified item. The item can be specified as an index, from 0, or as a name." Action="TouchItem">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="Item" DefVarType="12" VarType="3" ValueType="1" ValueValue="3" />
+							</Parameters>
+							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.Device.Process_example_orders.RootLayout.ListView_listView1;" />
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Performs a single touch on the specified button." Action="TouchButton">
+							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.Device.Process_example_orders.RootLayout.Layout_buttons_layout.Button_New;" />
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Enters text in the edit control." Action="SetText">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="Text" DefVarType="8" VarType="8" ValueType="6" ValueValue="Eve Erlang" />
+							</Parameters>
+							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.Device.Process_example_orders.RootLayout.ScrollView_NO_ID.EditText_cust_name;" />
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Enters text in the edit control." Action="SetText">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="Text" DefVarType="8" VarType="8" ValueType="6" ValueValue="10 Fake Street" />
+							</Parameters>
+							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.Device.Process_example_orders.RootLayout.ScrollView_NO_ID.EditText_street;" />
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Enters text in the edit control." Action="SetText">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="Text" DefVarType="8" VarType="8" ValueType="6" ValueValue="Fakerton" />
+							</Parameters>
+							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.Device.Process_example_orders.RootLayout.ScrollView_NO_ID.EditText_city;" />
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Enters text in the edit control." Action="SetText">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="Text" DefVarType="8" VarType="8" ValueType="6" ValueValue="Fakeville" />
+							</Parameters>
+							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.Device.Process_example_orders.RootLayout.ScrollView_NO_ID.EditText_state;" />
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Enters text in the edit control." Action="SetText">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="Text" DefVarType="8" VarType="8" ValueType="6" ValueValue="123123123123" />
+							</Parameters>
+							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.Device.Process_example_orders.RootLayout.ScrollView_NO_ID.EditText_card_number;" />
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Performs a single touch on the specified button." Action="TouchButton">
+							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.Device.Process_example_orders.RootLayout.ScrollView_NO_ID.Layout_setdate_layout.Layout_NO_ID.Button_Set_Date;" />
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Returns the date selected in the calendar control." Action="wDate" InvokeKind="2">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="wDate" DefVarType="8" VarType="8" ValueType="6" ValueValue="07/02/2020" />
+							</Parameters>
+							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.Device.Process_example_orders.RootLayout.Layout_content.DatePicker_datePicker;" />
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Performs a single touch on the specified button." Action="TouchButton">
+							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.Device.Process_example_orders.RootLayout.Layout_content.Layout_buttonPanel.Layout_NO_ID.Button_OK;" />
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Enters text in the edit control." Action="SetText">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="Text" DefVarType="8" VarType="8" ValueType="6" ValueValue="7.2.2020" />
+							</Parameters>
+							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.Device.Process_example_orders.RootLayout.ScrollView_NO_ID.Layout_setdate_layout.Layout_NO_ID1.EditText_exp_date;" />
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Performs a single touch on the specified button." Action="TouchButton">
+							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.Device.Process_example_orders.RootLayout.ScrollView_NO_ID.Button_Ok;" />
+						</Data>
+					</Operation>
+					<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
+						<Data Description="Delays the test execution for the specified time period.">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="5000" />
+								<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Simulates pressing the Home button on the device." Action="PressHome">
+							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Mobile.Device();" />
+						</Data>
+					</Operation>
+				</Children>
+			</Operation>
+		</Children>
+	</TestData>
+	<Variables Version="3" Key="{8C360439-C3E6-47B8-BEAB-7302FC98AA46}" />
+	<Parameters Key="{D1917A91-355C-4502-A0DB-9695607598C3}" />
+</Root>

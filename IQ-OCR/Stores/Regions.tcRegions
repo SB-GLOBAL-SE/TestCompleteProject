@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{DA6D7EF7-5B05-4735-AAF0-A85E47D47989}" version="14.0">
+	<children>
+		<child name="AVPageView" key="{6B1C5B49-29DD-4B8F-A55B-6CC8B9413378}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="AVPageView" ID="{6B1C5B49-29DD-4B8F-A55B-6CC8B9413378}" FileName="Regions\AVPageView.png" Update="False" />
+		</child>
+		<child name="AVPageView1" key="{85DAC4B1-1CF2-45CA-82D7-7EBE69B6D3AB}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="AVPageView1" ID="{85DAC4B1-1CF2-45CA-82D7-7EBE69B6D3AB}" FileName="Regions\AVPageView1.png" Update="False" />
+		</child>
+	</children>
+</Root>

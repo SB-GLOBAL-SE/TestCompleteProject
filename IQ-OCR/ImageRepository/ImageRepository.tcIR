@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{E7C36009-4A66-4899-99AE-DEFC5C22C057}" version="1400" key="{AD12CF89-531A-4D38-80B3-2882FE8E727B}" typeId="{E7C36009-4A66-4899-99AE-DEFC5C22C057}">
+	<config nodeName="ImageRepository" />
+	<testData />
+	<data />
+	<children>
+		<child key="{7EE96654-C3E1-4169-8B75-FD46DABCC2FD}" path="ImageSet1.tcIRIS" />
+		<child key="{4FA6DDA9-7D0D-4D2E-A727-FE4F4BA5BB0F}" path="foxhole.tcIRIS" />
+		<child key="{4E156B96-AD24-49D8-97B9-2EB9EAD615F7}" path="android_calculator.tcIRIS" />
+		<child key="{A87C7F63-5597-4EE6-B53A-25DE14121BEC}" path="systemui.tcIRIS" />
+	</children>
+</Root>

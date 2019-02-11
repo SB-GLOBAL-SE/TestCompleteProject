@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{302E54A8-7D5B-4593-9563-357C2734256B}" version="1400" key="{4FA6DDA9-7D0D-4D2E-A727-FE4F4BA5BB0F}" typeId="{302E54A8-7D5B-4593-9563-357C2734256B}">
+	<config nodeName="foxhole" />
+	<testData />
+	<data>
+		<item caption="TextView_UnnamedCtrl" moniker="{28C42117-6CEA-4551-908F-EDEE731F0171}" isComposite="False" simpleMode="True" currentImageIndex="0">
+			<image imageFileName="Data\TextView_UnnamedCtrl.png" initialHash="A6341275" selectionLeft="446" selectionTop="1530" selectionWidth="188" selectionHeight="240" initialLeft="446" initialTop="1530" initialWidth="188" initialHeight="240" pixelTolerance="0" colorTolerance="0" deviceName="Swift 2 X" />
+		</item>
+		<item caption="TextView_Calculator" moniker="{CA34812C-04FD-42D3-9500-A9B264E1E157}" isComposite="False" simpleMode="True" currentImageIndex="0">
+			<image imageFileName="Data\TextView_Calculator.png" initialHash="E87CD319" selectionLeft="144" selectionTop="180" selectionWidth="218" selectionHeight="328" initialLeft="144" initialTop="180" initialWidth="218" initialHeight="328" pixelTolerance="0" colorTolerance="0" deviceName="Swift 2 X" />
+		</item>
+	</data>
+</Root>

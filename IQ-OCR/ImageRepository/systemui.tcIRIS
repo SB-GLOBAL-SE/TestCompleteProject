@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{302E54A8-7D5B-4593-9563-357C2734256B}" version="1400" key="{A87C7F63-5597-4EE6-B53A-25DE14121BEC}" typeId="{302E54A8-7D5B-4593-9563-357C2734256B}">
+	<config nodeName="systemui" />
+	<testData />
+	<data>
+		<item caption="View_UnnamedCtrl" moniker="{D4B39F42-6BCB-4F73-8A9B-A3E965444D04}" isComposite="True" simpleMode="True" currentImageIndex="0">
+			<image imageFileName="Data\View_UnnamedCtrl.png" initialHash="E312334E" selectionLeft="48" selectionTop="142" selectionWidth="984" selectionHeight="1224" initialLeft="48" initialTop="142" initialWidth="984" initialHeight="1224" pixelTolerance="0" colorTolerance="0" deviceName="Swift 2 X" />
+		</item>
+		<item caption="ImageView_UnnamedCtrl" moniker="{90B7278D-3A0A-4228-AF99-26371AD74D86}" isComposite="True" simpleMode="True" currentImageIndex="0">
+			<image imageFileName="Data\ImageView_UnnamedCtrl.png" initialHash="D15C4B3F" selectionLeft="864" selectionTop="142" selectionWidth="168" selectionHeight="168" initialLeft="864" initialTop="142" initialWidth="168" initialHeight="168" pixelTolerance="0" colorTolerance="0" deviceName="Swift 2 X" />
+		</item>
+	</data>
+</Root>
