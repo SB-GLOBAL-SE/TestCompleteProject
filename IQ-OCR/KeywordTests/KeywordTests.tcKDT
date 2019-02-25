@@ -3,6 +3,7 @@
 	<children>
 		<folder name="PDF">
 			<child name="CheckPDFDoc" key="{8DF1B7CF-44CA-4615-A63D-0EBB1F8DD212}" path="CheckPDFDoc.tcKDTest" />
+			<child name="CheckAnotherPDF" key="{F2173AB2-DEFF-41B9-961D-C14FCC4AC67B}" path="CheckAnotherPDF.tcKDTest" />
 		</folder>
 		<folder name="Captcha">
 			<child name="Captcha" key="{975366FE-41FB-4942-8725-2FCB40B26233}" path="Captcha.tcKDTest" />
@@ -14,6 +15,9 @@
 			<child name="Test2" key="{DDDCAECD-1D85-4193-9F6C-270B4C56302E}" path="Test2.tcKDTest" />
 			<child name="OpenBrowser" key="{E80D4275-7C4C-4356-B20F-BA0CD5AD9F72}" path="OpenBrowser.tcKDTest" />
 			<child name="QueryBackend" key="{9F9DEEE7-E458-4E5B-B0C6-C2148BF701A9}" path="QueryBackend.tcKDTest" />
+			<child name="PurchaseBDPlayer" key="{2FF2B54E-3D06-48D4-9CDB-414826D8BD32}" path="PurchaseBDPlayer.tcKDTest" />
+			<child name="PurchaseIPhone" key="{1FD39BBE-277C-475F-AD3A-BA35B936FC96}" path="PurchaseIPhone.tcKDTest" />
+			<child name="PurchaseWithBackendValidation" key="{8E7707BA-2541-411A-96D1-189060F45610}" path="PurchaseWithBackendValidation.tcKDTest" />
 		</folder>
 		<folder name="MobileTesting">
 			<child name="Test8" key="{317ECDB8-72C5-4057-BF49-5A5B23648B28}" path="Test8.tcKDTest" />
@@ -21,5 +25,8 @@
 		</folder>
 		<folder name="ReadyAPIIntegraton" />
 		<child name="Test1" key="{AD8E37D0-2E1D-484D-A724-A7A684627AB4}" path="Test1.tcKDTest" />
+		<child name="Test4" key="{25C1BB06-52CB-44B8-9DBB-250B716B464D}" path="Test4.tcKDTest" />
+		<child name="Test10" key="{8E8F8BC1-38C4-4131-9010-C401F4F0968D}" path="Test10.tcKDTest" />
+		<child name="Test11" key="{A35FE096-4DFA-4BBD-9A61-F4B6CBE738DC}" path="Test11.tcKDTest" />
 	</children>
 </Root>

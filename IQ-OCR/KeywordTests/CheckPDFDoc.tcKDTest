@@ -15,7 +15,7 @@
 		</Data>
 		<Children>
 			<Operation Type="{66F32D5F-A5DB-420E-9CB4-3DB7CADE2692}">
-				<Data Description="Runs the &quot;AcroRd32&quot; tested application." TestedApp="AcroRd32">
+				<Data Description="Runs the &quot;AcroRd32&quot; tested application." TestedApp="INVOICE_PDF">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 						<Parameter Name="Count" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="1" />
 						<Parameter Name="IgnoreRunning" DefVarType="11" DefValueType="7" DefValueValue="False" VarType="11" ValueType="7" ValueValue="True" />
@@ -31,20 +31,21 @@
 			<Operation Type="{6F20B0D8-E0CF-47FF-A68B-3E3672DD0CB0}">
 				<Data VariableType="2" VariableName="CheckText">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="NewValue" DefVarType="0" VarType="8" ValueType="9" ValueValue="460072006F006D000D000A00540065007300740069006E0067000D000A007400650073007400400074006500730074002E0063006F006D000D000A0041006400640072006500730073000D000A00530074006100740065000D000A005A006900700043006F00640065000D000A00500068006F006E0065003A00200033003400330032003400330032003400330032000D000A00320033003400330032003400330032003400" />
+						<Parameter Name="NewValue" DefVarType="0" VarType="8" ValueType="9" ValueValue="4E0075006D0062006500720020002A000D000A00" />
 					</Parameters>
 				</Data>
 			</Operation>
 			<Operation Type="{6F20B0D8-E0CF-47FF-A68B-3E3672DD0CB0}">
 				<Data VariableType="2" VariableName="Match">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="NewValue" DefVarType="0" VarType="8" ValueType="6" ValueValue="From*Phone" />
+						<Parameter Name="NewValue" DefVarType="0" VarType="8" ValueType="6" ValueValue="INV0001" />
 					</Parameters>
 				</Data>
 			</Operation>
 			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
-				<Data Description="Runs a script routine." TestName="VerifyRecognizedText" Unit="OCRFunctions">
+				<Data Description="Runs a script routine." TestName="VerifyTextInObject" Unit="OCRFunctions">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="onScreenObject" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.AcroRd32.wndAcrobatSDIWindow.AVFlipContainerView.AVDocumentMainView.AVFlipContainerView.AVSplitterView.AVSplitationPageView.AVSplitterView.AVScrolledPageView.AVScrollView.AVPageView" />
 						<Parameter Name="textToMatch" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="Match" />
 						<Parameter Name="textToCheck" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="CheckText" />
 					</Parameters>

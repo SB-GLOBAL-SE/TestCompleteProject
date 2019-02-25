@@ -4,6 +4,18 @@
 	<testData />
 	<data />
 	<children>
+		<child key="{E679C360-92F6-49A2-83F9-F43454EF08F0}">
+			<config nodeName="BestKeptSecretsPDF" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="True">
+				<runModeParams activeRunMode="Simple">
+					<param name="RunAs" parameters="&quot;C:\Users\dermot.canniffe\OneDrive - SmartBear Software, Inc\Sample_Review_Documents\BestKeptSecrets-eBook.pdf&quot;" workFolder="C:\Users\dermot.canniffe\OneDrive - SmartBear Software, Inc\TestComplete 12 Projects" userName="" password="" domain="" />
+					<param name="Profile" parameters="&quot;C:\Users\dermot.canniffe\OneDrive - SmartBear Software, Inc\Sample_Review_Documents\BestKeptSecrets-eBook.pdf&quot;" workFolder="C:\Users\dermot.canniffe\OneDrive - SmartBear Software, Inc\TestComplete 12 Projects" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
+					<param name="Debug" parameters="&quot;C:\Users\dermot.canniffe\OneDrive - SmartBear Software, Inc\Sample_Review_Documents\BestKeptSecrets-eBook.pdf&quot;" workFolder="C:\Users\dermot.canniffe\OneDrive - SmartBear Software, Inc\TestComplete 12 Projects" />
+					<param name="Simple" fileName="AcroRd32.exe" filePath="C:\Program Files (x86)\Adobe\Acrobat Reader DC\Reader\" parameters="&quot;C:\Users\dermot.canniffe\OneDrive - SmartBear Software, Inc\Sample_Review_Documents\BestKeptSecrets-eBook.pdf&quot;" workFolder="C:\Users\dermot.canniffe\OneDrive - SmartBear Software, Inc\TestComplete 12 Projects" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
 		<child key="{45AF85C4-314D-464E-AF80-9AA833232CC6}">
 			<config nodeName="emulator_tablet" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="True">
 				<runModeParams activeRunMode="Simple">
@@ -17,7 +29,7 @@
 			<data />
 		</child>
 		<child key="{16B8D685-2803-4F0A-9DAB-576780B722AB}">
-			<config nodeName="AcroRd32" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
+			<config nodeName="INVOICE_PDF" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="True">
 				<runModeParams activeRunMode="Simple">
 					<param name="RunAs" parameters="&quot;C:\Users\dermot.canniffe\OneDrive - SmartBear Software, Inc\TestComplete 12 Projects\INV0001.pdf&quot;" workFolder="C:\Users\dermot.canniffe\OneDrive - SmartBear Software, Inc\TestComplete 12 Projects" userName="" password="" domain="" />
 					<param name="Profile" parameters="&quot;C:\Users\dermot.canniffe\OneDrive - SmartBear Software, Inc\TestComplete 12 Projects\INV0001.pdf&quot;" workFolder="C:\Users\dermot.canniffe\OneDrive - SmartBear Software, Inc\TestComplete 12 Projects" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />

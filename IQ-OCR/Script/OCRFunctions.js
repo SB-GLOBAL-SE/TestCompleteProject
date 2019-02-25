@@ -1,4 +1,7 @@
 ﻿function VerifyRecognizedText(textToMatch, textToCheck)
+// This function identifies a block of text (textToMatch) 
+// in the specified (hardcoded) object, and verifies that 
+// the search string (textToCheck) exists within it.
 {
   var blockText = OCR.Recognize(Aliases.AcroRd32.wndAcrobatSDIWindow.AVFlipContainerView.AVDocumentMainView.AVFlipContainerView.AVSplitterView.AVSplitationPageView.AVSplitterView.AVScrolledPageView.AVScrollView.AVPageView);
   var matchedText = blockText.BlockByText(textToMatch, spLeftMost).Text;
@@ -7,6 +10,24 @@
     Log.Checkpoint("String Matched on Document"); return true } 
   else {
     Log.Error("String Doesn't Match Document"); return false }
+}
+
+function VerifyTextInObject(onScreenObject, textToCheck, textToMatch )
+// This function identifies a block of text (textToMatch) 
+// in the specified (onScreenObject) object, and verifies that 
+// the search string (textToCheck) exists within it.
+{
+  var blockText = OCR.Recognize(onScreenObject);
+  var matchedText = blockText.BlockByText(textToMatch, spLeftMost).Text;
+  Log.Message("blockText:"+blockText.FullText);
+  Log.Message("textToMatch:"+textToMatch);
+  Log.Message("matchedText:"+ matchedText);
+  Log.Message("textToCheck:"+textToCheck);
+
+  if ( matchedText.trim === textToCheck.trim ){
+    Log.Checkpoint("String " + textToCheck + " was found within the specified Document region " + textToMatch); return true } 
+  else {
+    Log.Error("String "+ matchedText + " was NOT found within the specified Document region"); return false }
 }
 
 function getCaptchaText()
