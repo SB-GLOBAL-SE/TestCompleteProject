@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="14.0">
+	<TestData Description="" Key="{18AEF749-36C3-428D-BCD0-D0B8EFBB23B5}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="Login" />
+			</Operation>
+		</Children>
+	</TestData>
+	<Variables Version="3" Key="{287F498D-F96F-420F-A5DB-C236A144A869}" />
+	<Parameters Key="{15C498C6-EAF6-4879-9559-C85C689403BB}" />
+</Root>

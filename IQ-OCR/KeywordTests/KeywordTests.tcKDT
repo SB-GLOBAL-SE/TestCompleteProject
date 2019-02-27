@@ -18,6 +18,7 @@
 			<child name="PurchaseBDPlayer" key="{2FF2B54E-3D06-48D4-9CDB-414826D8BD32}" path="PurchaseBDPlayer.tcKDTest" />
 			<child name="PurchaseIPhone" key="{1FD39BBE-277C-475F-AD3A-BA35B936FC96}" path="PurchaseIPhone.tcKDTest" />
 			<child name="PurchaseWithBackendValidation" key="{8E7707BA-2541-411A-96D1-189060F45610}" path="PurchaseWithBackendValidation.tcKDTest" />
+			<child name="Test12" key="{DBF11360-977E-4B27-A5A4-E4019BFE9C5A}" path="Test12.tcKDTest" />
 		</folder>
 		<folder name="MobileTesting">
 			<child name="Test8" key="{317ECDB8-72C5-4057-BF49-5A5B23648B28}" path="Test8.tcKDTest" />

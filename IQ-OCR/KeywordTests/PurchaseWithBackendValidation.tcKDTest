@@ -22,7 +22,9 @@
 				<Data Description="Runs a keyword test." TestName="PurchaseXbox" />
 			</Operation>
 			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
-				<Data Description="Runs a keyword test." TestName="PurchaseBDPlayer" />
+				<Data Description="Runs a keyword test." TestName="PurchaseBDPlayer">
+					<CommonData Disabled="True" />
+				</Data>
 			</Operation>
 			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
 				<Data Description="Runs a keyword test." TestName="Checkout" />

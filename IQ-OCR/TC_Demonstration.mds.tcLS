@@ -43,7 +43,7 @@
 					</Node>
 					<Node name="var2">
 						<Node name="value">
-							<Prp name="strvalue" type="H" value="78007200370036007A0026000A00"/>
+							<Prp name="strvalue" type="H" value="6B00370038007A007A0042010A00"/>
 						</Node>
 						<Prp name="name" type="S" value="CaptchaText"/>
 					</Node>
@@ -61,13 +61,13 @@
 					</Node>
 					<Node name="var5">
 						<Node name="value">
-							<Prp name="strvalue" type="H" value="36003000"/>
+							<Prp name="strvalue" type="H" value="36003100"/>
 						</Node>
 						<Prp name="name" type="S" value="tc_order_id"/>
 					</Node>
 					<Node name="var6">
 						<Node name="value">
-							<Prp name="strvalue" type="H" value="42004400200050006C006100790065007200"/>
+							<Prp name="strvalue" type="H" value="580062006F007800"/>
 						</Node>
 						<Prp name="name" type="S" value="tc_order_item"/>
 					</Node>

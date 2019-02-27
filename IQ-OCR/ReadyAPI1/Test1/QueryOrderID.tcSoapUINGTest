@@ -5,16 +5,16 @@
 		<setting name="ProjectFileName" type="5" value="C:\Users\dermot.canniffe\OneDrive - SmartBear Software, Inc\ReadyAPI Projects\Project-2-readyapi-project.xml" />
 		<setting name="UseProjectDirectory" type="1" value="False" />
 		<setting name="ProjectDirectory" type="5" value="" />
-		<setting name="TestSuite" type="6" rowIndex="1" colIndex="0">
+		<setting name="TestSuite" type="6" rowIndex="0" colIndex="0">
 			<columns>
 				<column type="5" enabled="True" />
 			</columns>
 			<data>
 				<row val0="&lt;All&gt;" />
-				<row val0="Project 2 TestSuite 1" />
+				<row val0="WebStoreTestSuite" />
 			</data>
 		</setting>
-		<setting name="TestCase" type="6" rowIndex="7" colIndex="0">
+		<setting name="TestCase" type="6" rowIndex="8" colIndex="0">
 			<columns>
 				<column type="5" enabled="True" />
 			</columns>
@@ -26,6 +26,7 @@
 				<row val0="/{type}/get_products/-Request 1 TestCase" />
 				<row val0="/{type}/post_order/-Request 1 TestCase" />
 				<row val0="/shoppingcart/service_creditcard.php-Request 1 TestCase" />
+				<row val0="BareGetOrderRequest" />
 				<row val0="TestComplete-GetOrder" />
 			</data>
 		</setting>

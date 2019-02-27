@@ -2,10 +2,10 @@
 <Root signature="{1478418C-D916-49E9-8E78-BF4561C164F9}" version="14.0">
 	<children>
 		<child name="SEVM1" key="{184FC7B7-0A36-43AB-A52C-C7648C22447B}">
-			<data signature="{4C283132-D38F-4C25-B72C-75AD0D8A3093}" version="14.0" caption="SEVM1" address="10.0.20.221" basePath="C:\TC_dist\" userName="se" source="C:\Users\dermot.canniffe\OneDrive - SmartBear Software, Inc\TestComplete 12 Projects" domain="sevm" logonMode="1" password="2E1D878DD74F3514FDF097DDFCAD951974CF74DC57A56A13F7C9" />
+			<data signature="{4C283132-D38F-4C25-B72C-75AD0D8A3093}" version="14.0" caption="SEVM1" address="10.0.20.221" basePath="C:\TC_dist\" userName="se" source="%HOMEPATH%\OneDrive - SmartBear Software, Inc\TestComplete 12 Projects" domain="sevm" logonMode="1" password="2E1D878DD74F3514FDF097DDFCAD951974CF74DC57A56A13F7C9" />
 		</child>
 		<child name="SEVM2" key="{22C4610F-6AEE-47AC-83EB-FAA7A85843D8}">
-			<data signature="{4C283132-D38F-4C25-B72C-75AD0D8A3093}" version="14.0" caption="SEVM2" address="10.0.20.90" basePath="C:\TC_dist\" userName="se" source="C:\Users\dermot.canniffe\OneDrive - SmartBear Software, Inc\TestComplete 12 Projects" domain="sevm2" logonMode="1" password="2E1D878DD74F3514FDF097DDFCAD951974CF74DC57A56A13F7C9" />
+			<data signature="{4C283132-D38F-4C25-B72C-75AD0D8A3093}" version="14.0" caption="SEVM2" address="10.0.20.90" basePath="C:\TC_dist\" userName="se" source="%HOMEPATH%\OneDrive - SmartBear Software, Inc\TestComplete 12 Projects" domain="sevm2" logonMode="1" password="2E1D878DD74F3514FDF097DDFCAD951974CF74DC57A56A13F7C9" />
 		</child>
 	</children>
 </Root>
