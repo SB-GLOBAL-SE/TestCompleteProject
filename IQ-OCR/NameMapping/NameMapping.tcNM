@@ -104,20 +104,57 @@
 											</Property>
 										</Properties>
 										<Children>
-											<Child Name="buttonSecurePayOfflinePlaceOrder" Key="{25CAAB38-63AB-4A4D-B1B8-2ED5DBEE2E81}" ExtendedFind="True" ParallelWalk="True">
-												<Image FileName="-6390739" Left="422" Top="534" Right="674" Bottom="568" />
-												<TypeInfo Item0="{71DBAAFE-75FC-4FA7-AB66-B90FEA8A833A}" />
+											<Child Name="panelContainer" Key="{A170C2CC-D981-4A25-A286-5BDF46CCD7C7}" ParallelWalk="True">
+												<Image FileName="1638725710" Left="6" Top="151" Right="1827" Bottom="568" />
+												<TypeInfo Item0="{AC8BFE78-4A69-4EFB-9298-D102255FD4FD}" />
 												<Properties>
 													<Property Name="ObjectType">
-														<Value PropertyType="0" Value="Link" Type="5" />
+														<Value PropertyType="0" Value="Panel" Type="5" />
 													</Property>
-													<Property Name="href">
-														<Value PropertyType="0" Value="" Type="5" />
-													</Property>
-													<Property Name="contentText">
-														<Value PropertyType="0" Value="Secure Pay offline &amp; Place Order" Type="5" />
+													<Property Name="ObjectIdentifier">
+														<Value PropertyType="0" Value="0" Type="0" />
 													</Property>
 												</Properties>
+												<Children>
+													<Child Name="panelFootbtn" Key="{1D8E08EE-E25E-4076-9E1B-1A36AFEFD868}" ParallelWalk="True">
+														<Image FileName="1638725710" Left="56" Top="484" Right="1691" Bottom="518" />
+														<TypeInfo Item0="{AC8BFE78-4A69-4EFB-9298-D102255FD4FD}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value PropertyType="0" Value="Panel" Type="5" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value PropertyType="0" Value="1" Type="0" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="panelPurchasebtns" Key="{E4A84929-0699-4963-94A8-06446E35A72B}" ParallelWalk="True">
+																<Image FileName="1638725710" Left="56" Top="484" Right="1691" Bottom="518" />
+																<TypeInfo Item0="{AC8BFE78-4A69-4EFB-9298-D102255FD4FD}" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value PropertyType="0" Value="Panel" Type="5" />
+																	</Property>
+																</Properties>
+															</Child>
+															<Child Name="buttonSecurePayOfflinePlaceOrder" Key="{25CAAB38-63AB-4A4D-B1B8-2ED5DBEE2E81}" ParallelWalk="True">
+																<Image FileName="-6390739" Left="422" Top="534" Right="674" Bottom="568" />
+																<TypeInfo Item0="{71DBAAFE-75FC-4FA7-AB66-B90FEA8A833A}" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value PropertyType="0" Value="Link" Type="5" />
+																	</Property>
+																	<Property Name="href">
+																		<Value PropertyType="0" Value="" Type="5" />
+																	</Property>
+																	<Property Name="contentText">
+																		<Value PropertyType="0" Value="Secure Pay offline &amp; Place Order" Type="5" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
 											</Child>
 										</Children>
 									</Child>
@@ -1596,6 +1633,11 @@
 				</Child>
 				<Child Name="form" Owner="{91A71A61-35FC-4548-980B-6F0B846C5269}">
 					<Child Name="buttonSecurePayOfflinePlaceOrder" Owner="{25CAAB38-63AB-4A4D-B1B8-2ED5DBEE2E81}" />
+					<Child Name="panelContainer" Owner="{A170C2CC-D981-4A25-A286-5BDF46CCD7C7}">
+						<Child Name="panelFootbtn" Owner="{1D8E08EE-E25E-4076-9E1B-1A36AFEFD868}">
+							<Child Name="panelPurchasebtns" Owner="{E4A84929-0699-4963-94A8-06446E35A72B}" />
+						</Child>
+					</Child>
 				</Child>
 			</Child>
 			<Child Name="pageSignUpLoginForm" Owner="{B7F49085-9237-457D-9836-6E7EF2A416DA}">

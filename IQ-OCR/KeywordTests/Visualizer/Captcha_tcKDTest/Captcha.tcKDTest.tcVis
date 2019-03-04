@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
-	<data key="{975366FE-41FB-4942-8725-2FCB40B26233}" />
+	<data key="{975366FE-41FB-4942-8725-2FCB40B26233}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="5" kind="0" dateTime="43528.6430149884" objectName="Aliases.browser.pageCheckout.formForm1.panelPanelBody.textboxCaptchaCode" objectLeft="493" objectTop="740" objectRight="643" objectBottom="766" clickPointX="535" clickPointY="750" imageFileName="visImage10.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="6" kind="0" dateTime="43528.6430206018" objectName="Aliases.browser.pageCheckout.formForm1.buttonSecureCheckout" objectLeft="287" objectTop="822" objectRight="850" objectBottom="856" clickPointX="568" clickPointY="839" imageFileName="visImage11.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
 </Root>

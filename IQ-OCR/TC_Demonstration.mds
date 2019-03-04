@@ -198,6 +198,30 @@
 					</testItem>
 				</children>
 			</testItem>
+			<testItem name="EndOfSprint" key="{17D53F41-B28D-4AB1-A7DE-94107CD1AC4C}" group="True" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="">
+				<testParameters />
+				<children>
+					<testItem name="ProjectTestItem35" key="{5C0A611A-33C7-45A6-A215-F60092CD6631}" group="False" enabled="True" testMoniker="KDT\{975366FE-41FB-4942-8725-2FCB40B26233}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="ProjectTestItem36" key="{E029A0E7-829E-402D-B111-41E5E4E5B18A}" group="False" enabled="True" testMoniker="KDT\{D9D62167-B31B-46C9-8066-D79467ABE9B9}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="ProjectTestItem37" key="{A5B46C7A-8517-476F-9AE0-21DAEED7AC84}" group="False" enabled="True" testMoniker="{42FBACDD-FA76-4EC6-B0AD-667ED441BDF0}VerifyRecognizedText" count="1" timeout="0" stopOnError="3" stopOnException="2" description="">
+						<testParameters>
+							<param0 name="textToMatch" type="3" localVarName="" varType="0" value="" />
+							<param1 name="textToCheck" type="3" localVarName="" varType="0" value="" />
+						</testParameters>
+						<children />
+					</testItem>
+					<testItem name="ProjectTestItem38" key="{0F4D1F2F-67EA-478C-B223-85B46EEB279B}" group="False" enabled="True" testMoniker="UT\{74B89E70-9310-4C22-B693-BB6098898432}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="">
+						<testParameters />
+						<children />
+					</testItem>
+				</children>
+			</testItem>
 		</children>
 	</testItems>
 	<variables key="{99B6CACE-1DBE-4B20-A044-CBB335BFC79C}">

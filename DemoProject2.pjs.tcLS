@@ -29,6 +29,9 @@
 			<Node name="{63b7dc4a-819a-4adf-bef5-ae7320432dd0}">
 				<Prp name="relpath" type="S" value="IQ-OCR\TC_Demonstration.mds.tcLS"/>
 			</Node>
+			<Node name="{749bc52d-c372-46b7-86a9-5aa534de45e4}">
+				<Prp name="relpath" type="S" value="TestProject1\C.mds.tcLS"/>
+			</Node>
 			<Node name="envmngrlogs">
 				<Prp name="key" type="S" value="{681F4D6D-DABB-45C1-AB5B-B4C872F89FB4}"/>
 			</Node>

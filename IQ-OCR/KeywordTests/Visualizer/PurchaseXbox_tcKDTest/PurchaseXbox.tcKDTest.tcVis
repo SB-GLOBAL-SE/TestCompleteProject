@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
-	<data key="{432578EE-B495-4531-BF8E-1D6D1060750F}" />
+	<data key="{432578EE-B495-4531-BF8E-1D6D1060750F}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="5" kind="0" dateTime="43528.6428628472" objectName="Aliases.browser.pageAwesomeShoppingStoreViewCart.panelContainer.linkWelcomePhp" objectLeft="134" objectTop="321" objectRight="299" objectBottom="355" clickPointX="216" clickPointY="338" imageFileName="visImage5.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
 </Root>
