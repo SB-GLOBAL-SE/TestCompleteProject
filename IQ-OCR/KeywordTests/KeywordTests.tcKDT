@@ -18,16 +18,14 @@
 			<child name="PurchaseBDPlayer" key="{2FF2B54E-3D06-48D4-9CDB-414826D8BD32}" path="PurchaseBDPlayer.tcKDTest" />
 			<child name="PurchaseIPhone" key="{1FD39BBE-277C-475F-AD3A-BA35B936FC96}" path="PurchaseIPhone.tcKDTest" />
 			<child name="PurchaseWithBackendValidation" key="{8E7707BA-2541-411A-96D1-189060F45610}" path="PurchaseWithBackendValidation.tcKDTest" />
-			<child name="Test12" key="{DBF11360-977E-4B27-A5A4-E4019BFE9C5A}" path="Test12.tcKDTest" />
 		</folder>
 		<folder name="MobileTesting">
 			<child name="Test8" key="{317ECDB8-72C5-4057-BF49-5A5B23648B28}" path="Test8.tcKDTest" />
 			<child name="MobileDeviceLoop" key="{5FBB6054-488E-4884-9304-50D938402A05}" path="MobileDeviceLoop.tcKDTest" />
 		</folder>
 		<folder name="ReadyAPIIntegraton" />
+		<child name="DatabaseDrivenDDT" key="{DBF11360-977E-4B27-A5A4-E4019BFE9C5A}" path="DatabaseDrivenDDT.tcKDTest" />
 		<child name="Test1" key="{AD8E37D0-2E1D-484D-A724-A7A684627AB4}" path="Test1.tcKDTest" />
-		<child name="Test4" key="{25C1BB06-52CB-44B8-9DBB-250B716B464D}" path="Test4.tcKDTest" />
-		<child name="Test10" key="{8E8F8BC1-38C4-4131-9010-C401F4F0968D}" path="Test10.tcKDTest" />
-		<child name="Test11" key="{A35FE096-4DFA-4BBD-9A61-F4B6CBE738DC}" path="Test11.tcKDTest" />
+		<child name="RandomString" key="{8E8F8BC1-38C4-4131-9010-C401F4F0968D}" path="RandomString.tcKDTest" />
 	</children>
 </Root>

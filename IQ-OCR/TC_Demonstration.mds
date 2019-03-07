@@ -94,13 +94,6 @@
 					</testItem>
 				</children>
 			</testItem>
-			<testItem name="ProjectTestItem16" key="{2372E673-FFEE-4042-833C-5AFF0B5BDFCB}" group="False" enabled="True" testMoniker="KDT\{A35FE096-4DFA-4BBD-9A61-F4B6CBE738DC}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="">
-				<testParameters>
-					<param0 name="Param1" type="0" localVarName="" value="3" />
-					<param1 name="BaseURL" type="1" localVarName="" value="http://smartbeardermot/shoppingcart/login.php" />
-				</testParameters>
-				<children />
-			</testItem>
 			<testItem name="Group1" key="{7AAC1405-863A-478C-AD64-9AA8716EEA8E}" group="True" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="">
 				<testParameters />
 				<children>

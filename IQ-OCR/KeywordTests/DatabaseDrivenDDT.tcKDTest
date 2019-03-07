@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="14.0">
+	<TestData Description="" Key="{18AEF749-36C3-428D-BCD0-D0B8EFBB23B5}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps>
+					<Bitmap Name="Aliases.notepad" Data="61717A6970000000010000003604000078018D53494C535114C5C41807628C71E1D26513F7C468C242820B8D1A31718589C601C73820621884045A046CCB104A40CB5828116C1942A958CB585A687F5B3ACF2DA5B4B4B4D5C6B51CDFFFD0450D89DCE4BEFBFE7FFFBC7BEEBDE75FBC9A73308BB11CB2B2889FD8F5035967C88ED8EEF9CEC3DE6B5EE183F1BBB5CDD88FB3F20BAAFFBD25E07323954AEECBE91C79B9AC1B364D2D1C2BF570517CB8F5CD70534D644F3B0F4E1D8FBC6B61DCA9E5412D7F8BB4D1F85327B34FCB474A5CB515B7DBF975F7075CA611380C83B0533DB0AE74C0B4D482D5C546E8E738D02A2B21133F4134EC64F8D1789ABF42F2C65F535128E0B1EF88C23E19422E0982763102966E788CED0C2FC7721D2C8B9550C94A110B69190A69BCA8A36881CB79D8CB65DFEBF358A470AD7E815DDF0FABEE13CC9A36929F4BF2B3A1539443292DC6AAA637237FC9F32B0DDD8297535C4E516F2C3487CDC034C29E09ACBB8611B089E0377D26F5B7C2A1AD07A5AC8259DD96913FF73CEBF298B854CFFBF0B4C7EFF806AF751CE93ED8745DB0680484031FFA7936E15F8699F1F28CFC470E1F3A363351B6C6AF7FD19D88AC602BA442744D8908D30B29D6EC83F099BBE035B4C1A2E66091F4607BFB0FA391F4FC15A3EFFC4D0DC55D41CF1C024E057C3619DC66099C862166163407938A0F6AB60693838F108FFA33F03DED8F15424199F457CC84E4268544588D68701611FF1442EE1D0E7EB39068A319F313C5486C1A33F0AF9F5D630FF7BD9F5FF76910F42E20E052EE7290123D8861A3BAC92C04302C34E2BBE415ACD45006FEC2B9B379D3A3558E54C28554CC8A64448F786889E943D83B4966F195CCA21F5E6327B43FAA61D70933F0D9D9478FABE4D591DF490F52713B7E468DA486656CAD9379FAE5D8A06BB00DC06712122DD4323CD2FA49F7502EA9B6DC2AB884F8860637AFE7231A503271C33DC6C435AB888956CD471889A6F6FAFFE8BB3A5BAB185DFF2FD2DFFE0581269358" />
+					<Bitmap Name="Aliases.notepad.dlgNotepad" Data="61717A697000000001000000360400007801C591CD4B024118C69FA03FA03FA163C7E8E0A14BD42528A2637436BC4404753028A420F42044501991111925E42582923A4474F250418720A8285A5357F37B77DD8F59B7D955635D45EAE40CCF30C3F0FCE699F71D1AB375C21836BAF6507555D5816EBAA3A37A5F3954560DED9FE1C006A6466CFF9239B5EE57B81C94620672210D39978294652165E290D2319412EF109867706F8FE05E1E8C77AC7E22145A32C4148352EC15FCC753737F89430323FF4DB324698E8491A3C6D0FF6A7D5F1579902A83F0799A250B45FF4B1386D57F75E4832A8B50250144E70845B46258FD37213FCA44FE1B83D6D5EA8F9C1DA2AC92168CFADE58FD771741689AD6C030D7C4DC5FAB3F79E2852E36E801BBBF88F8F62C626B767CB927C0B846C13807F139DFFFAB88BDB7AEFEBA57BB0D40BDF6835CFAA09CAF433EF5420AAD420CBA200416C0EFCD81DF994671CB817B475F83BF962179EC067BB08CC4AE13F1CD994A0ECF24A22BE3882E0DD32C03460E73FFDBB9FF01EBA33263" />
+					<Bitmap Name="Aliases.notepad.dlgNotepad.Notepad" Data="61717A697000000001000000360400007801A5934D48146118C77F4AE0B543976E1D3BF5056EB7040F1146121E3B0549D4250F4B8764D9E8A019511ADB874986B46CA5E05E5283C8D2B6026B13435D5BCDCDB25DD35D77F663F663763EB6773F8C650702EB1D9E776698F9FFE679FECF338D272C3B282E8BD8F78AD8598E1AF6882BB1CACF4B37A53DCFFF1FAD4D16B613E75B1A8AEF6F7DD93BF6043519259788908B87C9C53650A45F28D13594CD10D9F51532C125D2DF7DC8CB33C84BD366BD2CFD95A18457C9AE0548AF7E21F56DD6AC4FC5512B18C958840ECF3487DF0468F89CA07BF127958C42BD95F96BE924A1FE6EA4A94922EE47CCDB2FB2BB6F1486FCF051A76E2A86140EFD6198F41999EC3D3BC6B003ADEB1CFEC6FD9C1EF1C08017DEA6C06B30F83558F4A39047B55ECFA6919F3FC6705E45BFDB4EA8B99EBE01278786DE71616E9D537E992B8BC2D3B2AF26BD92410DAEA0B81CA84F6F225D3E4B60729CE30F3BA91BB552EBEFE2C8AB5BA4A22586499FCBA20B46B32349FB884C4B4F9C0327C739D66BA376B00D7CD760A693F70B1F8AFDADD61B5A0E4355B00D27697A60B0ABCDA0A67E02ABCB05F7CF080F6DF0E336975E3B8B3362D2EB1A0586673EC5C1EB3AFB3A7438BA8CF5C60B5ADD7778199AC51D99A3E7D3186A62D3E45FDED03104232DEAE89F90B13FCB62ED0DE35B08A289DE14FAAB15672426E64C32EBF3621ACA0C4353452D39F4B22785DE5433AAF32FFC03DB894AFDD61CFECBF937F1361B4F" />
+					<Bitmap Name="Aliases.notepad.dlgNotepad.Notepad.CtrlNotifySink" Data="61717A697000000001000000360400007801AD924B4B02511886DFA01FD04F68D92FF007B40C82A0562D5A4910EDDAB48A0ABA407659489B6A11512B8B36454582250CD8852CB58B76C12EE6E4781967C6716E6A73460D472D233AC377CE0CC3F39C77BE39ED9D966618C3A2CF6D7AB594AA09ADFA9D3E4AEF8B0FC5B980FFBBAC1D1634AA9F76DB5BB323E0BBC495F71C671E0A94DB0597731F1BAB4B989F1E33DC8DF8D0DD0D6EAFFD350EE7C16E4DB66A17D93FFCF488C7FB508DC3ED3A3478F12D08E1C957370BE13FE8285E5F9E4D8E8BB3137828B7C148CC2BC4C8C3B73C717C57A4B772220A8979ABCB97BF87F03945822665A0893CD44C1A2A9F84928E434EC52027A38D794DA97128C4C1E90E3666E2ABFF39D95FA6C39022F7C88603C83E7821064F91B9A620F88F21F88E4CBC915716A16505687AD6F8E61CF81D3BB8AD19B0EB23482D0F2161EF47DCD60B66AA07B1892EDCDAAC5F2797F0795546AEE4601CB3486E2F20E9B021B13E0E666518B1C541D0B37DA027BB111DED40C43E60E20B39CDE42039543E05954B406119BD67B4DEFB7753EECA7E17F279543A7246EF39A8026B72905E95B9F24AF2FFB6EAF165CF5FD64FAED21512" />
+					<Bitmap Name="Aliases.notepad.wndNotepad" Data="61717A697000000001000000360400007801C591CD4B024118C69FA03FA03FA163C7E8E0A14BD42528A2637436BC4404753028A420F42044501991111925E42582923A4474F250418720A8285A5357F37B77DD8F59B7D955635D45EAE40CCF30C3F0FCE699F71D1AB375C21836BAF6507555D5816EBAA3A37A5F3954560DED9FE1C006A6466CFF9239B5EE57B81C94620672210D39978294652165E290D2319412EF109867706F8FE05E1E8C77AC7E22145A32C4148352EC15FCC753737F89430323FF4DB324698E8491A3C6D0FF6A7D5F1579902A83F0799A250B45FF4B1386D57F75E4832A8B50250144E70845B46258FD37213FCA44FE1B83D6D5EA8F9C1DA2AC92168CFADE58FD771741689AD6C030D7C4DC5FAB3F79E2852E36E801BBBF88F8F62C626B767CB927C0B846C13807F139DFFFAB88BDB7AEFEBA57BB0D40BDF6835CFAA09CAF433EF5420AAD420CBA200416C0EFCD81DF994671CB817B475F83BF962179EC067BB08CC4AE13F1CD994A0ECF24A22BE3882E0DD32C03460E73FFDBB9FF01EBA33263" />
+				</NodeBitmaps>
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{66F32D5F-A5DB-420E-9CB4-3DB7CADE2692}">
+				<Data Description="Runs the &quot;notepad&quot; tested application." TestedApp="notepad">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="Count" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="1" />
+						<Parameter Name="IgnoreRunning" DefVarType="11" DefValueType="7" DefValueValue="False" VarType="11" ValueType="7" ValueValue="True" />
+						<Parameter Name="Timeout" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{94838C49-976F-4128-8B05-4E7C3E9C579D}">
+				<Data VariableType="4" VariableName="DBSource">
+					<Records FromBegin="True" ToEnd="True" StartRecord="1" StopIndex="1" />
+				</Data>
+				<Children>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Enters %p1 in the &apos;%n&apos; object." Action="Keys">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="Keys" DefVarType="8" ParamType="{874735FC-322E-4380-A0DD-AB0206EE8AA0}" VariableType="4" VariableName="DBSource" ColumnName="reviewtitle" />
+							</Parameters>
+							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.notepad.wndNotepad.Edit;" />
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Enters %p1 in the &apos;%n&apos; object." Action="Keys">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="Keys" DefVarType="8" VarType="8" ValueType="6" ValueValue=" -- " />
+							</Parameters>
+							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.notepad.wndNotepad.Edit;" />
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Enters %p1 in the &apos;%n&apos; object." Action="Keys">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="Keys" DefVarType="8" ParamType="{874735FC-322E-4380-A0DD-AB0206EE8AA0}" VariableType="4" VariableName="DBSource" ColumnName="loc" />
+							</Parameters>
+							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.notepad.wndNotepad.Edit;" />
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Enters %p1 in the &apos;%n&apos; object." Action="Keys">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="Keys" DefVarType="8" VarType="8" ValueType="6" ValueValue=" -- " />
+							</Parameters>
+							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.notepad.wndNotepad.Edit;" />
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Enters %p1 in the &apos;%n&apos; object." Action="Keys">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="Keys" DefVarType="8" ParamType="{874735FC-322E-4380-A0DD-AB0206EE8AA0}" VariableType="4" VariableName="DBSource" ColumnName="reviewauthorusername" />
+							</Parameters>
+							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.notepad.wndNotepad.Edit;" />
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Enters %p1 in the &apos;%n&apos; object." Action="Keys">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="Keys" DefVarType="8" VarType="8" ValueType="6" ValueValue=" [Enter]" />
+							</Parameters>
+							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.notepad.wndNotepad.Edit;" />
+						</Data>
+					</Operation>
+				</Children>
+			</Operation>
+			<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
+				<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.notepad.wndNotepad.Edit" />
+						<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="wText" />
+						<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="6" />
+						<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="6" ValueValue="Dermot" />
+						<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="False" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{CE294ABA-E13B-4B94-AFC8-FA8F4249123D}">
+				<Data Description="Moves the mouse cursor to the menu item specified and then simulates a single click." Action="Click" MenuType="0" PreferredMenu="MainMenu">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="Item" DefVarType="12" VarType="8" ValueType="6" ValueValue="File|Exit" />
+					</Parameters>
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.notepad.wndNotepad;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton">
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.notepad.dlgNotepad.Notepad.CtrlNotifySink.btnDontSave;" />
+				</Data>
+			</Operation>
+		</Children>
+	</TestData>
+	<Variables Version="3" Key="{287F498D-F96F-420F-A5DB-C236A144A869}">
+		<Items>
+			<Variable Name="DBSource" Type="{8ECBD24A-6DA1-4476-A473-EE3A52F06A83}" Local="False">
+				<DefValue Kind="{002E9C22-1E7F-4CEC-AFD0-5C1ACCB5BA1F}">
+					<ConnectionInfo ConnectionString="Provider=MSDASQL.1;Persist Security Info=True;Data Source=CollabDemoDB;Mode=Read" Login="testcomplete" Psw="A0B0153F2BCA20616A91A368A5EAA8E2A1C9B07CB00FF0A0D816ED3B" Query="SELECT&#13;&#10;&#9; r.review_id AS `reviewid`&#13;&#10;&#9;,r.review_title AS `reviewtitle`&#13;&#10;&#9;,IF((r.review_phaseid)=(5),act_summary.endsecs,NULL) AS `reviewcompletiondate`&#13;&#10;&#9;,rAuthor.user_name AS `reviewauthorusername`&#13;&#10;&#9;,IFNULL(defect_summary.numDefects,0) AS `numdefects`&#13;&#10;&#9;,(IFNULL(defect_summary.numDefects,0) * 3600.0 / act_summary.totalsecs) AS `defectsperhour`&#13;&#10;&#9;,file_summary.numLines AS `loc`&#13;&#10;&#9;,file_summary.numLinesChurn AS `locchanged`&#13;&#10;&#9;,file_summary.numLinesAdded AS `locadded`&#13;&#10;&#9;,file_summary.numLinesRemoved AS `locremoved`&#13;&#10;&#9;,file_summary.numLinesModified AS `locmodified`&#13;&#10;&#9;,(act_summary.endsecs - act_summary.startsecs) AS `reviewwallduration`&#13;&#10;&#9;,act_summary.totalsecs AS `reviewpersonduration`&#13;&#10;&#9;,numUsers.num_participants AS `numparticipants`&#13;&#10;FROM&#13;&#10;&#9;review r&#13;&#10;&#9;LEFT OUTER JOIN ( SELECT d.defect_reviewid,COUNT(defect_id) numDefects,SUM(IF((d.defect_state)=(&apos;O&apos;),1,0)) numOpenDefects FROM defect d GROUP BY d.defect_reviewid) defect_summary ON (defect_summary.defect_reviewid = r.review_id)&#13;&#10;&#9;LEFT OUTER JOIN (SELECT r.review_id review_id, count(a.assignment_userid) num_participants FROM review r INNER JOIN assignment a ON (r.review_id = a.assignment_reviewid) GROUP BY r.review_id) numUsers ON (r.review_id = numUsers.review_id)&#13;&#10;&#9;LEFT OUTER JOIN ( SELECT a.activity_reviewid,MIN(a.activity_startsecs) startsecs,MAX(a.activity_startsecs + a.activity_durationsecs) endsecs,SUM(a.activity_durationsecs) totalsecs,SUM(IF((a.activity_code)=(&apos;R&apos;),a.activity_durationsecs,0)) reviewersecs,SUM(IF((a.activity_code)=(&apos;A&apos;),a.activity_durationsecs,0)) authorsecs FROM activity a GROUP BY a.activity_reviewid) act_summary ON (act_summary.activity_reviewid = r.review_id)&#13;&#10;&#9;LEFT OUTER JOIN (SELECT a.assignment_reviewid revid, IF((COUNT(u.user_id)= 1),MIN(u.user_name),&apos;(multiple)&apos;) user_name, IF((COUNT(u.user_id)= 1),MIN(u.user_login),&apos;(multiple)&apos;) user_login FROM assignment a INNER JOIN user u ON (a.assignment_userid=u.user_id) WHERE 2=a.assignment_roleid % 4 GROUP BY a.assignment_reviewid) rAuthor ON (rAuthor.revid = r.review_id)&#13;&#10;&#9;LEFT OUTER JOIN ( SELECT files.rid,&#32;&#32;COUNT(*) numFiles, SUM( metrics.filemetrics_lines ) numLines, SUM( metrics.filemetrics_linesadded ) numLinesAdded, SUM( metrics.filemetrics_linesremoved ) numLinesRemoved, SUM( metrics.filemetrics_linesmodified ) numLinesModified, SUM(&#32;&#32;metrics.filemetrics_linesadded + metrics.filemetrics_linesremoved + metrics.filemetrics_linesmodified ) numLinesChurn, SUM( metrics.filemetrics_linesdelta ) numLinesDelta FROM ( SELECT v.version_filepath path, MAX(v.version_id) vid,&#32;&#32;jrc.joinreviewchangelist_reviewid rid&#32;&#32;FROM version v, joinreviewchangelist jrc&#32;&#32;WHERE v.version_changelistid = jrc.joinreviewchangelist_changelistid GROUP BY jrc.joinreviewchangelist_reviewid, v.version_filepath ) files, filemetrics metrics WHERE&#32;&#32;metrics.filemetrics_versionid = files.vid&#32;&#32;GROUP BY&#32;&#32;files.rid) file_summary ON (file_summary.rid = r.review_id)&#13;&#10;WHERE&#13;&#10;&#9;&#32;&#32;&#32;&#32;(IF((r.review_phaseid)=(5),act_summary.endsecs,NULL)&gt;=1550707200 AND IF((r.review_phaseid)=(5),act_summary.endsecs,NULL)&lt;=1552003200)&#13;&#10;&#9;AND (r.review_phaseid=5)&#13;&#10;ORDER BY&#13;&#10;&#9; r.review_id DESC&#13;&#10;&#13;&#10;&#13;&#10;" />
+				</DefValue>
+			</Variable>
+		</Items>
+	</Variables>
+	<Parameters Key="{15C498C6-EAF6-4879-9559-C85C689403BB}" />
+</Root>
