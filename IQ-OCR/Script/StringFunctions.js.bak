@@ -10,7 +10,14 @@
 
 function RandomizedValue()
 {
-  var min = 1000, max = 9999;
+  var min = 1, max = 9999999;
       return Math.round(Math.random()*(max-min)+min);  
 
 }
+
+function dateStamp() 
+{
+  var currentDate = aqDateTime.Now();
+  return aqConvert.DateTimeToFormatStr(currentDate, "%Y%m%H%%M%S" );
+  
+  }

@@ -43,7 +43,7 @@
 					</Node>
 					<Node name="var2">
 						<Node name="value">
-							<Prp name="strvalue" type="H" value="740064003F003200330038000A00"/>
+							<Prp name="strvalue" type="H" value="6D007A0072003F0074003E000A00"/>
 						</Node>
 						<Prp name="name" type="S" value="CaptchaText"/>
 					</Node>
@@ -61,7 +61,7 @@
 					</Node>
 					<Node name="var5">
 						<Node name="value">
-							<Prp name="strvalue" type="H" value="37003100"/>
+							<Prp name="strvalue" type="H" value="37003900"/>
 						</Node>
 						<Prp name="name" type="S" value="tc_order_id"/>
 					</Node>
@@ -70,6 +70,15 @@
 							<Prp name="strvalue" type="H" value="580062006F007800"/>
 						</Node>
 						<Prp name="name" type="S" value="tc_order_item"/>
+					</Node>
+					<Node name="var7">
+						<Prp name="name" type="S" value="ButtonExists"/>
+					</Node>
+					<Node name="var8">
+						<Node name="value">
+							<Prp name="boolvalue" type="B" value="0"/>
+						</Node>
+						<Prp name="name" type="S" value="Debug"/>
 					</Node>
 				</Node>
 				<Prp name="version" type="I" value="3"/>

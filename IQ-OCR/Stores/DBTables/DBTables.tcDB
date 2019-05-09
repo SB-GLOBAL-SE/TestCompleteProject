@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{C3BE8E0F-FB1F-487B-9AE3-BCFEB91CBEFF}" version="14.0">
+	<children>
+		<child name="CollabDB" key="{07A0892A-64F7-430C-A06A-76D5DF8A6F9F}" path="CollabDB.tcBTable" />
+		<child name="ShoppingCartDB" key="{3DD193FB-9EA6-4600-A099-3B7AE93F727F}" path="ShoppingCartDB.tcBTable" />
+	</children>
+</Root>

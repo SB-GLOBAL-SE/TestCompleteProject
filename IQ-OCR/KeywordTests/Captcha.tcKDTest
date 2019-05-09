@@ -22,7 +22,11 @@
 				</Data>
 			</Operation>
 			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
-				<Data Description="Runs a script routine." TestName="getCaptchaText" Unit="OCRFunctions" />
+				<Data Description="Runs a script routine." TestName="getCaptchaText" Unit="OCRFunctions">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="CaptchaObject" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.browser.pageCheckout.formForm1.imageCaptchaimg" />
+					</Parameters>
+				</Data>
 			</Operation>
 			<Operation Type="{6F20B0D8-E0CF-47FF-A68B-3E3672DD0CB0}">
 				<Data VariableType="2" VariableName="CaptchaText">
@@ -88,6 +92,12 @@
 			</Operation>
 		</Children>
 	</TestData>
-	<Variables Version="3" Key="{D1C18457-C3B8-4C0B-91E7-510832CE8509}" />
+	<Variables Version="3" Key="{D1C18457-C3B8-4C0B-91E7-510832CE8509}">
+		<Items>
+			<Variable Name="NewVariable" Type="{123F0C0F-44B4-4BAF-B0E6-F3F89FD873B5}" Local="False">
+				<DefValue />
+			</Variable>
+		</Items>
+	</Variables>
 	<Parameters Key="{9B4BD75C-33A1-437C-B4C0-05405C27AB38}" />
 </Root>

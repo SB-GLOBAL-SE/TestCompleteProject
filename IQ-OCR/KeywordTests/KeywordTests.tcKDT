@@ -12,7 +12,7 @@
 			<child name="PurchaseLogout" key="{68F4E53A-39C6-4666-A1C6-E9F62541300B}" path="PurchaseLogout.tcKDTest" />
 			<child name="PurchaseXbox" key="{432578EE-B495-4531-BF8E-1D6D1060750F}" path="PurchaseXbox.tcKDTest" />
 			<child name="SimplePurchase" key="{5422D23E-36F9-47FE-8440-1F5BA503525D}" path="SimplePurchase.tcKDTest" />
-			<child name="Test2" key="{DDDCAECD-1D85-4193-9F6C-270B4C56302E}" path="Test2.tcKDTest" />
+			<child name="PurchaseWithDBValidation" key="{DDDCAECD-1D85-4193-9F6C-270B4C56302E}" path="PurchaseWithDBValidation.tcKDTest" />
 			<child name="OpenBrowser" key="{E80D4275-7C4C-4356-B20F-BA0CD5AD9F72}" path="OpenBrowser.tcKDTest" />
 			<child name="QueryBackend" key="{9F9DEEE7-E458-4E5B-B0C6-C2148BF701A9}" path="QueryBackend.tcKDTest" />
 			<child name="PurchaseBDPlayer" key="{2FF2B54E-3D06-48D4-9CDB-414826D8BD32}" path="PurchaseBDPlayer.tcKDTest" />
@@ -24,8 +24,10 @@
 			<child name="MobileDeviceLoop" key="{5FBB6054-488E-4884-9304-50D938402A05}" path="MobileDeviceLoop.tcKDTest" />
 		</folder>
 		<folder name="ReadyAPIIntegraton" />
+		<child name="Test2" key="{DCFDD3ED-2243-488B-B10B-FBE05A5003A6}" path="Test2.tcKDTest" />
 		<child name="DatabaseDrivenDDT" key="{DBF11360-977E-4B27-A5A4-E4019BFE9C5A}" path="DatabaseDrivenDDT.tcKDTest" />
 		<child name="Test1" key="{AD8E37D0-2E1D-484D-A724-A7A684627AB4}" path="Test1.tcKDTest" />
 		<child name="RandomString" key="{8E8F8BC1-38C4-4131-9010-C401F4F0968D}" path="RandomString.tcKDTest" />
+		<child name="OrderID_DBCheckpoint" key="{900449EE-46DD-4875-9BB2-BDE496FAD855}" path="OrderID_DBCheckpoint.tcKDTest" />
 	</children>
 </Root>

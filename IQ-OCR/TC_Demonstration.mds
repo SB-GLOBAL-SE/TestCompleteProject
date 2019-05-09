@@ -80,7 +80,7 @@
 						</testParameters>
 						<children />
 					</testItem>
-					<testItem name="ProjectTestItem13" key="{6C652E6F-2E48-4B90-A6E3-1AFFD5119417}" group="False" enabled="True" testMoniker="{42FBACDD-FA76-4EC6-B0AD-667ED441BDF0}getCaptchaText" count="1" timeout="0" stopOnError="3" stopOnException="2" description="">
+					<testItem name="ProjectTestItem13" key="{6C652E6F-2E48-4B90-A6E3-1AFFD5119417}" group="False" enabled="True" testMoniker="{42FBACDD-FA76-4EC6-B0AD-667ED441BDF0}getCheckoutCaptchaText" count="1" timeout="0" stopOnError="3" stopOnException="2" description="">
 						<testParameters />
 						<children />
 					</testItem>
@@ -115,7 +115,7 @@
 								</testParameters>
 								<children />
 							</testItem>
-							<testItem name="ProjectTestItem20" key="{12A2AAD1-84D0-43AA-BF28-27147C780F39}" group="False" enabled="True" testMoniker="{42FBACDD-FA76-4EC6-B0AD-667ED441BDF0}getCaptchaText" count="1" timeout="0" stopOnError="3" stopOnException="2" description="">
+							<testItem name="ProjectTestItem20" key="{12A2AAD1-84D0-43AA-BF28-27147C780F39}" group="False" enabled="True" testMoniker="{42FBACDD-FA76-4EC6-B0AD-667ED441BDF0}getCheckoutCaptchaText" count="1" timeout="0" stopOnError="3" stopOnException="2" description="">
 								<testParameters />
 								<children />
 							</testItem>
@@ -176,12 +176,12 @@
 					<testItem name="ProjectTestItem31" key="{17DA76EB-2418-4BDA-A504-8CAF04DC8E6B}" group="False" enabled="True" testMoniker="{42FBACDD-FA76-4EC6-B0AD-667ED441BDF0}VerifyTextInObject" count="1" timeout="0" stopOnError="3" stopOnException="2" description="">
 						<testParameters>
 							<param0 name="onScreenObject" type="3" localVarName="" varType="0" value="" />
-							<param1 name="textToCheck" type="3" localVarName="" varType="0" value="" />
-							<param2 name="textToMatch" type="3" localVarName="" varType="0" value="" />
+							<param1 name="textRegion" type="3" localVarName="" varType="0" value="" />
+							<param2 name="textToCheck" type="3" localVarName="" varType="0" value="" />
 						</testParameters>
 						<children />
 					</testItem>
-					<testItem name="ProjectTestItem32" key="{88BD08C0-807D-45EB-90B0-D41B7039BD5D}" group="False" enabled="True" testMoniker="{42FBACDD-FA76-4EC6-B0AD-667ED441BDF0}getCaptchaText" count="1" timeout="0" stopOnError="3" stopOnException="2" description="">
+					<testItem name="ProjectTestItem32" key="{88BD08C0-807D-45EB-90B0-D41B7039BD5D}" group="False" enabled="True" testMoniker="{42FBACDD-FA76-4EC6-B0AD-667ED441BDF0}getCheckoutCaptchaText" count="1" timeout="0" stopOnError="3" stopOnException="2" description="">
 						<testParameters />
 						<children />
 					</testItem>
@@ -215,6 +215,71 @@
 					</testItem>
 				</children>
 			</testItem>
+			<testItem name="Group3" key="{B1FBBF97-F833-465F-8002-9CB328A23C00}" group="True" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="">
+				<testParameters />
+				<children>
+					<testItem name="Regression" key="{57BE4822-6AE4-431F-8736-7C8BD68D84BA}" group="True" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="">
+						<testParameters />
+						<children>
+							<testItem name="ProjectTestItem39" key="{CA1EE43E-E617-44A5-B2A8-F3A2376844A0}" group="False" enabled="True" testMoniker="UT\{74B89E70-9310-4C22-B693-BB6098898432}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="">
+								<testParameters />
+								<children />
+							</testItem>
+							<testItem name="ProjectTestItem16" key="{3AB9AD36-3A90-4983-A566-66F08083FB1B}" group="False" enabled="True" testMoniker="KDT\{5422D23E-36F9-47FE-8440-1F5BA503525D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="">
+								<testParameters />
+								<children />
+							</testItem>
+						</children>
+					</testItem>
+				</children>
+			</testItem>
+			<testItem name="Group4" key="{48224AFF-B90E-45BC-B802-565E6826C27D}" group="True" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="">
+				<testParameters />
+				<children>
+					<testItem name="ProjectTestItem42" key="{21DBDD3C-51A2-4319-A84D-687CCA09A9C5}" group="False" enabled="True" testMoniker="{E6E0082F-72F9-401B-8E9F-0AFFE7071700}funcDB" count="1" timeout="0" stopOnError="3" stopOnException="2" description="">
+						<testParameters>
+							<param0 name="param1" type="3" localVarName="" varType="0" value="" />
+						</testParameters>
+						<children />
+					</testItem>
+					<testItem name="ProjectTestItem40" key="{833B3E33-5DF4-4044-AB8F-224F60D5D03B}" group="False" enabled="True" testMoniker="KDT\{DCFDD3ED-2243-488B-B10B-FBE05A5003A6}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="ProjectTestItem41" key="{087187D4-9A1F-42D9-B469-852243949CC7}" group="False" enabled="True" testMoniker="UT\{17258D0C-8629-44C1-9B29-76764B83714C}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="">
+						<testParameters />
+						<children />
+					</testItem>
+				</children>
+			</testItem>
+			<testItem name="TestGroup1" key="{8C0DE8A5-3E54-4F91-BBE9-4E108A886784}" group="True" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="">
+				<testParameters />
+				<children>
+					<testItem name="Group5" key="{6704CA4F-B00F-4685-ACE5-6E377AAEED85}" group="True" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="">
+						<testParameters />
+						<children>
+							<testItem name="ProjectTestItem43" key="{2B04327F-4337-42E8-A5FC-C6C8A792324F}" group="False" enabled="True" testMoniker="KDT\{975366FE-41FB-4942-8725-2FCB40B26233}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="">
+								<testParameters />
+								<children />
+							</testItem>
+							<testItem name="ProjectTestItem44" key="{C3FF1E78-8622-4854-9452-12F3F990A48D}" group="False" enabled="True" testMoniker="KDT\{1FD39BBE-277C-475F-AD3A-BA35B936FC96}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="">
+								<testParameters />
+								<children />
+							</testItem>
+							<testItem name="ProjectTestItem45" key="{478ECC9F-3211-4C44-9AE3-95A8E0316781}" group="False" enabled="True" testMoniker="UT\{17258D0C-8629-44C1-9B29-76764B83714C}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="">
+								<testParameters />
+								<children />
+							</testItem>
+							<testItem name="ProjectTestItem46" key="{54C90207-4287-4E28-916B-64C1B2DBE1A2}" group="False" enabled="True" testMoniker="{E6E0082F-72F9-401B-8E9F-0AFFE7071700}funcDB" count="1" timeout="0" stopOnError="3" stopOnException="2" description="">
+								<testParameters>
+									<param0 name="param1" type="3" localVarName="" varType="0" value="" />
+								</testParameters>
+								<children />
+							</testItem>
+						</children>
+					</testItem>
+				</children>
+			</testItem>
 		</children>
 	</testItems>
 	<variables key="{99B6CACE-1DBE-4B20-A044-CBB335BFC79C}">
@@ -240,6 +305,12 @@
 				</Variable>
 				<Variable Name="tc_order_item" Type="{123F0C0F-44B4-4BAF-B0E6-F3F89FD873B5}" Local="True">
 					<DefValue StrValue="580062006F007800" />
+				</Variable>
+				<Variable Name="ButtonExists" Type="{123F0C0F-44B4-4BAF-B0E6-F3F89FD873B5}" Local="False">
+					<DefValue />
+				</Variable>
+				<Variable Name="Debug" Type="{D25FDC80-E78F-4209-88B6-6FE2B0771206}" Local="True">
+					<DefValue BoolValue="False" />
 				</Variable>
 			</Items>
 		</data>

@@ -30,7 +30,7 @@ function Test1()
   let passwordBox = form.panelFieldWrap2.passwordboxLoginPassword;
   passwordBox.SetText("password");
   passwordBox.Keys("[Enter]");
-  let page2 = wndMozillaDialogClass.pageAwesomeShoppingStoreProducts;
+  let page2 = Aliases.browser.pageAwesomeShoppingStoreProducts;
   page2.Wait();
   aqObject.CheckProperty(Aliases.browser.pageAwesomeShoppingStoreProducts.textnodeDisplay4, "contentText", cmpContains, "Hello", false);
   

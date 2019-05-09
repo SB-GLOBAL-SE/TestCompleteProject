@@ -2,5 +2,6 @@
 <Root signature="{CCBF15D3-5453-4E8D-891C-1C74B57C6979}" version="14.0">
 	<children>
 		<child name="TestNG1" key="{74B89E70-9310-4C22-B693-BB6098898432}" type="TestNG" typeId="{98B9825D-FAE6-48D5-83C2-A52AAEC31276}" pluginName="TestNG Runner" path="TestNG1\TestNG1.tcTestNG" />
+		<child name="TestNG2" key="{17258D0C-8629-44C1-9B29-76764B83714C}" type="TestNG" typeId="{98B9825D-FAE6-48D5-83C2-A52AAEC31276}" pluginName="TestNG Runner" path="TestNG2\TestNG2.tcTestNG" />
 	</children>
 </Root>

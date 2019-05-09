@@ -12,25 +12,26 @@
     Log.Error("String Doesn't Match Document"); return false }
 }
 
-function VerifyTextInObject(onScreenObject, textToCheck, textToMatch )
+function VerifyTextInObject(onScreenObject, textRegion, textToCheck )
 // This function identifies a block of text (textToMatch) 
 // in the specified (onScreenObject) object, and verifies that 
 // the search string (textToCheck) exists within it.
 {
   var blockText = OCR.Recognize(onScreenObject);
-  var matchedText = blockText.BlockByText(textToMatch, spLeftMost).Text;
-  Log.Message("blockText:"+blockText.FullText);
-  Log.Message("textToMatch:"+textToMatch);
-  Log.Message("matchedText:"+ matchedText);
-  Log.Message("textToCheck:"+textToCheck);
-
+  var matchedText = blockText.BlockByText(textRegion, spLeftMost).Text;
+  if ( Project.Variables.Debug ){ 
+    Log.Message("blockText:"+blockText.FullText);
+    Log.Message("textToMatch:"+textRegion);
+    Log.Message("matchedText:"+ matchedText);
+    Log.Message("textToCheck:"+textToCheck);
+  }
   if ( matchedText.trim === textToCheck.trim ){
-    Log.Checkpoint("String " + textToCheck + " was found within the specified Document region " + textToMatch); return true } 
+    Log.Checkpoint("String " + textToCheck + " was found within the specified Document region " + textRegion); return true } 
   else {
     Log.Error("String "+ matchedText + " was NOT found within the specified Document region"); return false }
 }
 
-function getCaptchaText()
+function getCheckoutCaptchaText()
 {
   var OCRText = OCR.Recognize(Aliases.browser.pageCheckout.formForm1.imageCaptchaimg).FullText ;
   Log.Message(OCRText);
@@ -39,6 +40,17 @@ function getCaptchaText()
      else {
        Log.Checkpoint("Extracted Text From Captcha Image" + OCRText ); return OCRText } 
 }
+
+function getCaptchaText( CaptchaObject )
+{
+  var OCRText = OCR.Recognize(CaptchaObject).FullText ;
+  Log.Message(OCRText);
+  if ( OCRText === ""){
+     Log.Error("Can't get Text from Captcha Image"); return false }
+     else {
+       Log.Checkpoint("Extracted Text From Captcha Image" + OCRText ); return OCRText } 
+}
+
 
 
 function IFimage1()
@@ -58,3 +70,5 @@ function IFimage1()
   //}
   Options.Run.Timeout = TimeoutValue;
 }  
+
+

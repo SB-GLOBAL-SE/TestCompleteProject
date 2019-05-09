@@ -5,5 +5,7 @@
 		<child name="FilesystemFunctions" key="{F0CD98B5-AC56-4666-AC59-5209D86FA5E4}" path="FilesystemFunctions.js" />
 		<child name="MobileTesting" key="{410AFF6A-4C6B-4992-B593-2F704335C25E}" path="MobileTesting.js" />
 		<child name="StringFunctions" key="{6B5FC7EA-EDF9-4AFE-A56E-8072385DBAC9}" path="StringFunctions.js" />
+		<child name="DBFunctions" key="{E6E0082F-72F9-401B-8E9F-0AFFE7071700}" path="DBFunctions.js" />
+		<child name="Unit1" key="{A5ADECC0-456E-428D-B460-89B39232B924}" path="Unit1.js" />
 	</children>
 </Root>

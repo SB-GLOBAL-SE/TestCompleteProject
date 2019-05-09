@@ -2,32 +2,23 @@
 <Root signature="{3AE7D26E-11DE-411F-A26E-9C422F421771}" version="14.0">
 	<data>
 		<setting name="UseProjectFileName" type="1" value="True" />
-		<setting name="ProjectFileName" type="5" value="C:\Users\dermot.canniffe\OneDrive - SmartBear Software, Inc\ReadyAPI Projects\Project-2-readyapi-project.xml" />
+		<setting name="ProjectFileName" type="5" value="" />
 		<setting name="UseProjectDirectory" type="1" value="False" />
 		<setting name="ProjectDirectory" type="5" value="" />
-		<setting name="TestSuite" type="6" rowIndex="1" colIndex="0">
+		<setting name="TestSuite" type="6" rowIndex="0" colIndex="0">
 			<columns>
 				<column type="5" enabled="True" />
 			</columns>
 			<data>
 				<row val0="&lt;All&gt;" />
-				<row val0="WebStoreTestSuite" />
 			</data>
 		</setting>
-		<setting name="TestCase" type="6" rowIndex="8" colIndex="0">
+		<setting name="TestCase" type="6" rowIndex="0" colIndex="0">
 			<columns>
 				<column type="5" enabled="True" />
 			</columns>
 			<data>
 				<row val0="&lt;All&gt;" />
-				<row val0="/{type}/get_login/-Request 1 TestCase" />
-				<row val0="/{type}/get_order/-Request 1 TestCase" />
-				<row val0="/{type}/get_orders/-Request 1 TestCase" />
-				<row val0="/{type}/get_products/-Request 1 TestCase" />
-				<row val0="/{type}/post_order/-Request 1 TestCase" />
-				<row val0="/shoppingcart/service_creditcard.php-Request 1 TestCase" />
-				<row val0="BareGetOrderRequest" />
-				<row val0="TestComplete-GetOrder" />
 			</data>
 		</setting>
 		<setting name="EnableUI" type="1" value="False" />
@@ -107,18 +98,13 @@
 			</columns>
 			<data />
 		</setting>
-		<setting name="ProjectProperties" type="6" rowIndex="3" colIndex="0">
+		<setting name="ProjectProperties" type="6" rowIndex="-1" colIndex="2">
 			<columns>
 				<column type="5" enabled="True" />
 				<column type="5" enabled="True" />
 				<column type="2" enabled="True" />
 			</columns>
-			<data>
-				<row val0="input_username" val1="Project.Variables.tc_username" val2="1" />
-				<row val0="input_password" val1="Project.Variables.tc_password" val2="1" />
-				<row val0="input_orderID" val1="Project.Variables.tc_order_id" val2="1" />
-				<row val0="output_productName" val1="Project.Variables.tc_order_item" val2="1" />
-			</data>
+			<data />
 		</setting>
 		<setting name="ToolArgs" type="5" value="" />
 	</data>

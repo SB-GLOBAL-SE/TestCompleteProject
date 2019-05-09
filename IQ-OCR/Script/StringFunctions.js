@@ -14,3 +14,10 @@ function RandomizedValue()
       return Math.round(Math.random()*(max-min)+min);  
 
 }
+
+function dateStamp() 
+{
+  var currentDate = aqDateTime.Now();
+  return aqConvert.DateTimeToFormatStr(currentDate, "%Y%m%H%M%S" );
+  
+  }

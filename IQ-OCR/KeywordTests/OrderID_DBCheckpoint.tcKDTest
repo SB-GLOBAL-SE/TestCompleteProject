@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="14.0">
+	<TestData Description="" Key="{FA6274E2-45EE-4AD9-86A6-071922D48B50}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{AE794690-DDF6-4B63-8E92-60B253E7F7CA}">
+				<Data Description="Compares the %n Stores element with values stored in the database specified by the element properties." Checkpoint="ShoppingCartDB" />
+			</Operation>
+		</Children>
+	</TestData>
+	<Variables Version="3" Key="{BF32BA35-3C9B-46F9-A269-69A1F7B7C560}" />
+	<Parameters Key="{F8A5BBC0-D087-4106-85E3-44E93B1E3931}" />
+</Root>
