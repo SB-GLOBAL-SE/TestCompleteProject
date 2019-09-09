@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{CCBF15D3-5453-4E8D-891C-1C74B57C6979}" version="14.0">
+	<children>
+		<child name="TestNG1" key="{5AFDE4E2-C257-4746-A556-EE13645B0C13}" type="TestNG" typeId="{98B9825D-FAE6-48D5-83C2-A52AAEC31276}" pluginName="TestNG Runner" path="TestNG1\TestNG1.tcTestNG" />
+	</children>
+</Root>

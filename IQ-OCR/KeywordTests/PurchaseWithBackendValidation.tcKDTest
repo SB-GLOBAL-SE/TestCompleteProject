@@ -38,6 +38,9 @@
 			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
 				<Data Description="Runs a keyword test." TestName="PurchaseLogout" />
 			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="CloseBrowser" />
+			</Operation>
 		</Children>
 	</TestData>
 	<Variables Version="3" Key="{4DF200B9-CA84-4A76-9BE8-B11F58686BDD}" />

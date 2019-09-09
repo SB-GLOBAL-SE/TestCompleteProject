@@ -7,5 +7,11 @@
 		<child name="AVPageView1" key="{85DAC4B1-1CF2-45CA-82D7-7EBE69B6D3AB}">
 			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="AVPageView1" ID="{85DAC4B1-1CF2-45CA-82D7-7EBE69B6D3AB}" FileName="Regions\AVPageView1.png" Update="False" />
 		</child>
+		<child name="pageSignUpLoginForm" key="{5FD217F5-3B0E-4A83-949A-E6DB48CC3C93}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="pageSignUpLoginForm" ID="{5FD217F5-3B0E-4A83-949A-E6DB48CC3C93}" FileName="Regions\pageSignUpLoginForm.png" Update="False" />
+		</child>
+		<child name="HwndSource_AppWindow" key="{AB1A07FF-F62B-4869-AB57-711D4BCD89F6}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="HwndSource_AppWindow" ID="{AB1A07FF-F62B-4869-AB57-711D4BCD89F6}" FileName="Regions\HwndSource_AppWindow.png" Update="False" />
+		</child>
 	</children>
 </Root>

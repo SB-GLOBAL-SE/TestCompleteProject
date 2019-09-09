@@ -82,5 +82,14 @@
 			<testData />
 			<data />
 		</child>
+		<child key="{3A8CE1F4-A172-4A7C-8186-BA9611F1E10D}">
+			<config nodeName="Orders1" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
+				<runModeParams activeRunMode="Android">
+					<param name="Android" parameters="" workFolder="" apkFileName="C:\Users\Public\Documents\TestComplete 14 Samples\Mobile\Android\Orders\Orders Application\bin\Orders.apk" deploy="True" keepDataAndCache="False" storeBackup="True" backupFileName="C:\Users\Public\Documents\TestComplete 14 Samples\Mobile\Android\Orders\Orders Application\bin\Orders_ORIGINAL_BACKUP.apk" signAPKWithCustom="False" keystorePath="" alias="" keystorePassword="" keyPassword="" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
 	</children>
 </Root>

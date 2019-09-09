@@ -18,7 +18,7 @@ function VerifyTextInObject(onScreenObject, textRegion, textToCheck )
 // the search string (textToCheck) exists within it.
 {
   var blockText = OCR.Recognize(onScreenObject);
-  var matchedText = blockText.BlockByText(textRegion, spLeftMost).Text;
+  var matchedText = blockText.BlockByText(textRegion, spBottomMost).Text;
   if ( Project.Variables.Debug ){ 
     Log.Message("blockText:"+blockText.FullText);
     Log.Message("textToMatch:"+textRegion);
@@ -28,7 +28,7 @@ function VerifyTextInObject(onScreenObject, textRegion, textToCheck )
   if ( matchedText.trim === textToCheck.trim ){
     Log.Checkpoint("String " + textToCheck + " was found within the specified Document region " + textRegion); return true } 
   else {
-    Log.Error("String "+ matchedText + " was NOT found within the specified Document region"); return false }
+    Log.Error("String "+ textToCheck + " was NOT found within the specified Document region"); return false }
 }
 
 function getCheckoutCaptchaText()
@@ -51,7 +51,16 @@ function getCaptchaText( CaptchaObject )
        Log.Checkpoint("Extracted Text From Captcha Image" + OCRText ); return OCRText } 
 }
 
+function getSQLValue( CaptchaObject )
+{
+  var OCRText = OCR.Recognize(CaptchaObject).FullText ;
+  Log.Message(OCRText);
+  if ( OCRText === ""){
+     Log.Error("Can't get Text from Captcha Image"); return false }
+     else {
+       Log.Checkpoint("Extracted Text From Captcha Image" + OCRText ); return OCRText } 
 
+}
 
 function IFimage1()
 {

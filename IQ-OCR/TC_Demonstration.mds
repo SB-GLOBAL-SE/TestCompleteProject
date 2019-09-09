@@ -12,271 +12,672 @@
 		<child name="TestedApps" key="{94F4FE3F-0539-414F-9E2D-2B3D64E98E28}" type="Tested Applications" typeId="{90D101C8-80C7-48D4-9055-2E451B9BCD75}" pluginName="" path="TestedApps\TestedApps.tcTAs" />
 		<child name="ImageRepository" key="{AD12CF89-531A-4D38-80B3-2882FE8E727B}" type="Image Repository" typeId="{E7C36009-4A66-4899-99AE-DEFC5C22C057}" pluginName="" path="ImageRepository\ImageRepository.tcIR" />
 		<child name="ReadyAPI1" key="{8CAC2503-4B08-4E20-9D3E-8DCC3939CF79}" type="ReadyAPI or SoapUI" typeId="{D5F2AF2E-BADF-483C-AB3E-DE7F0B6FBB55}" pluginName="ReadyAPI Runner" path="ReadyAPI1\ReadyAPI1.tcReadyAPI" />
+		<child name="Scenarios" key="{9B271015-E138-4B58-976D-AE1419562974}" type="Scenarios" typeId="{146B1623-3D4E-46FF-A0E5-CC234C212913}" pluginName="Gherkin / BDD" path="Scenarios\Scenarios.tcTestCases" />
 	</children>
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{6947393E-9CFF-4E86-9792-408F246A2FD2}" version="14">
 		<children>
-			<testItem name="Sprint1" key="{B7E4E778-F1C6-42D3-B4A3-459D7A423480}" group="True" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="2" stopOnException="2" description="">
+			<testItem name="Sprint1" key="{B7E4E778-F1C6-42D3-B4A3-459D7A423480}" group="True" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
-					<testItem name="ProjectTestItem1" key="{340E9C10-553D-4007-B3D6-6A13604BC820}" group="False" enabled="True" testMoniker="KDT\{E80D4275-7C4C-4356-B20F-BA0CD5AD9F72}" count="1" timeout="0" stopOnError="2" stopOnException="2" description="">
+					<testItem name="ProjectTestItem1" key="{340E9C10-553D-4007-B3D6-6A13604BC820}" group="False" enabled="True" testMoniker="KDT\{E80D4275-7C4C-4356-B20F-BA0CD5AD9F72}" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<children />
 					</testItem>
-					<testItem name="ProjectTestItem2" key="{8FF6E030-785B-4B22-A1A0-321062C133A0}" group="False" enabled="True" testMoniker="KDT\{328EBE17-A62B-41C3-A724-F426288DD89A}" count="1" timeout="0" stopOnError="2" stopOnException="2" description="">
+					<testItem name="ProjectTestItem2" key="{8FF6E030-785B-4B22-A1A0-321062C133A0}" group="False" enabled="True" testMoniker="KDT\{328EBE17-A62B-41C3-A724-F426288DD89A}" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<children />
 					</testItem>
-					<testItem name="ProjectTestItem3" key="{14C3EBFC-DE38-411F-9288-572395BAB05B}" group="False" enabled="True" testMoniker="KDT\{432578EE-B495-4531-BF8E-1D6D1060750F}" count="1" timeout="0" stopOnError="2" stopOnException="2" description="">
+					<testItem name="ProjectTestItem3" key="{14C3EBFC-DE38-411F-9288-572395BAB05B}" group="False" enabled="True" testMoniker="KDT\{432578EE-B495-4531-BF8E-1D6D1060750F}" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<children />
 					</testItem>
-					<testItem name="ProjectTestItem4" key="{263EEB34-C29A-4AD1-9A58-084BEF2BA9EB}" group="False" enabled="True" testMoniker="KDT\{D9D62167-B31B-46C9-8066-D79467ABE9B9}" count="1" timeout="0" stopOnError="2" stopOnException="2" description="">
+					<testItem name="ProjectTestItem4" key="{263EEB34-C29A-4AD1-9A58-084BEF2BA9EB}" group="False" enabled="True" testMoniker="KDT\{D9D62167-B31B-46C9-8066-D79467ABE9B9}" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<children />
 					</testItem>
-					<testItem name="ProjectTestItem5" key="{6018ED11-0EB6-439B-8C93-71AF5628E236}" group="False" enabled="True" testMoniker="KDT\{975366FE-41FB-4942-8725-2FCB40B26233}" count="1" timeout="0" stopOnError="2" stopOnException="2" description="">
+					<testItem name="ProjectTestItem5" key="{6018ED11-0EB6-439B-8C93-71AF5628E236}" group="False" enabled="True" testMoniker="KDT\{975366FE-41FB-4942-8725-2FCB40B26233}" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<children />
 					</testItem>
-					<testItem name="ProjectTestItem6" key="{A4A18F4A-335E-4612-A9B0-696CC0FD4EAD}" group="False" enabled="True" testMoniker="KDT\{68F4E53A-39C6-4666-A1C6-E9F62541300B}" count="1" timeout="0" stopOnError="2" stopOnException="2" description="">
+					<testItem name="ProjectTestItem6" key="{A4A18F4A-335E-4612-A9B0-696CC0FD4EAD}" group="False" enabled="True" testMoniker="KDT\{68F4E53A-39C6-4666-A1C6-E9F62541300B}" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<children />
 					</testItem>
 				</children>
 			</testItem>
-			<testItem name="SimpleTest" key="{8B73E02A-A39D-471C-B8FF-265E46FD7949}" group="True" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="2" stopOnException="2" description="">
+			<testItem name="SimpleTest" key="{8B73E02A-A39D-471C-B8FF-265E46FD7949}" group="True" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
-					<testItem name="ProjectTestItem7" key="{57D8B1AD-00F1-4964-BAE8-A100E2E32795}" group="False" enabled="True" testMoniker="KDT\{E80D4275-7C4C-4356-B20F-BA0CD5AD9F72}" count="1" timeout="0" stopOnError="2" stopOnException="2" description="">
-						<testParameters />
-						<children />
-					</testItem>
-					<testItem name="ProjectTestItem8" key="{CBC18443-A230-499B-8056-3092FD1876A9}" group="False" enabled="True" testMoniker="KDT\{328EBE17-A62B-41C3-A724-F426288DD89A}" count="1" timeout="0" stopOnError="2" stopOnException="2" description="">
-						<testParameters />
-						<children />
-					</testItem>
-					<testItem name="ProjectTestItem9" key="{6EC1765C-F8B6-46C6-A465-7610214F6C1E}" group="False" enabled="True" testMoniker="KDT\{EAFC6028-B003-4088-8761-DF28C303C68E}" count="1" timeout="0" stopOnError="2" stopOnException="2" description="">
+					<testItem name="Simple Login Test" key="{A5EFAAE0-EC56-4F30-AA46-A6E9D4A9F56B}" group="False" enabled="True" testMoniker="KDT\{5422D23E-36F9-47FE-8440-1F5BA503525D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="zfj://GAL-786" testCase="True">
 						<testParameters />
 						<children />
 					</testItem>
 				</children>
 			</testItem>
-			<testItem name="ProjectTestItem10" key="{FFA430A9-50C5-4E33-9192-8BD2A83FEE5F}" group="False" enabled="True" testMoniker="KDT\{5422D23E-36F9-47FE-8440-1F5BA503525D}" count="1" timeout="0" stopOnError="0" stopOnException="0" description="">
+			<testItem name="DDTSimpleTest" key="{38D5A77F-81B5-429A-8772-3AD9224F9721}" group="True" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children>
+					<testItem name="ProjectTestItem7_1" key="{8599F686-557D-474B-8235-095A77A801AF}" group="False" enabled="True" testMoniker="KDT\{E80D4275-7C4C-4356-B20F-BA0CD5AD9F72}" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="ProjectTestItem15" key="{EABBB08F-005B-4914-81FD-393295D5C759}" group="False" enabled="False" testMoniker="KDT\{41535C97-C4A3-4FE2-B726-B1F4A5AC80C8}" count="6" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="zfj://GAL-759" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="ProjectTestItem14" key="{A1925608-4760-43E3-8CAD-11EE40CC76DE}" group="False" enabled="True" testMoniker="KDT\{4A269160-B9E8-42EF-BE72-0B37333C36C4}" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="zfj://GAL-759" testCase="True">
+						<testParameters>
+							<param0 name="LoginUsername" type="1" localVarName="" value="dermot@localhost" />
+							<param1 name="LoginPassword" type="1" localVarName="" value="password" />
+						</testParameters>
+						<children>
+							<testItem name="ProjectTestItem9_1" key="{B8CD244D-E038-4A34-BCD8-43C182693823}" group="False" enabled="True" testMoniker="KDT\{2FF2B54E-3D06-48D4-9CDB-414826D8BD32}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children />
+							</testItem>
+							<testItem name="ProjectTestItem12_1" key="{2ED20ACE-D966-4538-9D3F-54EEF78C5E99}" group="False" enabled="True" testMoniker="KDT\{D9D62167-B31B-46C9-8066-D79467ABE9B9}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children />
+							</testItem>
+							<testItem name="ProjectTestItem11_1" key="{5C0255D5-A034-481C-9991-4DB3A2752FE6}" group="False" enabled="True" testMoniker="KDT\{975366FE-41FB-4942-8725-2FCB40B26233}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children />
+							</testItem>
+							<testItem name="ProjectTestItem18" key="{B8D94176-1D8D-4E0F-81E3-3D4A9564D80D}" group="False" enabled="True" testMoniker="KDT\{A7D20170-A105-446A-8929-A14EC01C7124}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children />
+							</testItem>
+							<testItem name="ProjectTestItem13_1" key="{D5F1F835-EB21-4EA0-919F-B47CCDE878AB}" group="False" enabled="True" testMoniker="KDT\{68F4E53A-39C6-4666-A1C6-E9F62541300B}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children />
+							</testItem>
+						</children>
+					</testItem>
+					<testItem name="ProjectTestItem14_1" key="{97A4DECA-7904-4232-9905-AB11A3BF976E}" group="False" enabled="True" testMoniker="KDT\{4A269160-B9E8-42EF-BE72-0B37333C36C4}" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="zfj://GAL-758" testCase="True">
+						<testParameters>
+							<param0 name="LoginUsername" type="1" localVarName="" value="alice@localhost" />
+							<param1 name="LoginPassword" type="1" localVarName="" value="password" />
+						</testParameters>
+						<children>
+							<testItem name="ProjectTestItem9_1_1" key="{3B6C0548-46C6-41F7-A158-CB6F8F7E2693}" group="False" enabled="True" testMoniker="KDT\{2FF2B54E-3D06-48D4-9CDB-414826D8BD32}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children />
+							</testItem>
+							<testItem name="ProjectTestItem12_1_1" key="{A6DAF400-E2FA-4F75-B078-19FB1A4470A5}" group="False" enabled="True" testMoniker="KDT\{D9D62167-B31B-46C9-8066-D79467ABE9B9}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children />
+							</testItem>
+							<testItem name="ProjectTestItem11_1_1" key="{9F3DF8FC-E0E3-4D3E-8030-C5BFDE317294}" group="False" enabled="True" testMoniker="KDT\{975366FE-41FB-4942-8725-2FCB40B26233}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children />
+							</testItem>
+							<testItem name="ProjectTestItem18_1" key="{6F975692-0F4E-414E-B180-2BA3F17DD18E}" group="False" enabled="True" testMoniker="KDT\{A7D20170-A105-446A-8929-A14EC01C7124}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children />
+							</testItem>
+							<testItem name="ProjectTestItem13_1_1" key="{BB969685-2852-492B-84D6-B14C2E511864}" group="False" enabled="True" testMoniker="KDT\{68F4E53A-39C6-4666-A1C6-E9F62541300B}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children />
+							</testItem>
+						</children>
+					</testItem>
+					<testItem name="ProjectTestItem14_1_1" key="{E81D5BB6-D6A0-4AA0-B138-B658763CC63E}" group="False" enabled="True" testMoniker="KDT\{4A269160-B9E8-42EF-BE72-0B37333C36C4}" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="zfj://GAL-761" testCase="True">
+						<testParameters>
+							<param0 name="LoginUsername" type="1" localVarName="" value="cariad@localhost" />
+							<param1 name="LoginPassword" type="1" localVarName="" value="password" />
+						</testParameters>
+						<children>
+							<testItem name="ProjectTestItem9_1_1_1" key="{B8666CEC-99D8-4B8A-8829-273FA438E189}" group="False" enabled="True" testMoniker="KDT\{2FF2B54E-3D06-48D4-9CDB-414826D8BD32}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children />
+							</testItem>
+							<testItem name="ProjectTestItem12_1_1_1" key="{471FC6D6-9428-4051-B534-E10F555F8D0D}" group="False" enabled="True" testMoniker="KDT\{D9D62167-B31B-46C9-8066-D79467ABE9B9}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children />
+							</testItem>
+							<testItem name="ProjectTestItem11_1_1_1" key="{653A4F72-C5CF-460D-B8F0-E432DC70B5E2}" group="False" enabled="True" testMoniker="KDT\{975366FE-41FB-4942-8725-2FCB40B26233}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children />
+							</testItem>
+							<testItem name="ProjectTestItem18_2" key="{2615F00E-B66E-4C1A-9A78-9AEAD20BB1C0}" group="False" enabled="True" testMoniker="KDT\{A7D20170-A105-446A-8929-A14EC01C7124}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children />
+							</testItem>
+							<testItem name="ProjectTestItem13_1_1_1" key="{96D38BC1-0E28-47B7-A28F-FECF24A6B288}" group="False" enabled="True" testMoniker="KDT\{68F4E53A-39C6-4666-A1C6-E9F62541300B}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children />
+							</testItem>
+						</children>
+					</testItem>
+					<testItem name="ProjectTestItem14_1_2" key="{A6258145-7C23-45A4-B606-60AB8190B037}" group="False" enabled="True" testMoniker="KDT\{4A269160-B9E8-42EF-BE72-0B37333C36C4}" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters>
+							<param0 name="LoginUsername" type="1" localVarName="" value="bob@localhost" />
+							<param1 name="LoginPassword" type="1" localVarName="" value="password" />
+						</testParameters>
+						<children>
+							<testItem name="ProjectTestItem9_1_1_2" key="{44384D07-A796-4C10-B6B9-2FF41081F398}" group="False" enabled="True" testMoniker="KDT\{2FF2B54E-3D06-48D4-9CDB-414826D8BD32}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children />
+							</testItem>
+							<testItem name="ProjectTestItem12_1_1_2" key="{B8C97ECF-E857-4CEA-A91B-32BB8E511FF0}" group="False" enabled="True" testMoniker="KDT\{D9D62167-B31B-46C9-8066-D79467ABE9B9}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children />
+							</testItem>
+							<testItem name="ProjectTestItem11_1_1_2" key="{30FC412F-5E0D-4DB0-8CB6-6FB5BF43B712}" group="False" enabled="True" testMoniker="KDT\{975366FE-41FB-4942-8725-2FCB40B26233}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children />
+							</testItem>
+							<testItem name="ProjectTestItem18_3" key="{C851DED0-B488-4CBC-9EB4-51FCCE0B4872}" group="False" enabled="True" testMoniker="KDT\{A7D20170-A105-446A-8929-A14EC01C7124}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children />
+							</testItem>
+							<testItem name="ProjectTestItem13_1_1_2" key="{1A501131-7431-4D0E-B7BE-C56E967F7B03}" group="False" enabled="True" testMoniker="KDT\{68F4E53A-39C6-4666-A1C6-E9F62541300B}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children />
+							</testItem>
+						</children>
+					</testItem>
+					<testItem name="ProjectTestItem14_1_1_1" key="{D4FE04C2-E0EB-4B6C-A500-6EBA790F3BFE}" group="False" enabled="False" testMoniker="KDT\{4A269160-B9E8-42EF-BE72-0B37333C36C4}" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters>
+							<param0 name="LoginUsername" type="1" localVarName="" value="eve@localhost" />
+							<param1 name="LoginPassword" type="1" localVarName="" value="password" />
+						</testParameters>
+						<children>
+							<testItem name="ProjectTestItem9_1_1_1_1" key="{A7F2AFC4-C615-4687-8CB5-77D26576E7E6}" group="False" enabled="True" testMoniker="KDT\{2FF2B54E-3D06-48D4-9CDB-414826D8BD32}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children />
+							</testItem>
+							<testItem name="ProjectTestItem12_1_1_1_1" key="{FB85727D-AD3B-4307-9CF7-89C824AE04F3}" group="False" enabled="True" testMoniker="KDT\{D9D62167-B31B-46C9-8066-D79467ABE9B9}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children />
+							</testItem>
+							<testItem name="ProjectTestItem11_1_1_1_1" key="{D0D0BDFE-AF6B-4F04-B4B8-9521A5337955}" group="False" enabled="True" testMoniker="KDT\{975366FE-41FB-4942-8725-2FCB40B26233}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children />
+							</testItem>
+							<testItem name="ProjectTestItem18_4" key="{0998A7E9-7330-42F6-B14E-ABAE181E4350}" group="False" enabled="True" testMoniker="KDT\{A7D20170-A105-446A-8929-A14EC01C7124}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children />
+							</testItem>
+							<testItem name="ProjectTestItem13_1_1_1_1" key="{D6CE98F0-C236-450D-99D0-19F3A329504E}" group="False" enabled="True" testMoniker="KDT\{68F4E53A-39C6-4666-A1C6-E9F62541300B}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children />
+							</testItem>
+						</children>
+					</testItem>
+					<testItem name="ProjectTestItem14_1_3" key="{29740819-D39C-4042-BD50-C31D5D988709}" group="False" enabled="False" testMoniker="KDT\{4A269160-B9E8-42EF-BE72-0B37333C36C4}" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters>
+							<param0 name="LoginUsername" type="1" localVarName="" value="gary@localhost" />
+							<param1 name="LoginPassword" type="1" localVarName="" value="password" />
+						</testParameters>
+						<children>
+							<testItem name="ProjectTestItem9_1_1_3" key="{DC8327DF-2B94-42E4-83A4-44201C043835}" group="False" enabled="True" testMoniker="KDT\{2FF2B54E-3D06-48D4-9CDB-414826D8BD32}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children />
+							</testItem>
+							<testItem name="ProjectTestItem12_1_1_3" key="{093BDFFE-4A23-4FFB-BD01-00BEAD36E48E}" group="False" enabled="True" testMoniker="KDT\{D9D62167-B31B-46C9-8066-D79467ABE9B9}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children />
+							</testItem>
+							<testItem name="ProjectTestItem11_1_1_3" key="{31CEEE1C-FBFF-4EB4-9842-E5E536BF616C}" group="False" enabled="True" testMoniker="KDT\{975366FE-41FB-4942-8725-2FCB40B26233}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children />
+							</testItem>
+							<testItem name="ProjectTestItem18_5" key="{5C92F178-FBB9-49D9-929D-3687572DE3B6}" group="False" enabled="True" testMoniker="KDT\{A7D20170-A105-446A-8929-A14EC01C7124}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children />
+							</testItem>
+							<testItem name="ProjectTestItem13_1_1_3" key="{F4A97D76-6EB5-4748-B08C-9A0FA17471B5}" group="False" enabled="True" testMoniker="KDT\{68F4E53A-39C6-4666-A1C6-E9F62541300B}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children />
+							</testItem>
+						</children>
+					</testItem>
+					<testItem name="ProjectTestItem14_1_1_2" key="{1CAAD918-B4E1-4AD2-A0BB-1358B5368F33}" group="False" enabled="False" testMoniker="KDT\{4A269160-B9E8-42EF-BE72-0B37333C36C4}" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters>
+							<param0 name="LoginUsername" type="1" localVarName="" value="jennifer@localhost" />
+							<param1 name="LoginPassword" type="1" localVarName="" value="password" />
+						</testParameters>
+						<children>
+							<testItem name="ProjectTestItem9_1_1_1_2" key="{E8B9F3E7-9217-47AC-BC1E-A551EAACE74B}" group="False" enabled="True" testMoniker="KDT\{2FF2B54E-3D06-48D4-9CDB-414826D8BD32}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children />
+							</testItem>
+							<testItem name="ProjectTestItem12_1_1_1_2" key="{6BF1E746-F6D4-47B3-9833-31F1BF9FA491}" group="False" enabled="True" testMoniker="KDT\{D9D62167-B31B-46C9-8066-D79467ABE9B9}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children />
+							</testItem>
+							<testItem name="ProjectTestItem11_1_1_1_2" key="{BE1098D1-53AD-4AA5-B57A-96164D413C2F}" group="False" enabled="True" testMoniker="KDT\{975366FE-41FB-4942-8725-2FCB40B26233}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children />
+							</testItem>
+							<testItem name="ProjectTestItem18_6" key="{CE9C0638-3447-4775-B0B3-B8071864E17E}" group="False" enabled="True" testMoniker="KDT\{A7D20170-A105-446A-8929-A14EC01C7124}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children />
+							</testItem>
+							<testItem name="ProjectTestItem13_1_1_1_2" key="{ABFA35BE-567E-4209-9267-6545C2B83231}" group="False" enabled="True" testMoniker="KDT\{68F4E53A-39C6-4666-A1C6-E9F62541300B}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children />
+							</testItem>
+						</children>
+					</testItem>
+					<testItem name="ProjectTestItem14_1_2_1" key="{2D928291-40D9-43F5-A201-9C104169050B}" group="False" enabled="False" testMoniker="KDT\{4A269160-B9E8-42EF-BE72-0B37333C36C4}" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters>
+							<param0 name="LoginUsername" type="1" localVarName="" value="kendra@localhost" />
+							<param1 name="LoginPassword" type="1" localVarName="" value="password" />
+						</testParameters>
+						<children>
+							<testItem name="ProjectTestItem9_1_1_2_1" key="{DAF547C2-4224-4123-BB8A-BAD5E7EE483A}" group="False" enabled="True" testMoniker="KDT\{2FF2B54E-3D06-48D4-9CDB-414826D8BD32}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children />
+							</testItem>
+							<testItem name="ProjectTestItem12_1_1_2_1" key="{C56A9A65-ED9E-49DD-8CAF-4432AA716719}" group="False" enabled="True" testMoniker="KDT\{D9D62167-B31B-46C9-8066-D79467ABE9B9}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children />
+							</testItem>
+							<testItem name="ProjectTestItem11_1_1_2_1" key="{A7FC085C-F3FA-4054-B2B1-52DF930EEBE2}" group="False" enabled="True" testMoniker="KDT\{975366FE-41FB-4942-8725-2FCB40B26233}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children />
+							</testItem>
+							<testItem name="ProjectTestItem18_7" key="{41C0A40B-7D3B-4E99-B939-DF2D47DD8621}" group="False" enabled="True" testMoniker="KDT\{A7D20170-A105-446A-8929-A14EC01C7124}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children />
+							</testItem>
+							<testItem name="ProjectTestItem13_1_1_2_1" key="{CDE42DEA-25CE-45B7-A0FD-4BB5F44D665D}" group="False" enabled="True" testMoniker="KDT\{68F4E53A-39C6-4666-A1C6-E9F62541300B}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children />
+							</testItem>
+						</children>
+					</testItem>
+					<testItem name="ProjectTestItem14_1_1_1_1" key="{CBA23C5A-BE1F-463F-A754-346C59C273EA}" group="False" enabled="False" testMoniker="KDT\{4A269160-B9E8-42EF-BE72-0B37333C36C4}" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters>
+							<param0 name="LoginUsername" type="1" localVarName="" value="lewis@localhost" />
+							<param1 name="LoginPassword" type="1" localVarName="" value="password" />
+						</testParameters>
+						<children>
+							<testItem name="ProjectTestItem9_1_1_1_1_1" key="{661ED89B-1E00-4605-96B1-EA2BD0C0CBA1}" group="False" enabled="True" testMoniker="KDT\{2FF2B54E-3D06-48D4-9CDB-414826D8BD32}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children />
+							</testItem>
+							<testItem name="ProjectTestItem12_1_1_1_1_1" key="{17CFDB6A-1CD0-4AF6-BE46-6A4FA4E3B857}" group="False" enabled="True" testMoniker="KDT\{D9D62167-B31B-46C9-8066-D79467ABE9B9}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children />
+							</testItem>
+							<testItem name="ProjectTestItem11_1_1_1_1_1" key="{E315EA1F-EC44-4674-A555-CDFFA52466EC}" group="False" enabled="True" testMoniker="KDT\{975366FE-41FB-4942-8725-2FCB40B26233}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children>
+									<testItem name="ProjectTestItem18_8" key="{EF5424C4-E5C4-47ED-AFE3-FAD041E162F8}" group="False" enabled="True" testMoniker="KDT\{A7D20170-A105-446A-8929-A14EC01C7124}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<children />
+									</testItem>
+								</children>
+							</testItem>
+							<testItem name="ProjectTestItem13_1_1_1_1_1" key="{B8BE52A5-7DB6-432D-A83D-D36AFFA02033}" group="False" enabled="True" testMoniker="KDT\{68F4E53A-39C6-4666-A1C6-E9F62541300B}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children />
+							</testItem>
+						</children>
+					</testItem>
+					<testItem name="ProjectTestItem14_1_1_1_1_1" key="{AFEFC8FF-92E7-4D0C-A4CF-AF0CBBEBCFCA}" group="False" enabled="False" testMoniker="KDT\{4A269160-B9E8-42EF-BE72-0B37333C36C4}" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters>
+							<param0 name="LoginUsername" type="1" localVarName="" value="isabelle@localhost" />
+							<param1 name="LoginPassword" type="1" localVarName="" value="password" />
+						</testParameters>
+						<children>
+							<testItem name="ProjectTestItem9_1_1_1_1_1_1" key="{951092AB-7E67-4851-BCFE-119AE476976A}" group="False" enabled="True" testMoniker="KDT\{2FF2B54E-3D06-48D4-9CDB-414826D8BD32}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children />
+							</testItem>
+							<testItem name="ProjectTestItem12_1_1_1_1_1_1" key="{4A160B32-167E-4C4D-91DE-6136BF669585}" group="False" enabled="True" testMoniker="KDT\{D9D62167-B31B-46C9-8066-D79467ABE9B9}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children />
+							</testItem>
+							<testItem name="ProjectTestItem11_1_1_1_1_1_1" key="{2E4E76C6-10BE-4DB9-9EF7-CBB2FEF4C6AA}" group="False" enabled="True" testMoniker="KDT\{975366FE-41FB-4942-8725-2FCB40B26233}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children />
+							</testItem>
+							<testItem name="ProjectTestItem18_9" key="{3C65EC44-485D-44F9-8FB3-6ED70A3FC16C}" group="False" enabled="True" testMoniker="KDT\{A7D20170-A105-446A-8929-A14EC01C7124}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children />
+							</testItem>
+							<testItem name="ProjectTestItem13_1_1_1_1_1_1" key="{83ACA8AC-0D94-45B7-B21A-BBC6F90CC61B}" group="False" enabled="True" testMoniker="KDT\{68F4E53A-39C6-4666-A1C6-E9F62541300B}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children />
+							</testItem>
+						</children>
+					</testItem>
+					<testItem name="ProjectTestItem17" key="{2FD34BDF-98F4-49C7-AE97-63E41169D42C}" group="False" enabled="True" testMoniker="KDT\{D003592F-A9D0-43BE-ACF5-5CEB22ABC323}" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+				</children>
+			</testItem>
+			<testItem name="Purchase a product with no security" key="{AF60032D-8B8C-44A3-9D1B-C79C2878BDD9}" group="False" enabled="True" testMoniker="ShoppingCartPurchase|Purchase a product with no security" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children />
 			</testItem>
-			<testItem name="RegressionTest" key="{80F12DD5-D0F0-4B6E-B050-15E41331F56A}" group="True" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="">
+			<testItem name="ProjectTestItem10" key="{FFA430A9-50C5-4E33-9192-8BD2A83FEE5F}" group="False" enabled="False" testMoniker="KDT\{5422D23E-36F9-47FE-8440-1F5BA503525D}" count="1" timeout="0" stopOnError="0" stopOnException="0" description="" tmsData="" testCase="True">
 				<testParameters />
-				<children>
-					<testItem name="ProjectTestItem11" key="{EB8DD33C-301D-4AEF-810B-7D119BA3F65A}" group="False" enabled="True" testMoniker="KDT\{5422D23E-36F9-47FE-8440-1F5BA503525D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="">
-						<testParameters />
-						<children />
-					</testItem>
-					<testItem name="ProjectTestItem12" key="{54D72621-1736-4A76-8909-F64C138E7AC3}" group="False" enabled="True" testMoniker="{42FBACDD-FA76-4EC6-B0AD-667ED441BDF0}VerifyRecognizedText" count="1" timeout="0" stopOnError="3" stopOnException="2" description="">
-						<testParameters>
-							<param0 name="textToMatch" type="3" localVarName="" varType="0" value="" />
-							<param1 name="textToCheck" type="3" localVarName="" varType="0" value="" />
-						</testParameters>
-						<children />
-					</testItem>
-					<testItem name="ProjectTestItem13" key="{6C652E6F-2E48-4B90-A6E3-1AFFD5119417}" group="False" enabled="True" testMoniker="{42FBACDD-FA76-4EC6-B0AD-667ED441BDF0}getCheckoutCaptchaText" count="1" timeout="0" stopOnError="3" stopOnException="2" description="">
-						<testParameters />
-						<children />
-					</testItem>
-					<testItem name="ProjectTestItem14" key="{8CBE95A9-1862-4EB7-8578-E933C9365D22}" group="False" enabled="True" testMoniker="{42FBACDD-FA76-4EC6-B0AD-667ED441BDF0}IFimage1" count="1" timeout="0" stopOnError="3" stopOnException="2" description="">
-						<testParameters />
-						<children />
-					</testItem>
-					<testItem name="ProjectTestItem15" key="{484BFE77-2176-405C-A541-AEA284FD2DA4}" group="False" enabled="True" testMoniker="UT\{74B89E70-9310-4C22-B693-BB6098898432}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="">
-						<testParameters />
-						<children />
-					</testItem>
-				</children>
+				<children />
 			</testItem>
-			<testItem name="Group1" key="{7AAC1405-863A-478C-AD64-9AA8716EEA8E}" group="True" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="">
+			<testItem name="ProjectTestItem16" key="{BA36B0CB-FB85-49F1-87B9-548CB8971DB1}" group="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children />
+			</testItem>
+			<testItem name="Regression" key="{9B63C380-0437-4656-962C-FEA58F994774}" group="True" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
-					<testItem name="Group2" key="{F0D77FEC-B412-4BEA-B5E5-1D9D94BE3548}" group="True" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="">
+					<testItem name="Release1" key="{1F81C3F0-B015-4F46-8A88-880B4C2CFB19}" group="True" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<children>
-							<testItem name="ProjectTestItem17" key="{6C1DBC98-078A-4A0A-B721-E8088F435E8E}" group="False" enabled="True" testMoniker="KDT\{E80D4275-7C4C-4356-B20F-BA0CD5AD9F72}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="">
+							<testItem name="ProjectTestItem19" key="{F91DA369-63B9-438A-BF3A-AA1921998198}" group="False" enabled="True" testMoniker="KDT\{975366FE-41FB-4942-8725-2FCB40B26233}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 								<testParameters />
 								<children />
 							</testItem>
-							<testItem name="ProjectTestItem18" key="{E1656DD2-3A75-4EE5-92F8-3BB548892D81}" group="False" enabled="True" testMoniker="KDT\{D9D62167-B31B-46C9-8066-D79467ABE9B9}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="">
+							<testItem name="ProjectTestItem20" key="{CEBDCCD2-95C6-4BEF-A05B-FE12567D63AB}" group="False" enabled="True" testMoniker="KDT\{2FF2B54E-3D06-48D4-9CDB-414826D8BD32}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 								<testParameters />
 								<children />
 							</testItem>
-							<testItem name="ProjectTestItem19" key="{5C733FBB-01DF-49AF-A367-677E0CC1EE78}" group="False" enabled="True" testMoniker="{42FBACDD-FA76-4EC6-B0AD-667ED441BDF0}VerifyRecognizedText" count="1" timeout="0" stopOnError="3" stopOnException="2" description="">
+							<testItem name="ProjectTestItem21" key="{D4C754A8-3BA2-4A96-B865-1B9C256876C4}" group="False" enabled="True" testMoniker="{F0CD98B5-AC56-4666-AC59-5209D86FA5E4}isInstalled" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="zfj://GAL-759" testCase="True">
+								<testParameters />
+								<children />
+							</testItem>
+							<testItem name="ProjectTestItem22" key="{7AE888EA-6E5C-4FF4-8150-FB3333DBFEFD}" group="False" enabled="True" testMoniker="{42FBACDD-FA76-4EC6-B0AD-667ED441BDF0}VerifyRecognizedText" count="2" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="zfj://GAL-761" testCase="True">
 								<testParameters>
 									<param0 name="textToMatch" type="3" localVarName="" varType="0" value="" />
 									<param1 name="textToCheck" type="3" localVarName="" varType="0" value="" />
 								</testParameters>
 								<children />
 							</testItem>
-							<testItem name="ProjectTestItem20" key="{12A2AAD1-84D0-43AA-BF28-27147C780F39}" group="False" enabled="True" testMoniker="{42FBACDD-FA76-4EC6-B0AD-667ED441BDF0}getCheckoutCaptchaText" count="1" timeout="0" stopOnError="3" stopOnException="2" description="">
-								<testParameters />
-								<children />
-							</testItem>
-							<testItem name="ProjectTestItem21" key="{E8996B56-0B45-4297-B5A5-132B06BC9B11}" group="False" enabled="True" testMoniker="{42FBACDD-FA76-4EC6-B0AD-667ED441BDF0}IFimage1" count="1" timeout="0" stopOnError="3" stopOnException="2" description="">
-								<testParameters />
-								<children />
-							</testItem>
-							<testItem name="ProjectTestItem22" key="{2F200384-8416-40D0-95BB-4146A587DBEF}" group="False" enabled="True" testMoniker="UT\{74B89E70-9310-4C22-B693-BB6098898432}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="">
-								<testParameters />
-								<children />
-							</testItem>
-							<testItem name="ProjectTestItem23" key="{EEA73184-43DB-4D4D-8372-E5BFFCB2DF50}" group="False" enabled="True" testMoniker="{8413E61C-2B84-4F79-85B7-B7B0DCDC4CE1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="">
-								<testParameters />
-								<children />
-							</testItem>
-						</children>
-					</testItem>
-				</children>
-			</testItem>
-			<testItem name="RegressionSprint2" key="{3600A9F2-45C2-4CE7-8612-5C1A3EFEC62D}" group="True" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="">
-				<testParameters />
-				<children>
-					<testItem name="ProjectTestItem24" key="{C4906723-83B9-4E5F-9C21-918A9A1EA407}" group="False" enabled="True" testMoniker="KDT\{975366FE-41FB-4942-8725-2FCB40B26233}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="">
-						<testParameters />
-						<children />
-					</testItem>
-					<testItem name="ProjectTestItem25" key="{A295C533-F515-4E7C-9545-701A05B7D351}" group="False" enabled="True" testMoniker="KDT\{E80D4275-7C4C-4356-B20F-BA0CD5AD9F72}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="">
-						<testParameters />
-						<children />
-					</testItem>
-					<testItem name="ProjectTestItem26" key="{4280DEFF-5528-4AB1-95A9-E0A923B9C164}" group="False" enabled="True" testMoniker="KDT\{1FD39BBE-277C-475F-AD3A-BA35B936FC96}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="">
-						<testParameters />
-						<children />
-					</testItem>
-					<testItem name="ProjectTestItem27" key="{3B5A8E12-7613-4481-AE91-C80D99E5F341}" group="False" enabled="True" testMoniker="KDT\{975366FE-41FB-4942-8725-2FCB40B26233}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="">
-						<testParameters />
-						<children />
-					</testItem>
-					<testItem name="ProjectTestItem28" key="{1FCF1F98-9AA2-462F-B8C5-788529CC5D84}" group="False" enabled="True" testMoniker="KDT\{328EBE17-A62B-41C3-A724-F426288DD89A}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="">
-						<testParameters />
-						<children />
-					</testItem>
-					<testItem name="ProjectTestItem29" key="{2972EB8C-2DB7-43F9-8405-FB56D2BF3080}" group="False" enabled="True" testMoniker="KDT\{2FF2B54E-3D06-48D4-9CDB-414826D8BD32}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="">
-						<testParameters />
-						<children />
-					</testItem>
-					<testItem name="ProjectTestItem34" key="{6D8B89E4-3092-4C3E-9F76-E184B9B43D9A}" group="False" enabled="True" testMoniker="UT\{74B89E70-9310-4C22-B693-BB6098898432}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="">
-						<testParameters />
-						<children />
-					</testItem>
-					<testItem name="ProjectTestItem30" key="{B4E520AC-FDC1-4563-AF64-BFEB141B7EE1}" group="False" enabled="True" testMoniker="{42FBACDD-FA76-4EC6-B0AD-667ED441BDF0}VerifyRecognizedText" count="1" timeout="0" stopOnError="3" stopOnException="2" description="">
-						<testParameters>
-							<param0 name="textToMatch" type="3" localVarName="" varType="0" value="" />
-							<param1 name="textToCheck" type="3" localVarName="" varType="0" value="" />
-						</testParameters>
-						<children />
-					</testItem>
-					<testItem name="ProjectTestItem31" key="{17DA76EB-2418-4BDA-A504-8CAF04DC8E6B}" group="False" enabled="True" testMoniker="{42FBACDD-FA76-4EC6-B0AD-667ED441BDF0}VerifyTextInObject" count="1" timeout="0" stopOnError="3" stopOnException="2" description="">
-						<testParameters>
-							<param0 name="onScreenObject" type="3" localVarName="" varType="0" value="" />
-							<param1 name="textRegion" type="3" localVarName="" varType="0" value="" />
-							<param2 name="textToCheck" type="3" localVarName="" varType="0" value="" />
-						</testParameters>
-						<children />
-					</testItem>
-					<testItem name="ProjectTestItem32" key="{88BD08C0-807D-45EB-90B0-D41B7039BD5D}" group="False" enabled="True" testMoniker="{42FBACDD-FA76-4EC6-B0AD-667ED441BDF0}getCheckoutCaptchaText" count="1" timeout="0" stopOnError="3" stopOnException="2" description="">
-						<testParameters />
-						<children />
-					</testItem>
-					<testItem name="ProjectTestItem33" key="{3CB25CD1-C787-4FEC-8B95-7F7218C70BCE}" group="False" enabled="True" testMoniker="{42FBACDD-FA76-4EC6-B0AD-667ED441BDF0}IFimage1" count="1" timeout="0" stopOnError="3" stopOnException="2" description="">
-						<testParameters />
-						<children />
-					</testItem>
-				</children>
-			</testItem>
-			<testItem name="EndOfSprint" key="{17D53F41-B28D-4AB1-A7DE-94107CD1AC4C}" group="True" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="">
-				<testParameters />
-				<children>
-					<testItem name="ProjectTestItem35" key="{5C0A611A-33C7-45A6-A215-F60092CD6631}" group="False" enabled="True" testMoniker="KDT\{975366FE-41FB-4942-8725-2FCB40B26233}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="">
-						<testParameters />
-						<children />
-					</testItem>
-					<testItem name="ProjectTestItem36" key="{E029A0E7-829E-402D-B111-41E5E4E5B18A}" group="False" enabled="True" testMoniker="KDT\{D9D62167-B31B-46C9-8066-D79467ABE9B9}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="">
-						<testParameters />
-						<children />
-					</testItem>
-					<testItem name="ProjectTestItem37" key="{A5B46C7A-8517-476F-9AE0-21DAEED7AC84}" group="False" enabled="True" testMoniker="{42FBACDD-FA76-4EC6-B0AD-667ED441BDF0}VerifyRecognizedText" count="1" timeout="0" stopOnError="3" stopOnException="2" description="">
-						<testParameters>
-							<param0 name="textToMatch" type="3" localVarName="" varType="0" value="" />
-							<param1 name="textToCheck" type="3" localVarName="" varType="0" value="" />
-						</testParameters>
-						<children />
-					</testItem>
-					<testItem name="ProjectTestItem38" key="{0F4D1F2F-67EA-478C-B223-85B46EEB279B}" group="False" enabled="True" testMoniker="UT\{74B89E70-9310-4C22-B693-BB6098898432}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="">
-						<testParameters />
-						<children />
-					</testItem>
-				</children>
-			</testItem>
-			<testItem name="Group3" key="{B1FBBF97-F833-465F-8002-9CB328A23C00}" group="True" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="">
-				<testParameters />
-				<children>
-					<testItem name="Regression" key="{57BE4822-6AE4-431F-8736-7C8BD68D84BA}" group="True" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="">
-						<testParameters />
-						<children>
-							<testItem name="ProjectTestItem39" key="{CA1EE43E-E617-44A5-B2A8-F3A2376844A0}" group="False" enabled="True" testMoniker="UT\{74B89E70-9310-4C22-B693-BB6098898432}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="">
-								<testParameters />
-								<children />
-							</testItem>
-							<testItem name="ProjectTestItem16" key="{3AB9AD36-3A90-4983-A566-66F08083FB1B}" group="False" enabled="True" testMoniker="KDT\{5422D23E-36F9-47FE-8440-1F5BA503525D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="">
-								<testParameters />
-								<children />
-							</testItem>
-						</children>
-					</testItem>
-				</children>
-			</testItem>
-			<testItem name="Group4" key="{48224AFF-B90E-45BC-B802-565E6826C27D}" group="True" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="">
-				<testParameters />
-				<children>
-					<testItem name="ProjectTestItem42" key="{21DBDD3C-51A2-4319-A84D-687CCA09A9C5}" group="False" enabled="True" testMoniker="{E6E0082F-72F9-401B-8E9F-0AFFE7071700}funcDB" count="1" timeout="0" stopOnError="3" stopOnException="2" description="">
-						<testParameters>
-							<param0 name="param1" type="3" localVarName="" varType="0" value="" />
-						</testParameters>
-						<children />
-					</testItem>
-					<testItem name="ProjectTestItem40" key="{833B3E33-5DF4-4044-AB8F-224F60D5D03B}" group="False" enabled="True" testMoniker="KDT\{DCFDD3ED-2243-488B-B10B-FBE05A5003A6}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="">
-						<testParameters />
-						<children />
-					</testItem>
-					<testItem name="ProjectTestItem41" key="{087187D4-9A1F-42D9-B469-852243949CC7}" group="False" enabled="True" testMoniker="UT\{17258D0C-8629-44C1-9B29-76764B83714C}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="">
-						<testParameters />
-						<children />
-					</testItem>
-				</children>
-			</testItem>
-			<testItem name="TestGroup1" key="{8C0DE8A5-3E54-4F91-BBE9-4E108A886784}" group="True" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="">
-				<testParameters />
-				<children>
-					<testItem name="Group5" key="{6704CA4F-B00F-4685-ACE5-6E377AAEED85}" group="True" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="">
-						<testParameters />
-						<children>
-							<testItem name="ProjectTestItem43" key="{2B04327F-4337-42E8-A5FC-C6C8A792324F}" group="False" enabled="True" testMoniker="KDT\{975366FE-41FB-4942-8725-2FCB40B26233}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="">
-								<testParameters />
-								<children />
-							</testItem>
-							<testItem name="ProjectTestItem44" key="{C3FF1E78-8622-4854-9452-12F3F990A48D}" group="False" enabled="True" testMoniker="KDT\{1FD39BBE-277C-475F-AD3A-BA35B936FC96}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="">
-								<testParameters />
-								<children />
-							</testItem>
-							<testItem name="ProjectTestItem45" key="{478ECC9F-3211-4C44-9AE3-95A8E0316781}" group="False" enabled="True" testMoniker="UT\{17258D0C-8629-44C1-9B29-76764B83714C}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="">
-								<testParameters />
-								<children />
-							</testItem>
-							<testItem name="ProjectTestItem46" key="{54C90207-4287-4E28-916B-64C1B2DBE1A2}" group="False" enabled="True" testMoniker="{E6E0082F-72F9-401B-8E9F-0AFFE7071700}funcDB" count="1" timeout="0" stopOnError="3" stopOnException="2" description="">
+							<testItem name="ProjectTestItem23" key="{FF0FCEAE-77C3-40EB-B5C0-D7FB2C454808}" group="False" enabled="True" testMoniker="{42FBACDD-FA76-4EC6-B0AD-667ED441BDF0}VerifyTextInObject" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 								<testParameters>
-									<param0 name="param1" type="3" localVarName="" varType="0" value="" />
+									<param0 name="onScreenObject" type="3" localVarName="" varType="0" value="" />
+									<param1 name="textRegion" type="3" localVarName="" varType="0" value="" />
+									<param2 name="textToCheck" type="3" localVarName="" varType="0" value="" />
 								</testParameters>
 								<children />
 							</testItem>
+							<testItem name="ProjectTestItem24" key="{555EAF95-CE80-4047-A238-202CB434EFD1}" group="False" enabled="True" testMoniker="{42FBACDD-FA76-4EC6-B0AD-667ED441BDF0}getCheckoutCaptchaText" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children />
+							</testItem>
+							<testItem name="ProjectTestItem25" key="{1F79C312-EFBF-4D4A-A45C-6403199A9867}" group="False" enabled="True" testMoniker="{42FBACDD-FA76-4EC6-B0AD-667ED441BDF0}getCaptchaText" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="CaptchaObject" type="3" localVarName="" varType="0" value="" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="ProjectTestItem26" key="{5CB746B2-137A-41C4-BB2C-A87569C3EB9A}" group="False" enabled="True" testMoniker="{42FBACDD-FA76-4EC6-B0AD-667ED441BDF0}IFimage1" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children />
+							</testItem>
+							<testItem name="ProjectTestItem27" key="{6A7E2475-1D5D-43CA-A4C2-879B7B6E9BD6}" group="False" enabled="True" testMoniker="UT\{74B89E70-9310-4C22-B693-BB6098898432}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children />
+							</testItem>
 						</children>
+					</testItem>
+				</children>
+			</testItem>
+			<testItem name="Group1" key="{13D8CE5C-1205-4F59-A59E-481886B7436C}" group="True" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children>
+					<testItem name="Group2" key="{C4D0E753-7E9E-4299-9F17-BE71735EEA1D}" group="True" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children>
+							<testItem name="ProjectTestItem28" key="{F286B14B-A03E-45BF-83FB-B2DA702A75DB}" group="False" enabled="True" testMoniker="KDT\{328EBE17-A62B-41C3-A724-F426288DD89A}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children />
+							</testItem>
+							<testItem name="ProjectTestItem29" key="{9AACEFC7-DE76-4DB8-9C83-38B6397CAC88}" group="False" enabled="True" testMoniker="KDT\{2FF2B54E-3D06-48D4-9CDB-414826D8BD32}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children />
+							</testItem>
+							<testItem name="ProjectTestItem30" key="{2A13C2DD-630B-49AF-AE53-4574332BE7BB}" group="False" enabled="True" testMoniker="{42FBACDD-FA76-4EC6-B0AD-667ED441BDF0}VerifyRecognizedText" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="zfj://GAL-761" testCase="True">
+								<testParameters>
+									<param0 name="textToMatch" type="3" localVarName="" varType="0" value="" />
+									<param1 name="textToCheck" type="3" localVarName="" varType="0" value="" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="ProjectTestItem31" key="{E1714A4B-78CB-4178-A1A9-A1E290CAF9A0}" group="False" enabled="True" testMoniker="{42FBACDD-FA76-4EC6-B0AD-667ED441BDF0}VerifyTextInObject" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="onScreenObject" type="3" localVarName="" varType="0" value="" />
+									<param1 name="textRegion" type="3" localVarName="" varType="0" value="" />
+									<param2 name="textToCheck" type="3" localVarName="" varType="0" value="" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="ProjectTestItem32" key="{B3182FAE-CF35-4C7D-8CCB-ACB26672710D}" group="False" enabled="True" testMoniker="{42FBACDD-FA76-4EC6-B0AD-667ED441BDF0}getCheckoutCaptchaText" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children />
+							</testItem>
+							<testItem name="ProjectTestItem33" key="{E68AD056-2A57-425A-AFBD-30EDFE903ECC}" group="False" enabled="True" testMoniker="{42FBACDD-FA76-4EC6-B0AD-667ED441BDF0}getCaptchaText" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="CaptchaObject" type="3" localVarName="" varType="0" value="" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="ProjectTestItem34" key="{08785062-DAEF-4D8A-96A6-ABCF60D82218}" group="False" enabled="True" testMoniker="{42FBACDD-FA76-4EC6-B0AD-667ED441BDF0}IFimage1" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children />
+							</testItem>
+							<testItem name="ProjectTestItem35" key="{5849634E-E130-418D-B438-546C5268F7B5}" group="False" enabled="True" testMoniker="UT\{74B89E70-9310-4C22-B693-BB6098898432}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children />
+							</testItem>
+						</children>
+					</testItem>
+				</children>
+			</testItem>
+			<testItem name="ReleaseTests" key="{833E4E00-E29B-43B1-94EC-2675D6038EDE}" group="True" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children>
+					<testItem name="Release1" key="{4F719DEB-33AF-4705-98C6-A741F69B650F}" group="True" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children>
+							<testItem name="ProjectTestItem36" key="{E4F84124-D377-46B9-AAE7-E6F3F36EE127}" group="False" enabled="True" testMoniker="KDT\{D003592F-A9D0-43BE-ACF5-5CEB22ABC323}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children />
+							</testItem>
+							<testItem name="ProjectTestItem37" key="{385DF00D-CDFB-49D2-A81E-20CCD24B6C62}" group="False" enabled="True" testMoniker="KDT\{E80D4275-7C4C-4356-B20F-BA0CD5AD9F72}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children />
+							</testItem>
+							<testItem name="ProjectTestItem38" key="{331EAEB3-20FF-4AAD-ADF9-59BD5AB30F73}" group="False" enabled="True" testMoniker="KDT\{2FF2B54E-3D06-48D4-9CDB-414826D8BD32}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children />
+							</testItem>
+							<testItem name="ProjectTestItem39" key="{0B3EB609-D296-4427-ACB7-4F10753EB0A0}" group="False" enabled="True" testMoniker="{42FBACDD-FA76-4EC6-B0AD-667ED441BDF0}VerifyRecognizedText" count="1" timeout="0" stopOnError="1" stopOnException="2" description="" tmsData="zfj://GAL-761" testCase="True">
+								<testParameters>
+									<param0 name="textToMatch" type="3" localVarName="" varType="0" value="" />
+									<param1 name="textToCheck" type="3" localVarName="" varType="0" value="" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="ProjectTestItem40" key="{96EFFA9D-160B-46FE-A5E2-F258200AE247}" group="False" enabled="True" testMoniker="{42FBACDD-FA76-4EC6-B0AD-667ED441BDF0}VerifyTextInObject" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="onScreenObject" type="3" localVarName="" varType="0" value="" />
+									<param1 name="textRegion" type="3" localVarName="" varType="0" value="" />
+									<param2 name="textToCheck" type="3" localVarName="" varType="0" value="" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="ProjectTestItem41" key="{2ED9ED33-D99B-4D35-B952-B04E424ADEAE}" group="False" enabled="True" testMoniker="{42FBACDD-FA76-4EC6-B0AD-667ED441BDF0}getCheckoutCaptchaText" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children />
+							</testItem>
+							<testItem name="ProjectTestItem42" key="{7B31F0AB-79C7-44B3-9E3C-974FED16E791}" group="False" enabled="True" testMoniker="{42FBACDD-FA76-4EC6-B0AD-667ED441BDF0}getCaptchaText" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="CaptchaObject" type="3" localVarName="" varType="0" value="" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="ProjectTestItem43" key="{F780997F-E247-4ACB-8444-C168685085C2}" group="False" enabled="True" testMoniker="{42FBACDD-FA76-4EC6-B0AD-667ED441BDF0}IFimage1" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children />
+							</testItem>
+							<testItem name="ProjectTestItem44" key="{BF1D7CE4-0B31-47D6-96C5-DA585A3C5CD5}" group="False" enabled="True" testMoniker="{410AFF6A-4C6B-4992-B593-2F704335C25E}Test8" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children />
+							</testItem>
+							<testItem name="ProjectTestItem45" key="{008A114E-3AD2-4ADA-8328-579C2CF487F8}" group="False" enabled="True" testMoniker="UT\{17258D0C-8629-44C1-9B29-76764B83714C}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children />
+							</testItem>
+							<testItem name="ProjectTestItem46" key="{EE1C3D5D-B159-496A-8130-52B8F18A5174}" group="False" enabled="True" testMoniker="{8413E61C-2B84-4F79-85B7-B7B0DCDC4CE1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children />
+							</testItem>
+							<testItem name="ProjectTestItem47" key="{26C5CBE8-CFE2-489C-BA81-FDB6A8757821}" group="False" enabled="True" testMoniker="ShoppingCartPurchase|*" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children />
+							</testItem>
+							<testItem name="ProjectTestItem48" key="{1F092BA3-A0D5-4AD4-9DF9-E8154AACFE50}" group="False" enabled="True" testMoniker="ShoppingCartPurchase|Simple Login" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children />
+							</testItem>
+							<testItem name="ProjectTestItem49" key="{6A596CA6-9B4B-4FB2-9C2E-A64460700DB3}" group="False" enabled="True" testMoniker="ShoppingCartPurchase|General Login" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children />
+							</testItem>
+							<testItem name="ProjectTestItem50" key="{B166C3FC-376C-445A-AFB9-C21A8E9A38A4}" group="False" enabled="True" testMoniker="ShoppingCartPurchase|Purchase a product with no security" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children />
+							</testItem>
+						</children>
+					</testItem>
+				</children>
+			</testItem>
+			<testItem name="RegressionTest" key="{868705D7-1C61-41B5-985D-E572A4D29875}" group="True" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children>
+					<testItem name="Release1" key="{7F6FFB03-0827-4CB7-8FFA-1A997EBAEE3D}" group="True" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children>
+							<testItem name="ProjectTestItem52" key="{2BED2BF8-4429-4153-90A0-500F918BEB67}" group="False" enabled="True" testMoniker="KDT\{D9D62167-B31B-46C9-8066-D79467ABE9B9}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="zfj://GAL-790" testCase="True">
+								<testParameters />
+								<children />
+							</testItem>
+							<testItem name="ProjectTestItem53" key="{523B5A3A-A87F-46A9-9AA3-3C1C8D0E7D20}" group="False" enabled="True" testMoniker="KDT\{E80D4275-7C4C-4356-B20F-BA0CD5AD9F72}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children />
+							</testItem>
+							<testItem name="ProjectTestItem54" key="{58A1A951-BB6C-4B5D-9671-37B8240C6D38}" group="False" enabled="True" testMoniker="KDT\{68F4E53A-39C6-4666-A1C6-E9F62541300B}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children />
+							</testItem>
+							<testItem name="ProjectTestItem55" key="{5C29015C-9E6A-45FF-8604-0BE1E5A12482}" group="False" enabled="True" testMoniker="{550F6ED8-198D-4440-89E7-F61BE476DE36}CloseBrowser" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children />
+							</testItem>
+							<testItem name="ProjectTestItem56" key="{B75E831A-05B5-4369-8F4D-262327BDEC47}" group="False" enabled="True" testMoniker="{550F6ED8-198D-4440-89E7-F61BE476DE36}ChromeSavePasswordHandler" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="Sender" type="3" localVarName="" varType="0" value="" />
+									<param1 name="Window" type="3" localVarName="" varType="0" value="" />
+									<param2 name="LogParams" type="3" localVarName="" varType="0" value="" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="ProjectTestItem57" key="{BBB5C8BA-151B-4114-BC80-397221D27B09}" group="False" enabled="True" testMoniker="{550F6ED8-198D-4440-89E7-F61BE476DE36}EventControl1_OnOverlappingWindow" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="Sender" type="3" localVarName="" varType="0" value="" />
+									<param1 name="Window" type="3" localVarName="" varType="0" value="" />
+									<param2 name="OverlappingWindow" type="3" localVarName="" varType="0" value="" />
+									<param3 name="LogParams" type="3" localVarName="" varType="0" value="" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="ProjectTestItem58" key="{9EDE6CB9-2875-492F-A00E-9C388E4326D1}" group="False" enabled="True" testMoniker="{410AFF6A-4C6B-4992-B593-2F704335C25E}Test8" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children />
+							</testItem>
+							<testItem name="ProjectTestItem59" key="{F85E9DE1-58F1-4D00-A536-1EA55ADBB360}" group="False" enabled="True" testMoniker="{42FBACDD-FA76-4EC6-B0AD-667ED441BDF0}VerifyRecognizedText" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="textToMatch" type="3" localVarName="" varType="0" value="" />
+									<param1 name="textToCheck" type="3" localVarName="" varType="0" value="" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="ProjectTestItem60" key="{0EC5D59D-6D7F-4A12-8304-400D4007B855}" group="False" enabled="True" testMoniker="{42FBACDD-FA76-4EC6-B0AD-667ED441BDF0}VerifyTextInObject" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="onScreenObject" type="3" localVarName="" varType="0" value="" />
+									<param1 name="textRegion" type="3" localVarName="" varType="0" value="" />
+									<param2 name="textToCheck" type="3" localVarName="" varType="0" value="" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="ProjectTestItem61" key="{43DECD66-6846-4B3B-B0ED-130914B5CDBA}" group="False" enabled="True" testMoniker="{42FBACDD-FA76-4EC6-B0AD-667ED441BDF0}getCheckoutCaptchaText" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children />
+							</testItem>
+							<testItem name="ProjectTestItem62" key="{BC3F706E-F864-4D94-B9DC-B570A92016AC}" group="False" enabled="True" testMoniker="{42FBACDD-FA76-4EC6-B0AD-667ED441BDF0}getCaptchaText" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="CaptchaObject" type="3" localVarName="" varType="0" value="" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="ProjectTestItem63" key="{AAE8484E-5C72-4208-A29B-AEA80BB88E06}" group="False" enabled="True" testMoniker="{42FBACDD-FA76-4EC6-B0AD-667ED441BDF0}getSQLValue" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters>
+									<param0 name="CaptchaObject" type="3" localVarName="" varType="0" value="" />
+								</testParameters>
+								<children />
+							</testItem>
+							<testItem name="ProjectTestItem64" key="{60D0B783-D4E2-4140-9163-EEC4F2F32E74}" group="False" enabled="True" testMoniker="{42FBACDD-FA76-4EC6-B0AD-667ED441BDF0}IFimage1" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children />
+							</testItem>
+							<testItem name="ProjectTestItem65" key="{41542312-298D-4D4F-8E4B-E06BC9E8ED1D}" group="False" enabled="True" testMoniker="UT\{74B89E70-9310-4C22-B693-BB6098898432}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children />
+							</testItem>
+							<testItem name="ProjectTestItem66" key="{B750CBED-B1A9-4286-B756-FCB0583B2661}" group="False" enabled="True" testMoniker="UT\{17258D0C-8629-44C1-9B29-76764B83714C}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children />
+							</testItem>
+							<testItem name="ProjectTestItem67" key="{9A43D1B9-7DBF-42C4-8808-EF3489E527E3}" group="False" enabled="True" testMoniker="{8413E61C-2B84-4F79-85B7-B7B0DCDC4CE1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children />
+							</testItem>
+						</children>
+					</testItem>
+					<testItem name="ProjectTestItem68" key="{10276E41-EA05-4D62-8361-B67625A925B6}" group="False" enabled="True" testMoniker="UT\{74B89E70-9310-4C22-B693-BB6098898432}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="ProjectTestItem69" key="{E7915E04-38D7-454B-A2F1-BD7C354C076A}" group="False" enabled="True" testMoniker="UT\{46C55160-1D8F-48D9-93DD-EE433C3BD3F0}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+				</children>
+			</testItem>
+			<testItem name="SimplisticTests" key="{02C006BD-95C1-4632-9281-73760BC80AD1}" group="False" enabled="True" testMoniker="*|@simple" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children />
+			</testItem>
+			<testItem name="Group3" key="{8ED70A96-B803-452C-B7D1-4C40A68F2B7F}" group="True" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children>
+					<testItem name="ProjectTestItem7" key="{156F1557-23A8-4A2D-942D-A1C0FEC5651A}" group="False" enabled="True" testMoniker="{6B5FC7EA-EDF9-4AFE-A56E-8072385DBAC9}getOrderID" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="ProjectTestItem8" key="{069255A3-27F5-4088-9552-9594D0BDE868}" group="False" enabled="True" testMoniker="{6B5FC7EA-EDF9-4AFE-A56E-8072385DBAC9}RandomizedValue" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="ProjectTestItem9" key="{79992FEE-9873-47B2-A136-E01799D878AE}" group="False" enabled="True" testMoniker="{6B5FC7EA-EDF9-4AFE-A56E-8072385DBAC9}dateStamp" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="ProjectTestItem11" key="{8E077D96-6E49-4E6B-94EB-E8605FF00374}" group="False" enabled="True" testMoniker="{A5ADECC0-456E-428D-B460-89B39232B924}Captch" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="ProjectTestItem12" key="{5C19A341-82AF-4563-8DC9-74AB357ABC55}" group="False" enabled="True" testMoniker="{A5ADECC0-456E-428D-B460-89B39232B924}Test1" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
 					</testItem>
 				</children>
 			</testItem>
@@ -310,13 +711,42 @@
 					<DefValue />
 				</Variable>
 				<Variable Name="Debug" Type="{D25FDC80-E78F-4209-88B6-6FE2B0771206}" Local="True">
-					<DefValue BoolValue="False" />
+					<DefValue BoolValue="True" />
+				</Variable>
+				<Variable Name="PersonaData" Type="{4AD4881B-176C-4C96-8288-FBBB7E3D1FE3}" Local="False">
+					<DefValue RowCount="5" ColumnCount="5">
+						<Columns ColumnName0="Firstname" ColumnName1="Lastname" ColumnName2="username" ColumnName3="password" ColumnName4="preferredProduct" />
+						<Row No="0" Cell0="41006C00690063006500" Cell1="41006E00670075006C0061007200" Cell2="61006C0069006300650040006C006F00630061006C0068006F0073007400" Cell3="700061007300730077006F0072006400" Cell4="580062006F007800" />
+						<Row No="1" Cell0="42006F006200" Cell1="42006F00750072006E0065002D005300680065006C006C00" Cell2="62006F00620040006C006F00630061006C0068006F0073007400" Cell3="700061007300730077006F0072006400" Cell4="6900500068006F006E006500" />
+						<Row No="2" Cell0="430061007200690061006400" Cell1="43006C006F006A00750072006500" Cell2="63006100720069006100640040006C006F00630061006C0068006F0073007400" Cell3="700061007300730077006F0072006400" Cell4="42004400200050006C006100790065007200" />
+						<Row No="3" Cell0="450076006500" Cell1="450069006600660065006C00" Cell2="65007600650040006C006F00630061006C0068006F0073007400" Cell3="700061007300730077006F0072006400" Cell4="4D006100630062006F006F006B002000500072006F00" />
+						<Row No="4" Cell0="20004600720061006E006B00" Cell1="200046006F0072007400720061006E00" Cell2="6600720061006E006B0040006C006F00630061006C0068006F0073007400" Cell3="700061007300730077006F0072006400" Cell4="460075006C006C00200048004400200054005600" />
+					</DefValue>
+				</Variable>
+				<Variable Name="AppUser" Type="{123F0C0F-44B4-4BAF-B0E6-F3F89FD873B5}" Local="False">
+					<DefValue />
+				</Variable>
+				<Variable Name="AppPassword" Type="{B06407F3-6641-45A9-9692-DDE5B231F2CD}" Local="False">
+					<DefValue />
+				</Variable>
+				<Variable Name="Var1" Type="{123F0C0F-44B4-4BAF-B0E6-F3F89FD873B5}" Local="True">
+					<DefValue />
+				</Variable>
+				<Variable Name="DBVar" Type="{8ECBD24A-6DA1-4476-A473-EE3A52F06A83}" Local="False">
+					<DefValue Kind="{002E9C22-1E7F-4CEC-AFD0-5C1ACCB5BA1F}">
+						<ConnectionInfo ConnectionString="Provider=MSDASQL.1;Persist Security Info=False;Data Source=ShoppingCartDB" Login="root" Psw="A0B0E53F2BCA40618A91A36EBDE8B0E7A1CAF8790CC1EBAC" Query="SELECT o.id, &#13;&#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;p.name &#13;&#10;FROM cartapplication.5_orders o,&#13;&#10;&#32;&#32;&#32;&#32;&#32;cartapplication.products p&#13;&#10;WHERE &#13;&#10;&#32;&#32;&#32;&#32;&#32;o.id = (SELECT MAX(id) &#13;&#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;FROM cartapplication.5_orders) &#13;&#10;AND &#13;&#10;&#32;&#32;&#32;&#32;&#32;p.id = (SELECT product_id &#13;&#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;FROM cartapplication.5_order_items &#13;&#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;WHERE id = o.id);" />
+					</DefValue>
+				</Variable>
+				<Variable Name="ParametricLogin" Type="{8ECBD24A-6DA1-4476-A473-EE3A52F06A83}" Local="False">
+					<DefValue Kind="{CE6E0605-AE4F-45D5-8174-7C99555F214B}">
+						<ConnectionInfo FileName="..\..\..\customerCreds.csv" UseOLEDB="False" Delimiters="," UniteDelimiters="False" HasColumnNames="True" TextQualifier="&quot;" />
+					</DefValue>
 				</Variable>
 			</Items>
 		</data>
 	</variables>
 	<settings key="{8FB86547-DCBA-4E95-85E1-F3DE1FA12605}">
-		<settingsVersion value="14.0" />
+		<settingsVersion value="14.10" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
@@ -868,7 +1298,7 @@
 			</columns>
 			<data />
 		</setting>
-		<setting name="Visualizer_AutoUpdate" type="1" value="False" />
+		<setting name="Visualizer_AutoUpdate" type="1" value="True" />
 		<setting name="Visualizer_AutoUpdateMode" type="6" rowIndex="0" colIndex="0">
 			<columns>
 				<column type="5" enabled="True" />
@@ -911,6 +1341,28 @@
 		</setting>
 		<setting name="Visualizer_UseDuringPlayback" type="1" value="True" />
 		<setting name="Visualizer_UseDuringRecording" type="1" value="True" />
+		<setting name="ZFJ_Cycle" type="5" value="Dermot&apos;s Test Cycle" />
+		<setting name="ZFJ_ExecutionStatus_Failed" type="5" value="FAIL" />
+		<setting name="ZFJ_ExecutionStatus_Passed" type="5" value="PASS" />
+		<setting name="ZFJ_ExecutionStatus_Wip" type="5" value="WIP" />
+		<setting name="ZFJ_ExecutionStepStatus_Unexecuted" type="5" value="UNEXECUTED" />
+		<setting name="ZFJ_InstanceType" type="6" rowIndex="1" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Zephyr for Jira Server" />
+				<row val0="Zephyr for Jira Cloud" />
+			</data>
+		</setting>
+		<setting name="ZFJ_JiraLogin" type="5" value="dermot.canniffe@smartbear.com" />
+		<setting name="ZFJ_JiraPassword" type="5" value="3A02A04910AF42FD14C60A9638B4CF667A30D3491529CDC4955F74D0E6B1D911BE0DB49FE0F6D26161476F60240FF62437DA86B230190CE0" />
+		<setting name="ZFJ_JiraProject" type="5" value="Galway" />
+		<setting name="ZFJ_JiraUrl" type="5" value="smartbeardemo.atlassian.net" />
+		<setting name="ZFJ_TestIssueTypeName" type="5" value="Test" />
+		<setting name="ZFJ_Version" type="5" value="TestVersion1" />
+		<setting name="ZFJ_ZephyrAccessKey" type="5" value="Mjg2ZmIyMjUtMWY5Zi0zYzUzLTg5MDgtZDU1YzAzYzg5NDM3IDViM2I3YjQzMjA1NzIwMmRmMzRkNzNmZiBVU0VSX0RFRkFVTFRfTkFNRQ" />
+		<setting name="ZFJ_ZephyrSecretKey" type="5" value="YggRdkh8jMLTVBNPJOyae0GGOEhgPOkCgzQGTpe5d_I" />
 	</settings>
 	<analysis key="{A76218B7-6042-4089-882C-5E2866C2ADC7}" />
 	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
@@ -918,10 +1370,12 @@
 	</scc>
 	<issueTracking key="{D85F8584-E255-47D0-ADC1-F9B788EECE50}">
 		<Templates>
-			<Template Id="{1EB17ADF-E4EB-404D-97DC-AD758A1E8C1D}" ConnectionId="{1EA8FEA7-15C3-40A8-9F87-67940D36C68D}" Description="This template is used by TestComplete&apos;s Log subsystem to post test results to an issue-tracking system. You can also use it at your desire." Name="CreateWorkItem" IsSystem="True" ItemTypeName="Bug" ProjectName="TestComplete_Integration" IsEditing="False" ItemId="3">
+			<Template Id="{1EB17ADF-E4EB-404D-97DC-AD758A1E8C1D}" ConnectionId="{4DE87688-E926-4F7D-B27A-EAC2761F4C68}" Description="This template is used by TestComplete&apos;s Log subsystem to post test results to an issue-tracking system. You can also use it at your desire." Name="CreateWorkItem" IsSystem="True" ItemTypeName="Bug" ProjectName="TestComplete_Integration" IsEditing="False" ItemId="">
 				<Fields>
 					<Field ItemId="{74794864-3FCE-4920-9E8E-15C3BB29953F}" AliasIsRequired="True" DBFieldNameIsRequired="False" Value="New Bug From TestComplete" DBFieldName="Title" Alias="Subject" />
 					<Field ItemId="{3126795D-30AC-4673-B332-BAAE0CD82EAD}" AliasIsRequired="True" DBFieldNameIsRequired="False" Value="Bug Description" DBFieldName="Description" Alias="Description" />
+					<Field ItemId="{4B77ED4F-271F-41C7-835F-8B0FCE4814B2}" AliasIsRequired="False" DBFieldNameIsRequired="False" Value="3 - Medium" DBFieldName="Severity" Alias="Severity" />
+					<Field ItemId="{B49A7B23-BB6C-4CF3-B137-C4AA594963C3}" AliasIsRequired="False" DBFieldNameIsRequired="False" Value="TestComplete" DBFieldName="Tags" Alias="Tags" />
 				</Fields>
 			</Template>
 		</Templates>

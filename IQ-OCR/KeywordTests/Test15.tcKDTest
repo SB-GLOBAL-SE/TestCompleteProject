@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="14.0">
+	<TestData Description="" Key="{A276EDD1-824F-4376-BA4E-F9316F29DFE7}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{F47021EA-8411-4700-9F6A-D3FC8CD780EC}">
+				<Data Description="Specifies the mobile device as current for the test commands working with mobile devices.">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="Name" DefVarType="8" VarType="8" ValueType="6" ValueValue="Swift 2 X" />
+						<Parameter Name="Index" DefVarType="3" DefValueType="1" DefValueValue="1" VarType="3" ValueType="1" ValueValue="1" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{5156EB31-13EC-472C-B819-9EC8D4E9E546}">
+				<Data Action="DblClick" TBlockIntType="0">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="Selected Text" DefVarType="0" VarType="8" ValueType="6" ValueValue="48726498" />
+						<Parameter Name="Selected Preferences" DefVarType="0" DefValueType="1" DefValueValue="-10" VarType="3" ValueType="1" ValueValue="-10">
+							<Values>
+								<Value Type="1" Value="-10" Text="spNone" />
+								<Value Type="1" Value="-11" Text="spNearestToCenter" />
+								<Value Type="1" Value="-12" Text="spLeftMost" />
+								<Value Type="1" Value="-13" Text="spRightMost" />
+								<Value Type="1" Value="-14" Text="spTopMost" />
+								<Value Type="1" Value="-15" Text="spBottomMost" />
+								<Value Type="1" Value="-16" Text="spLargest" />
+								<Value Type="1" Value="-17" Text="spSmallest" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.explorer.wndCabinetWClass.ShellTabWindowClass.DUIViewWndClassName.Explorer_Pane.CtrlNotifySink.ShellView.Items_View.n_png.Name;" />
+				</Data>
+			</Operation>
+			<Operation Type="{0C2E7372-2A09-499E-A447-2907ABD7FE30}">
+				<Data Description="Check whether %p2 matches the text optically recognized in the image %p1.">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="SearchArea" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.App.Photos" />
+						<Parameter Name="Text" DefVarType="8" VarType="8" ValueType="6" ValueValue="*GROSS*" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs a script routine." TestName="VerifyTextInObject" Unit="OCRFunctions">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="onScreenObject" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.App.Photos" />
+						<Parameter Name="textRegion" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="GROSS*" />
+						<Parameter Name="textToCheck" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="5" ValueType="3" ValueValue="12.35" />
+					</Parameters>
+				</Data>
+			</Operation>
+		</Children>
+	</TestData>
+	<Variables Version="3" Key="{E1A47760-E11E-4346-AF67-449213EEAEE7}" />
+	<Parameters Key="{47A22FD2-E9D3-455C-92FB-C9902667E806}" />
+</Root>

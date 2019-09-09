@@ -6,6 +6,11 @@
 			<child name="CheckAnotherPDF" key="{F2173AB2-DEFF-41B9-961D-C14FCC4AC67B}" path="CheckAnotherPDF.tcKDTest" />
 		</folder>
 		<folder name="Captcha">
+			<folder name="Looping">
+				<child name="DDTCreds" key="{41535C97-C4A3-4FE2-B726-B1F4A5AC80C8}" path="DDTCreds.tcKDTest" />
+				<child name="ParametricLogin" key="{4A269160-B9E8-42EF-BE72-0B37333C36C4}" path="ParametricLogin.tcKDTest" />
+				<child name="LoopLogin" key="{1813AD5B-9A46-429F-8211-2298F6BBC929}" path="LoopLogin.tcKDTest" />
+			</folder>
 			<child name="Captcha" key="{975366FE-41FB-4942-8725-2FCB40B26233}" path="Captcha.tcKDTest" />
 			<child name="Checkout" key="{D9D62167-B31B-46C9-8066-D79467ABE9B9}" path="Checkout.tcKDTest" />
 			<child name="Login" key="{328EBE17-A62B-41C3-A724-F426288DD89A}" path="Login.tcKDTest" />
@@ -18,16 +23,29 @@
 			<child name="PurchaseBDPlayer" key="{2FF2B54E-3D06-48D4-9CDB-414826D8BD32}" path="PurchaseBDPlayer.tcKDTest" />
 			<child name="PurchaseIPhone" key="{1FD39BBE-277C-475F-AD3A-BA35B936FC96}" path="PurchaseIPhone.tcKDTest" />
 			<child name="PurchaseWithBackendValidation" key="{8E7707BA-2541-411A-96D1-189060F45610}" path="PurchaseWithBackendValidation.tcKDTest" />
+			<child name="CloseBrowser" key="{D003592F-A9D0-43BE-ACF5-5CEB22ABC323}" path="CloseBrowser.tcKDTest" />
+			<child name="ValidatePurchase" key="{A7D20170-A105-446A-8929-A14EC01C7124}" path="ValidatePurchase.tcKDTest" />
+			<child name="Test14" key="{61334C48-B543-4572-83C7-A3819FDF49EB}" path="Test14.tcKDTest" />
 		</folder>
 		<folder name="MobileTesting">
 			<child name="Test8" key="{317ECDB8-72C5-4057-BF49-5A5B23648B28}" path="Test8.tcKDTest" />
 			<child name="MobileDeviceLoop" key="{5FBB6054-488E-4884-9304-50D938402A05}" path="MobileDeviceLoop.tcKDTest" />
 		</folder>
-		<folder name="ReadyAPIIntegraton" />
+		<folder name="ReadyAPIIntegraton">
+			<child name="Test12" key="{D10F1707-1829-4128-8F00-1836B3509E6F}" path="Test12.tcKDTest" />
+		</folder>
+		<folder name="ShoppingCartSetup">
+			<child name="registerUser" key="{7B7EF077-1BF0-47F7-94C4-2679DEE5439A}" path="registerUser.tcKDTest" />
+		</folder>
 		<child name="Test2" key="{DCFDD3ED-2243-488B-B10B-FBE05A5003A6}" path="Test2.tcKDTest" />
 		<child name="DatabaseDrivenDDT" key="{DBF11360-977E-4B27-A5A4-E4019BFE9C5A}" path="DatabaseDrivenDDT.tcKDTest" />
 		<child name="Test1" key="{AD8E37D0-2E1D-484D-A724-A7A684627AB4}" path="Test1.tcKDTest" />
 		<child name="RandomString" key="{8E8F8BC1-38C4-4131-9010-C401F4F0968D}" path="RandomString.tcKDTest" />
 		<child name="OrderID_DBCheckpoint" key="{900449EE-46DD-4875-9BB2-BDE496FAD855}" path="OrderID_DBCheckpoint.tcKDTest" />
+		<child name="Test10" key="{A8755A32-320B-49EF-BFC8-0702141B3DFF}" path="Test10.tcKDTest" />
+		<child name="Test11" key="{52C6B0B0-1832-4807-AE1B-465E0CA98754}" path="Test11.tcKDTest" />
+		<child name="Test15" key="{FC285D0E-C4F3-42DA-B5EC-12EC9E62D5BC}" path="Test15.tcKDTest" />
+		<child name="Test16" key="{1C1FC2CF-AAEF-4468-B97A-3E83EC3FD695}" path="Test16.tcKDTest" />
+		<child name="OCRSDcreenshot" key="{1EE86A18-2403-46A5-BF6D-6A614C389B98}" path="OCRSDcreenshot.tcKDTest" />
 	</children>
 </Root>

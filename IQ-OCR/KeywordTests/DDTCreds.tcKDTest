@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="14.0">
+	<TestData Description="" Key="{691782C0-EF92-4180-A0DF-06818FCBF394}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{94838C49-976F-4128-8B05-4E7C3E9C579D}">
+				<Data VariableType="4" VariableName="DDTCredentials">
+					<Records FromBegin="False" ToEnd="False" StartRecord="3" StopIndex="4" />
+				</Data>
+				<Children>
+					<Operation Type="{6F20B0D8-E0CF-47FF-A68B-3E3672DD0CB0}">
+						<Data VariableType="2" VariableName="AppUser">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="NewValue" DefVarType="0" ParamType="{874735FC-322E-4380-A0DD-AB0206EE8AA0}" VariableType="4" VariableName="DDTCredentials" ColumnName="emailinputLoginEmail" />
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{6F20B0D8-E0CF-47FF-A68B-3E3672DD0CB0}">
+						<Data VariableType="2" VariableName="AppPassword">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="NewValue" DefVarType="0" ParamType="{874735FC-322E-4380-A0DD-AB0206EE8AA0}" VariableType="4" VariableName="DDTCredentials" ColumnName="passwordboxLoginPassword" />
+							</Parameters>
+						</Data>
+					</Operation>
+				</Children>
+			</Operation>
+		</Children>
+	</TestData>
+	<Variables Version="3" Key="{94CC2A80-FEC1-4658-8802-20ABB9851AB4}">
+		<Items>
+			<Variable Name="DDTCredentials" Type="{8ECBD24A-6DA1-4476-A473-EE3A52F06A83}" Local="False">
+				<DefValue Kind="{CE6E0605-AE4F-45D5-8174-7C99555F214B}">
+					<ConnectionInfo FileName="..\..\..\customerCreds.csv" UseOLEDB="False" Delimiters="," UniteDelimiters="False" HasColumnNames="True" TextQualifier="&quot;" />
+				</DefValue>
+			</Variable>
+		</Items>
+	</Variables>
+	<Parameters Key="{BE92518C-DF24-4048-A052-C37089D433A0}" />
+</Root>

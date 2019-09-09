@@ -7,5 +7,9 @@
 		<child name="StringFunctions" key="{6B5FC7EA-EDF9-4AFE-A56E-8072385DBAC9}" path="StringFunctions.js" />
 		<child name="DBFunctions" key="{E6E0082F-72F9-401B-8E9F-0AFFE7071700}" path="DBFunctions.js" />
 		<child name="Unit1" key="{A5ADECC0-456E-428D-B460-89B39232B924}" path="Unit1.js" />
+		<child name="StepDefinitions" key="{50FBC93F-AE07-48C4-8C1B-122D6FC67969}" path="StepDefinitions.js" />
+		<child name="Personas" key="{7304B53A-1280-438D-8189-10B7A8D0D507}" path="Personas.js" />
+		<child name="Unit2" key="{BDECE8EF-2CC5-402A-A94C-F2E9EA89CFCE}" path="Unit2.js" />
+		<child name="HelperFunctions" key="{550F6ED8-198D-4440-89E7-F61BE476DE36}" path="HelperFunctions.js" />
 	</children>
 </Root>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{4A269160-B9E8-42EF-BE72-0B37333C36C4}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="0" kind="0" dateTime="43698.6795974074" objectName="Aliases.browser.pageSignUpLoginForm" objectLeft="0" objectTop="96" objectRight="1920" objectBottom="999" clickPointX="-1" clickPointY="-1" imageFileName="visImage0.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="43698.679796794" objectName="Aliases.browser.pageSignUpLoginForm" objectLeft="0" objectTop="96" objectRight="1920" objectBottom="999" clickPointX="-1" clickPointY="-1" imageFileName="visImage1.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="43698.6799923495" objectName="Aliases.browser.pageSignUpLoginForm" objectLeft="0" objectTop="96" objectRight="1920" objectBottom="999" clickPointX="-1" clickPointY="-1" imageFileName="visImage2.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="43698.6802328704" objectName="Aliases.browser.pageMozillaFirefox" objectLeft="0" objectTop="-7" objectRight="1920" objectBottom="1000" clickPointX="-1" clickPointY="-1" imageFileName="visImage3.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

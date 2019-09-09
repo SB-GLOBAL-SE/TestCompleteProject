@@ -4,5 +4,6 @@
 		<child name="WebTesting" key="{C836D2D4-9F54-4D66-B412-501AEB31D5BC}" type="Web Testing" typeId="{B205BEB2-E15D-463E-8F95-9AF50A3E8F46}" pluginName="Web Checkpoints" path="WebTesting\WebTesting.tcWtc" />
 		<child name="Regions" key="{41D7FA35-7B60-4994-887F-C9F7097A2D8F}" type="Regions" typeId="{DA6D7EF7-5B05-4735-AAF0-A85E47D47989}" pluginName="Stores" path="Regions.tcRegions" />
 		<child name="DBTables" key="{6BC24407-6852-44BC-BD82-84D287090D0B}" type="DB tables" typeId="{C3BE8E0F-FB1F-487B-9AE3-BCFEB91CBEFF}" pluginName="Stores" path="DBTables\DBTables.tcDB" />
+		<child name="Files" key="{463A71A4-7A3D-4F39-9764-0D9DFD0D9AC6}" type="Files" typeId="{AA2F3067-5C9B-4CCF-89D4-1F93CE1C510F}" pluginName="Stores" path="Files.tcFiles" />
 	</children>
 </Root>

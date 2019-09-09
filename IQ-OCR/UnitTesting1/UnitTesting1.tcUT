@@ -3,5 +3,8 @@
 	<children>
 		<child name="TestNG1" key="{74B89E70-9310-4C22-B693-BB6098898432}" type="TestNG" typeId="{98B9825D-FAE6-48D5-83C2-A52AAEC31276}" pluginName="TestNG Runner" path="TestNG1\TestNG1.tcTestNG" />
 		<child name="TestNG2" key="{17258D0C-8629-44C1-9B29-76764B83714C}" type="TestNG" typeId="{98B9825D-FAE6-48D5-83C2-A52AAEC31276}" pluginName="TestNG Runner" path="TestNG2\TestNG2.tcTestNG" />
+		<child name="JUnit1" key="{B750E129-EC51-4732-8990-4E60D9F06B26}" type="JUnit" typeId="{8AF83060-375A-4AE8-B6F7-9360C3D66137}" pluginName="JUnit Runner" path="JUnit1\JUnit1.tcJUnit" />
+		<child name="TestNG3" key="{46C55160-1D8F-48D9-93DD-EE433C3BD3F0}" type="TestNG" typeId="{98B9825D-FAE6-48D5-83C2-A52AAEC31276}" pluginName="TestNG Runner" path="TestNG3\TestNG3.tcTestNG" />
+		<child name="JUnit2" key="{9D329A64-6195-4B6D-8E25-A16A916259D9}" type="JUnit" typeId="{8AF83060-375A-4AE8-B6F7-9360C3D66137}" pluginName="JUnit Runner" path="JUnit2\JUnit2.tcJUnit" />
 	</children>
 </Root>

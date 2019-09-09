@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
-	<data key="{2FF2B54E-3D06-48D4-9CDB-414826D8BD32}" />
+	<data key="{2FF2B54E-3D06-48D4-9CDB-414826D8BD32}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="43698.6957041204" objectName="Aliases.browser.pageAwesomeShoppingStoreProducts.panelContainer.imageBdJpg" objectLeft="431" objectTop="564" objectRight="739" objectBottom="764" clickPointX="585" clickPointY="664" imageFileName="visImage3.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="43698.6805421875" objectName="Aliases.browser.pageMozillaFirefox" objectLeft="0" objectTop="-7" objectRight="1920" objectBottom="1000" clickPointX="-1" clickPointY="-1" imageFileName="visImage6.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="43698.6957316435" objectName="Aliases.browser.pageAwesomeShoppingStoreMoreInfo.linkAddToCart" objectLeft="492" objectTop="964" objectRight="587" objectBottom="998" clickPointX="539" clickPointY="981" imageFileName="visImage4.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="43698.6808955093" objectName="Aliases.browser.pageMozillaFirefox" objectLeft="0" objectTop="-7" objectRight="1920" objectBottom="1000" clickPointX="-1" clickPointY="-1" imageFileName="visImage8.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="5" kind="0" dateTime="43698.6957802315" objectName="Aliases.browser.pageAwesomeShoppingStoreViewCart.panelContainer.linkWelcomePhp" objectLeft="425" objectTop="270" objectRight="590" objectBottom="304" clickPointX="507" clickPointY="287" imageFileName="visImage5.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="6" kind="0" dateTime="43698.6812658449" objectName="Aliases.browser.pageMozillaFirefox" objectLeft="0" objectTop="-7" objectRight="1920" objectBottom="1000" clickPointX="-1" clickPointY="-1" imageFileName="visImage12.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
 </Root>
