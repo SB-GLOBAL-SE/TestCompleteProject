@@ -1,0 +1,6 @@
+steps:
+- task: TCBuild@1
+  displayName: 'Build solution $/TestComplete_Integration/DevOpsDemo/DevDemo/DevDemo.sln'
+  inputs:
+    solution: '$/TestComplete_Integration/DevOpsDemo/DevDemo/DevDemo.sln'
+
