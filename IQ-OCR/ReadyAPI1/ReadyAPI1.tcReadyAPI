@@ -2,8 +2,5 @@
 <Root signature="{D5F2AF2E-BADF-483C-AB3E-DE7F0B6FBB55}" version="14.0">
 	<children>
 		<child name="QueryOrderID" key="{8413E61C-2B84-4F79-85B7-B7B0DCDC4CE1}" type="SoapUI Test" typeId="{3AE7D26E-11DE-411F-A26E-9C422F421771}" pluginName="ReadyAPI Runner" path="Test1\QueryOrderID.tcSoapUINGTest" />
-		<child name="Test2" key="{58B46B29-1171-4AD4-8D90-9B5D78E277E6}" type="SoapUI Test" typeId="{3AE7D26E-11DE-411F-A26E-9C422F421771}" pluginName="ReadyAPI Runner" path="Test2\Test2.tcSoapUINGTest" />
-		<child name="Test3" key="{DECB855D-C5FA-4314-870F-C24FBA789F6E}" type="SoapUI Test" typeId="{3AE7D26E-11DE-411F-A26E-9C422F421771}" pluginName="ReadyAPI Runner" path="Test3\Test3.tcSoapUINGTest" />
-		<child name="Test4" key="{4C23E6C4-7B50-446B-B788-9A46BAF43F6C}" type="SoapUI Test" typeId="{3AE7D26E-11DE-411F-A26E-9C422F421771}" pluginName="ReadyAPI Runner" path="Test4\Test4.tcSoapUINGTest" />
 	</children>
 </Root>

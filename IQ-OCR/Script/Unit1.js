@@ -40,3 +40,17 @@ function Test1()
   wndMozillaDialogClass.BrowserWindow.Close();
   Browsers.Item(btFirefox).Run("about:blank");
 }
+
+function Test2()
+{
+  Aliases.explorer.wndShell_TrayWnd.Start.Click(17, 64);
+  let notepad = Aliases.notepad;
+  let wndNotepad = notepad.wndNotepad;
+  let edit = wndNotepad.Edit;
+  edit.Click(188, 324);
+  edit.Keys("testComplete[Enter]");
+  wndNotepad.MainMenu.Click("Format|Font...");
+  let dlgFont = notepad.dlgFont;
+  dlgFont.cbxSize.ClickItem("20");
+  dlgFont.btnOK.ClickButton();
+}

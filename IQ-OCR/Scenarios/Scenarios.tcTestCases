@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scenarios>
 	<Feature Path="ShoppingCartPurchase.feature" />
+	<Feature Path="IntFeature.feature" />
+	<Feature Path="Description of the new feature1.feature" />
 </Scenarios>

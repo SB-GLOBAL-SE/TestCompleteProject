@@ -25,7 +25,7 @@
 			<child name="PurchaseWithBackendValidation" key="{8E7707BA-2541-411A-96D1-189060F45610}" path="PurchaseWithBackendValidation.tcKDTest" />
 			<child name="CloseBrowser" key="{D003592F-A9D0-43BE-ACF5-5CEB22ABC323}" path="CloseBrowser.tcKDTest" />
 			<child name="ValidatePurchase" key="{A7D20170-A105-446A-8929-A14EC01C7124}" path="ValidatePurchase.tcKDTest" />
-			<child name="Test14" key="{61334C48-B543-4572-83C7-A3819FDF49EB}" path="Test14.tcKDTest" />
+			<child name="Checkpoints" key="{61334C48-B543-4572-83C7-A3819FDF49EB}" path="Checkpoints.tcKDTest" />
 		</folder>
 		<folder name="MobileTesting">
 			<child name="Test8" key="{317ECDB8-72C5-4057-BF49-5A5B23648B28}" path="Test8.tcKDTest" />
@@ -47,5 +47,9 @@
 		<child name="Test15" key="{FC285D0E-C4F3-42DA-B5EC-12EC9E62D5BC}" path="Test15.tcKDTest" />
 		<child name="Test16" key="{1C1FC2CF-AAEF-4468-B97A-3E83EC3FD695}" path="Test16.tcKDTest" />
 		<child name="OCRSDcreenshot" key="{1EE86A18-2403-46A5-BF6D-6A614C389B98}" path="OCRSDcreenshot.tcKDTest" />
+		<child name="Test14" key="{6AAEE2A4-1DD6-4FE5-81D4-A48A273DAB88}" path="Test14.tcKDTest" />
+		<child name="SelectBrowser" key="{38A813F2-05D4-4239-AF60-B5D586DCF551}" path="SelectBrowser.tcKDTest" />
+		<child name="StartTests_OnStartTest" key="{85600572-BC72-4900-9057-E7A333F55647}" path="StartTests_OnStartTest.tcKDTest" />
+		<child name="TestingBrowserSelection" key="{8AB839C9-8C6C-4FAA-899B-6AE2E6CBB038}" path="TestingBrowserSelection.tcKDTest" />
 	</children>
 </Root>

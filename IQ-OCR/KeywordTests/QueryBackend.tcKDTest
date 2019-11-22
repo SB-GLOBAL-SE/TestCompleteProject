@@ -79,6 +79,9 @@
 			<Variable Name="soapUIOutput" Type="{123F0C0F-44B4-4BAF-B0E6-F3F89FD873B5}" Local="False">
 				<DefValue />
 			</Variable>
+			<Variable Name="Var1" Type="{123F0C0F-44B4-4BAF-B0E6-F3F89FD873B5}" Local="False">
+				<DefValue />
+			</Variable>
 		</Items>
 	</Variables>
 	<Parameters Key="{BE68CEB2-1AAE-486D-97EE-7016C63B6707}" />

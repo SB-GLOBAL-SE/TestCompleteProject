@@ -1,0 +1,5 @@
+﻿function CloseBrowser()
+{
+  //Closes the browser page.
+  Aliases.browser.pageSignUpLoginForm.Close();
+}

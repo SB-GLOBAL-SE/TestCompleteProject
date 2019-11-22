@@ -1,0 +1,22 @@
+﻿function OpenDBConnection()
+{
+  AConnection = ADO.CreateConnection();
+  AConnection.ConnectionString = "Driver={MySQL ODBC 8.0 UNICODE Driver};Server=localhost;Database=ShoppingCartDB;Uid=root; Password=password";
+  
+  //AConnection.Open();
+  return AConnection;
+}
+
+function testThatShite()
+{
+  var connection = OpenDBConnection();
+  connection.Open();
+  DoStuffWithIt(connection);
+  connection.Close();    
+
+}
+
+function DoStuffWithIt(DB)
+{
+  Log.Message(DB);
+}

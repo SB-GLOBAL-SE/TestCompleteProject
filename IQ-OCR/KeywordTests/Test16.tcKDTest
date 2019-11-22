@@ -16,8 +16,42 @@
 			<Operation Type="{16DC8186-4DEC-41AF-80A0-F8C655838299}">
 				<Data Description="Runs a test from the project." TestName="TestNG2" FullName="UnitTesting1 - TestNG2" Path="UnitTesting1|TestNG2" />
 			</Operation>
+			<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+				<Data Description="Posts an information message to the test log." MessageType="0">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="MessageText" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="Var1" />
+						<Parameter Name="AdditionalInformation" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+						<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+							<Values IsEnum="True">
+								<Value Type="1" Value="100" Text="pmLowest" />
+								<Value Type="1" Value="200" Text="pmLower" />
+								<Value Type="1" Value="300" Text="pmNormal" />
+								<Value Type="1" Value="400" Text="pmHigher" />
+								<Value Type="1" Value="500" Text="pmHighest" />
+							</Values>
+						</Parameter>
+						<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+						<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+						<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{5AEB51A8-0E80-4A25-BACF-B10D279EF111}">
+				<Data Description="Checks whether the %n browser is currently being used for testing." BrowserName="firefox" Platform="2">
+					<CommonData Disabled="True" />
+				</Data>
+			</Operation>
 		</Children>
 	</TestData>
-	<Variables Version="3" Key="{09B5C04C-A2E4-4E59-ABCF-06B90017F451}" />
+	<Variables Version="3" Key="{09B5C04C-A2E4-4E59-ABCF-06B90017F451}">
+		<Items>
+			<Variable Name="Var1" Type="{B06407F3-6641-45A9-9692-DDE5B231F2CD}" Local="False">
+				<DefValue StrValue="3800390036003100310033004400300046003400440038003400420046003200380043003900460041003700390033003300410046004500380033003900380032004300340039004300340031003000380037003600320034003700360030003600420035003600" />
+			</Variable>
+			<Variable Name="Browser" Type="{123F0C0F-44B4-4BAF-B0E6-F3F89FD873B5}" Local="False">
+				<DefValue StrValue="460069007200650066006F007800" />
+			</Variable>
+		</Items>
+	</Variables>
 	<Parameters Key="{76CBEE17-60F0-45B6-AD12-235824CAFE88}" />
 </Root>

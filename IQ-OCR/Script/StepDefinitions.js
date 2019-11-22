@@ -6,8 +6,6 @@ Given("{arg} is a registered user", function (FirstName){
     Log.Message("enters creds:", testPersona.username );
 });
 
-
-
 When("^.*enter.* credentials$", function (){
   Log.Message("enters creds:", testPersona.username );
 });

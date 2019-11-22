@@ -1,66 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="14.0">
-	<TestData Description="" Key="{B23E8292-358A-4223-80C2-04C96756341B}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+	<TestData Description="" Key="{7F0DAD44-8013-4250-8D34-D32061264B4E}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
 		<Data>
 			<Extenders>
 				<NodeBitmaps />
 			</Extenders>
 		</Data>
 		<Children>
-			<Operation Type="{BC54211C-75B0-4842-8E85-DC65E2BB7AD9}">
-				<Data Description="Compares the %n Stores item with the %p1 file." Checkpoint="customerCreds1">
+			<Operation Type="{0C2E7372-2A09-499E-A447-2907ABD7FE30}">
+				<Data Description="Check whether %p2 matches the text optically recognized in the image %p1.">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="FileName" DefVarType="8" VarType="8" ValueType="6" ValueValue="C:\Users\dermot.canniffe\OneDrive - SmartBear Software, Inc\TestComplete 14 Projects\customerCreds.csv" />
-						<Parameter Name="AllowedDifference" DefVarType="3" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="4" />
+						<Parameter Name="SearchArea" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.browser.pageSomervilleGoogleMaps2.panelScene.panelWidgetScene.canvasWidgetSceneCanvas" />
+						<Parameter Name="Text" DefVarType="8" VarType="8" ValueType="6" ValueValue="*SOMERVILLE*" />
 					</Parameters>
 				</Data>
 			</Operation>
-			<Operation Type="{AE794690-DDF6-4B63-8E92-60B253E7F7CA}">
-				<Data Description="Compares the %n Stores element with values stored in the database specified by the element properties." Checkpoint="ShoppingCartDB" />
-			</Operation>
-			<Operation Type="{5006C6DA-7702-45C5-B4BB-DCBD0DC7B03E}">
-				<Data Description="Compares the %n Stores item with the image of the %p1 object." Checkpoint="pageSignUpLoginForm">
+			<Operation Type="{5156EB31-13EC-472C-B819-9EC8D4E9E546}">
+				<Data Description="Simulates a user action over the area that contains the recognized text." Action="Click" TBlockIntType="1">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="Picture" DefVarType="12" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="Regions.CreateRegionInfo(Aliases.browser.pageSignUpLoginForm, 290, 348, 605, 478, false)" />
-						<Parameter Name="Transparent" DefVarType="11" DefValueType="7" DefValueValue="False" VarType="11" ValueType="7" ValueValue="False" />
-						<Parameter Name="Mouse" DefVarType="11" DefValueType="7" DefValueValue="False" VarType="11" ValueType="7" ValueValue="False" />
-						<Parameter Name="PixelTolerance" DefVarType="3" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0" />
-						<Parameter Name="ColorTolerance" DefVarType="3" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="17" />
-						<Parameter Name="Mask" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0" />
-					</Parameters>
-				</Data>
-			</Operation>
-			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
-				<Data Description="Runs a script routine." TestName="VerifyTextInObject" Unit="OCRFunctions">
-					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="onScreenObject" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="12" ValueType="0" ValueValue="0" />
-						<Parameter Name="textRegion" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="12" ValueType="0" ValueValue="0" />
-						<Parameter Name="textToCheck" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="12" ValueType="0" ValueValue="0" />
-					</Parameters>
-				</Data>
-			</Operation>
-			<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
-				<Data Description="Posts an information message to the test log." MessageType="0">
-					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
-						<Parameter Name="AdditionalInformation" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
-						<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
-							<Values IsEnum="True">
-								<Value Type="1" Value="100" Text="pmLowest" />
-								<Value Type="1" Value="200" Text="pmLower" />
-								<Value Type="1" Value="300" Text="pmNormal" />
-								<Value Type="1" Value="400" Text="pmHigher" />
-								<Value Type="1" Value="500" Text="pmHighest" />
+						<Parameter Name="Selected Text" DefVarType="0" VarType="8" ValueType="6" ValueValue="LEGOLAND Discovery" />
+						<Parameter Name="Selected Preferences" DefVarType="0" DefValueType="1" DefValueValue="-10" VarType="3" ValueType="1" ValueValue="-11">
+							<Values>
+								<Value Type="1" Value="-10" Text="spNone" />
+								<Value Type="1" Value="-11" Text="spNearestToCenter" />
+								<Value Type="1" Value="-12" Text="spLeftMost" />
+								<Value Type="1" Value="-13" Text="spRightMost" />
+								<Value Type="1" Value="-14" Text="spTopMost" />
+								<Value Type="1" Value="-15" Text="spBottomMost" />
+								<Value Type="1" Value="-16" Text="spLargest" />
+								<Value Type="1" Value="-17" Text="spSmallest" />
 							</Values>
 						</Parameter>
-						<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
-						<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
-						<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+						<Parameter Name="x" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+						<Parameter Name="y" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.browser.pageSomervilleGoogleMaps2.panelScene.panelWidgetScene.canvasWidgetSceneCanvas;" />
+				</Data>
+			</Operation>
+			<Operation Type="{07CEF44D-221B-4839-A772-581E17D39E43}">
+				<Data Description="Runs the specified audits against %p1 and compares the resulting scores with the specified threshold values.">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="Url" DefVarType="8" VarType="8" ValueType="6" ValueValue="http://www.w3.org" />
+						<Parameter Name="PerformanceThresholdScore" DefVarType="3" DefValueType="1" DefValueValue="90" VarType="3" ValueType="1" ValueValue="90" />
+						<Parameter Name="AccessibilityThresholdScore" DefVarType="3" DefValueType="1" DefValueValue="90" VarType="3" ValueType="1" ValueValue="90" />
+						<Parameter Name="BestPracticesThresholdScore" DefVarType="3" DefValueType="1" DefValueValue="90" VarType="3" ValueType="1" ValueValue="90" />
+						<Parameter Name="SEOThresholdScore" DefVarType="3" DefValueType="1" DefValueValue="90" VarType="3" ValueType="1" ValueValue="90" />
+						<Parameter Name="ProgressiveWebAppThresholdScore" DefVarType="3" DefValueType="1" DefValueValue="90" VarType="3" ValueType="1" ValueValue="90" />
+						<Parameter Name="Mobile" DefVarType="11" DefValueType="7" DefValueValue="False" VarType="11" ValueType="7" ValueValue="True" />
 					</Parameters>
 				</Data>
 			</Operation>
 		</Children>
 	</TestData>
-	<Variables Version="3" Key="{30CF1F97-708D-406C-86CE-6A97555C72A2}" />
-	<Parameters Key="{83C5B7BA-8921-4443-AA78-0B79FEBCDE87}" />
+	<Variables Version="3" Key="{205E03A5-915E-4E6A-9943-38600EF8FE52}" />
+	<Parameters Key="{BF9B59B6-8C27-40E3-8CBB-CA46A8D85A74}" />
 </Root>

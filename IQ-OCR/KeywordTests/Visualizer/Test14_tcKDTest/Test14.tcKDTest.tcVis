@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
-	<data key="{61334C48-B543-4572-83C7-A3819FDF49EB}" />
+	<data key="{6AAEE2A4-1DD6-4FE5-81D4-A48A273DAB88}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="43719.5570096528" objectName="Aliases.browser.pageSomervilleGoogleMaps2.panelScene.panelWidgetScene.canvasWidgetSceneCanvas" objectLeft="1309" objectTop="529" objectRight="1431" objectBottom="546" clickPointX="1370" clickPointY="537" imageFileName="visImage0.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
 </Root>

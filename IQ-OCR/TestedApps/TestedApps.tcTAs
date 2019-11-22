@@ -91,5 +91,14 @@
 			<testData />
 			<data />
 		</child>
+		<child key="{6C80131C-E72F-466E-A977-1CEF98740ECB}">
+			<config nodeName="https___shopping_cart_sa_herokuapp_com_login_php" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
+				<runModeParams activeRunMode="Virtual Web">
+					<param name="Virtual Web" parameters="" workFolder="" browserType="Google Chrome" browserVersion="31.0" pageAddress="https://shopping-cart-sa.herokuapp.com/login.php" browserArguments="" virtualBrowser="Apple iPhone 6" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
 	</children>
 </Root>

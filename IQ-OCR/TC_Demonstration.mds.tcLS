@@ -59,11 +59,56 @@
 					<Node name="var14">
 						<Prp name="name" type="S" value="ParametricLogin"/>
 					</Node>
+					<Node name="var15">
+						<Prp name="name" type="S" value="Var2"/>
+					</Node>
+					<Node name="var16">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="4300680072006F006D006500"/>
+						</Node>
+						<Prp name="name" type="S" value="TestBrowser2"/>
+					</Node>
+					<Node name="var17">
+						<Prp name="name" type="S" value="Var3"/>
+					</Node>
+					<Node name="var18">
+						<Prp name="name" type="S" value="TestBrowser"/>
+					</Node>
+					<Node name="var19">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="680074007400700073003A002F002F00730068006F007000700069006E0067002D0063006100720074002D00730061002E006800650072006F006B0075006100700070002E0063006F006D002F006C006F00670069006E002E00700068007000"/>
+						</Node>
+						<Prp name="name" type="S" value="ShoppingCartHerokuUrl"/>
+					</Node>
 					<Node name="var2">
 						<Node name="value">
-							<Prp name="strvalue" type="H" value="6D0064006E0079000A00"/>
+							<Prp name="strvalue" type="H" value="77007A006B0078000A00"/>
 						</Node>
 						<Prp name="name" type="S" value="CaptchaText"/>
+					</Node>
+					<Node name="var20">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="4E0061006D006500090054007900700065000900440065006600610075006C0074002000560061006C007500650009004C006F00630061006C002000560061006C007500650009004400650073006300720069007000740069006F006E000D000A00530068006F007000700069006E00670043006100720074004C006F00630061006C00550072006C00090053007400720069006E006700090068007400740070003A002F002F0073006D0061007200740062006500610072006400650072006D006F0074002F00730068006F007000700069006E00670063006100720074002F006C006F00670069006E002E0070006800700009000900"/>
+						</Node>
+						<Prp name="name" type="S" value="ShoppingCartLocalUrl"/>
+					</Node>
+					<Node name="var21">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="680074007400700073003A002F002F00730068006F007000700069006E0067002D0063006100720074002D00730061002E006800650072006F006B0075006100700070002E0063006F006D002F006C006F00670069006E002E00700068007000"/>
+						</Node>
+						<Prp name="name" type="S" value="ShoppingCartUrl"/>
+					</Node>
+					<Node name="var22">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value=" "/>
+						</Node>
+						<Prp name="name" type="S" value="LoginURL"/>
+					</Node>
+					<Node name="var23">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value=" "/>
+						</Node>
+						<Prp name="name" type="S" value="OrderSuccessUrl"/>
 					</Node>
 					<Node name="var3">
 						<Node name="value">
@@ -79,7 +124,7 @@
 					</Node>
 					<Node name="var5">
 						<Node name="value">
-							<Prp name="strvalue" type="H" value="3700"/>
+							<Prp name="strvalue" type="H" value="31003800"/>
 						</Node>
 						<Prp name="name" type="S" value="tc_order_id"/>
 					</Node>

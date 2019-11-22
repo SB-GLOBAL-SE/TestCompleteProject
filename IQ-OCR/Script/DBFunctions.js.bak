@@ -1,0 +1,7 @@
+﻿
+
+function funcDB(param1) {
+//DB.dsEdit  
+Log.Message("Testing" + param1);
+
+}
